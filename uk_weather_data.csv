@@ -1,0 +1,3286 @@
+date,city,temperature_celsius,humidity_percent,precipitation_mm,weather_condition
+2023-01-01,London,-2.2,61.4,1.3,Sunny
+2023-01-02,London,-2.9,83.5,2.0,Cloudy
+2023-01-03,London,-0.2,84.2,0.0,Rainy
+2023-01-04,London,-0.0,70.7,0.0,Rainy
+2023-01-05,London,-2.4,65.0,5.2,Rainy
+2023-01-06,London,-4.1,72.5,0.0,Snowy
+2023-01-07,London,-4.3,66.6,0.0,Snowy
+2023-01-08,London,0.1,66.6,0.0,Snowy
+2023-01-09,London,-2.2,62.6,1.9,Foggy
+2023-01-10,London,-5.6,89.0,0.2,Snowy
+2023-01-11,London,-1.5,70.8,3.4,Cloudy
+2023-01-12,London,-8.9,63.7,0.0,Snowy
+2023-01-13,London,-3.1,73.4,0.0,Foggy
+2023-01-14,London,0.2,90.2,0.0,Cloudy
+2023-01-15,London,-2.8,91.7,0.0,Overcast
+2023-01-16,London,-1.5,89.8,3.9,Overcast
+2023-01-17,London,-1.9,63.6,0.0,Foggy
+2023-01-18,London,-8.1,94.5,0.0,Foggy
+2023-01-19,London,-1.6,68.7,2.5,Overcast
+2023-01-20,London,0.1,67.4,4.7,Rainy
+2023-01-21,London,-6.6,73.9,9.2,Snowy
+2023-01-22,London,-6.9,80.7,0.0,Overcast
+2023-01-23,London,-7.2,65.7,2.8,Overcast
+2023-01-24,London,-3.9,67.2,0.6,Rainy
+2023-01-25,London,-5.1,75.3,4.7,Snowy
+2023-01-26,London,-0.7,88.0,0.3,Foggy
+2023-01-27,London,-4.5,86.3,9.8,Rainy
+2023-01-28,London,-5.8,63.0,0.0,Foggy
+2023-01-29,London,-4.9,89.7,9.1,Rainy
+2023-01-30,London,-3.9,90.4,7.1,Snowy
+2023-01-31,London,-2.6,66.7,0.0,Cloudy
+2023-02-01,London,-2.8,86.5,4.6,Foggy
+2023-02-02,London,-0.9,89.8,9.5,Heavy Rain
+2023-02-03,London,-0.1,87.4,8.5,Heavy Rain
+2023-02-04,London,-6.4,89.9,0.0,Rainy
+2023-02-05,London,0.1,74.9,4.7,Cloudy
+2023-02-06,London,-0.3,60.8,0.0,Overcast
+2023-02-07,London,-0.3,72.5,0.0,Overcast
+2023-02-08,London,0.4,85.9,0.0,Overcast
+2023-02-09,London,-2.8,76.5,4.5,Rainy
+2023-02-10,London,-0.2,79.4,6.7,Heavy Rain
+2023-02-11,London,3.7,72.2,1.4,Overcast
+2023-02-12,London,0.4,81.3,0.0,Snowy
+2023-02-13,London,0.4,88.8,3.0,Overcast
+2023-02-14,London,-4.5,73.1,4.2,Sunny
+2023-02-15,London,-3.7,89.9,2.7,Foggy
+2023-02-16,London,-1.0,66.5,1.7,Overcast
+2023-02-17,London,-3.7,75.7,0.0,Foggy
+2023-02-18,London,0.3,81.8,8.5,Rainy
+2023-02-19,London,2.6,66.2,2.1,Cloudy
+2023-02-20,London,4.1,72.3,0.0,Sunny
+2023-02-21,London,-1.7,62.2,4.8,Cloudy
+2023-02-22,London,1.8,91.9,2.7,Foggy
+2023-02-23,London,6.4,82.5,6.4,Rainy
+2023-02-24,London,-4.3,64.3,3.0,Cloudy
+2023-02-25,London,-1.6,66.5,7.0,Rainy
+2023-02-26,London,0.6,93.9,0.9,Overcast
+2023-02-27,London,3.6,60.4,7.7,Snowy
+2023-02-28,London,-4.3,94.5,2.9,Cloudy
+2023-03-01,London,9.7,84.5,0.0,Foggy
+2023-03-02,London,1.9,76.8,5.6,Snowy
+2023-03-03,London,-0.6,71.2,9.9,Snowy
+2023-03-04,London,4.5,68.7,5.2,Rainy
+2023-03-05,London,5.7,88.6,7.7,Heavy Rain
+2023-03-06,London,5.3,79.2,5.2,Snowy
+2023-03-07,London,5.2,79.9,0.0,Foggy
+2023-03-08,London,7.7,63.3,2.9,Sunny
+2023-03-09,London,8.6,85.9,0.0,Foggy
+2023-03-10,London,5.4,94.0,3.3,Foggy
+2023-03-11,London,8.4,63.8,7.3,Snowy
+2023-03-12,London,4.0,89.8,2.9,Snowy
+2023-03-13,London,4.9,80.1,2.2,Snowy
+2023-03-14,London,4.3,69.4,0.8,Rainy
+2023-03-15,London,8.2,92.7,0.0,Foggy
+2023-03-16,London,5.5,63.9,0.0,Foggy
+2023-03-17,London,3.0,83.0,4.1,Cloudy
+2023-03-18,London,6.1,82.9,11.2,Snowy
+2023-03-19,London,-0.5,70.9,1.9,Sunny
+2023-03-20,London,5.2,80.4,0.0,Rainy
+2023-03-21,London,3.6,66.2,1.3,Foggy
+2023-03-22,London,4.9,73.6,6.4,Snowy
+2023-03-23,London,3.9,64.9,1.0,Rainy
+2023-03-24,London,5.0,93.0,0.0,Overcast
+2023-03-25,London,5.3,67.7,8.0,Rainy
+2023-03-26,London,4.2,67.7,5.9,Heavy Rain
+2023-03-27,London,2.3,88.5,9.1,Rainy
+2023-03-28,London,4.2,63.6,0.0,Overcast
+2023-03-29,London,5.4,66.3,0.0,Foggy
+2023-03-30,London,2.3,66.6,0.0,Foggy
+2023-03-31,London,6.3,66.2,10.9,Rainy
+2023-04-01,London,6.4,60.3,0.7,Snowy
+2023-04-02,London,7.7,95.0,0.6,Cloudy
+2023-04-03,London,13.8,76.6,0.0,Cloudy
+2023-04-04,London,11.8,60.7,1.1,Sunny
+2023-04-05,London,19.2,86.1,4.7,Cloudy
+2023-04-06,London,10.8,61.9,0.0,Overcast
+2023-04-07,London,11.0,69.7,0.0,Overcast
+2023-04-08,London,8.7,80.7,0.0,Snowy
+2023-04-09,London,7.6,76.5,0.0,Overcast
+2023-04-10,London,12.0,79.5,7.5,Rainy
+2023-04-11,London,12.3,73.7,0.0,Cloudy
+2023-04-12,London,10.5,62.4,9.1,Heavy Rain
+2023-04-13,London,13.1,67.6,6.2,Snowy
+2023-04-14,London,2.0,60.4,6.6,Rainy
+2023-04-15,London,5.1,80.0,3.7,Cloudy
+2023-04-16,London,6.4,69.1,4.9,Sunny
+2023-04-17,London,12.7,71.2,0.0,Sunny
+2023-04-18,London,5.4,63.8,0.0,Overcast
+2023-04-19,London,7.5,86.4,6.0,Rainy
+2023-04-20,London,14.4,75.7,0.0,Overcast
+2023-04-21,London,14.0,62.2,0.0,Snowy
+2023-04-22,London,6.3,63.6,5.0,Cloudy
+2023-04-23,London,5.1,83.4,0.0,Overcast
+2023-04-24,London,8.0,62.3,1.4,Foggy
+2023-04-25,London,6.2,74.5,0.0,Overcast
+2023-04-26,London,19.3,94.9,9.0,Snowy
+2023-04-27,London,8.4,93.5,9.3,Rainy
+2023-04-28,London,12.1,90.4,0.0,Overcast
+2023-04-29,London,4.8,79.8,18.9,Heavy Rain
+2023-04-30,London,15.4,83.1,0.6,Snowy
+2023-05-01,London,7.8,90.6,0.0,Overcast
+2023-05-02,London,11.1,91.6,7.0,Rainy
+2023-05-03,London,15.8,69.6,1.2,Sunny
+2023-05-04,London,10.9,85.0,0.0,Snowy
+2023-05-05,London,21.5,72.3,3.7,Cloudy
+2023-05-06,London,15.8,61.8,0.8,Overcast
+2023-05-07,London,13.2,93.6,0.1,Overcast
+2023-05-08,London,11.2,71.4,0.0,Snowy
+2023-05-09,London,10.7,83.9,0.0,Snowy
+2023-05-10,London,15.0,85.8,7.1,Snowy
+2023-05-11,London,11.9,94.4,1.4,Overcast
+2023-05-12,London,19.0,89.1,0.0,Sunny
+2023-05-13,London,10.5,60.0,0.0,Foggy
+2023-05-14,London,8.1,68.0,0.0,Sunny
+2023-05-15,London,10.9,82.8,1.8,Rainy
+2023-05-16,London,17.8,69.4,4.0,Foggy
+2023-05-17,London,11.1,70.5,5.0,Sunny
+2023-05-18,London,10.6,69.4,6.3,Snowy
+2023-05-19,London,10.6,82.7,1.7,Sunny
+2023-05-20,London,15.4,86.0,4.0,Foggy
+2023-05-21,London,14.9,65.5,0.0,Snowy
+2023-05-22,London,14.8,91.7,0.0,Foggy
+2023-05-23,London,10.1,67.2,0.0,Snowy
+2023-05-24,London,15.3,60.3,5.4,Rainy
+2023-05-25,London,12.8,65.6,0.0,Rainy
+2023-05-26,London,8.4,70.0,0.0,Rainy
+2023-05-27,London,11.3,91.3,0.0,Cloudy
+2023-05-28,London,13.4,63.6,1.2,Sunny
+2023-05-29,London,11.0,68.4,0.0,Sunny
+2023-05-30,London,14.9,75.8,7.4,Snowy
+2023-05-31,London,14.6,90.7,7.1,Heavy Rain
+2023-06-01,London,17.7,84.8,0.0,Partly Cloudy
+2023-06-02,London,14.1,80.6,0.0,Sunny
+2023-06-03,London,16.9,63.8,2.0,Rainy
+2023-06-04,London,11.6,60.7,0.7,Overcast
+2023-06-05,London,9.2,62.5,0.0,Rainy
+2023-06-06,London,12.3,77.8,1.2,Cloudy
+2023-06-07,London,16.7,84.9,11.1,Rainy
+2023-06-08,London,17.8,66.4,3.0,Overcast
+2023-06-09,London,18.7,81.7,0.0,Sunny
+2023-06-10,London,10.6,67.9,5.3,Rainy
+2023-06-11,London,6.8,85.0,0.4,Sunny
+2023-06-12,London,13.2,70.6,3.6,Cloudy
+2023-06-13,London,17.3,68.9,1.0,Foggy
+2023-06-14,London,16.7,69.8,0.0,Sunny
+2023-06-15,London,17.8,69.2,13.6,Rainy
+2023-06-16,London,19.3,67.1,0.6,Rainy
+2023-06-17,London,17.7,68.4,2.2,Snowy
+2023-06-18,London,12.3,64.4,1.0,Snowy
+2023-06-19,London,15.5,81.1,1.2,Overcast
+2023-06-20,London,20.2,78.3,0.4,Overcast
+2023-06-21,London,12.7,83.3,0.0,Snowy
+2023-06-22,London,11.2,60.7,0.0,Sunny
+2023-06-23,London,19.0,90.3,7.4,Snowy
+2023-06-24,London,12.6,89.3,2.5,Sunny
+2023-06-25,London,9.0,69.2,1.6,Overcast
+2023-06-26,London,15.4,76.5,3.1,Foggy
+2023-06-27,London,15.1,82.2,2.6,Cloudy
+2023-06-28,London,13.3,92.8,0.0,Cloudy
+2023-06-29,London,19.2,83.0,0.7,Rainy
+2023-06-30,London,13.9,66.4,0.0,Cloudy
+2023-07-01,London,9.1,61.1,14.2,Rainy
+2023-07-02,London,16.0,66.9,0.0,Sunny
+2023-07-03,London,14.6,64.6,7.9,Heavy Rain
+2023-07-04,London,12.0,94.3,0.0,Foggy
+2023-07-05,London,14.4,65.5,8.9,Heavy Rain
+2023-07-06,London,10.4,94.5,0.0,Overcast
+2023-07-07,London,8.8,93.2,8.6,Snowy
+2023-07-08,London,9.8,92.8,3.7,Cloudy
+2023-07-09,London,14.0,69.8,5.0,Rainy
+2023-07-10,London,13.4,70.6,4.9,Snowy
+2023-07-11,London,16.0,74.1,0.0,Sunny
+2023-07-12,London,16.1,94.0,8.2,Snowy
+2023-07-13,London,12.2,63.9,0.0,Cloudy
+2023-07-14,London,13.1,70.9,0.0,Snowy
+2023-07-15,London,12.5,60.3,7.9,Heavy Rain
+2023-07-16,London,14.3,88.6,7.1,Rainy
+2023-07-17,London,18.5,85.1,5.7,Heavy Rain
+2023-07-18,London,14.5,89.5,0.8,Rainy
+2023-07-19,London,17.1,89.2,4.5,Snowy
+2023-07-20,London,13.5,80.6,0.0,Snowy
+2023-07-21,London,18.1,67.1,0.0,Sunny
+2023-07-22,London,16.6,87.2,6.2,Heavy Rain
+2023-07-23,London,12.8,75.5,2.7,Rainy
+2023-07-24,London,14.4,76.3,5.8,Rainy
+2023-07-25,London,15.3,74.8,8.8,Heavy Rain
+2023-07-26,London,15.0,80.9,3.7,Sunny
+2023-07-27,London,13.5,69.7,8.2,Heavy Rain
+2023-07-28,London,17.2,65.2,6.3,Rainy
+2023-07-29,London,14.4,83.3,1.3,Cloudy
+2023-07-30,London,12.2,71.9,3.2,Overcast
+2023-07-31,London,14.5,79.6,0.0,Foggy
+2023-08-01,London,8.2,62.6,2.3,Cloudy
+2023-08-02,London,17.9,93.2,5.9,Rainy
+2023-08-03,London,14.0,62.9,0.0,Sunny
+2023-08-04,London,10.0,67.6,16.2,Rainy
+2023-08-05,London,8.9,72.7,1.3,Cloudy
+2023-08-06,London,11.3,81.0,0.0,Cloudy
+2023-08-07,London,7.9,86.9,0.0,Overcast
+2023-08-08,London,11.7,86.1,6.2,Heavy Rain
+2023-08-09,London,9.7,74.7,1.6,Snowy
+2023-08-10,London,6.2,82.4,1.6,Rainy
+2023-08-11,London,9.2,63.5,0.0,Cloudy
+2023-08-12,London,12.4,88.7,5.3,Snowy
+2023-08-13,London,11.9,60.4,2.6,Foggy
+2023-08-14,London,11.8,70.9,0.0,Sunny
+2023-08-15,London,12.7,94.2,7.1,Heavy Rain
+2023-08-16,London,9.9,85.8,0.0,Foggy
+2023-08-17,London,7.8,79.7,2.0,Cloudy
+2023-08-18,London,4.2,88.0,11.8,Heavy Rain
+2023-08-19,London,15.4,80.3,4.5,Foggy
+2023-08-20,London,9.2,83.0,0.0,Overcast
+2023-08-21,London,8.4,64.7,3.1,Sunny
+2023-08-22,London,13.6,63.6,0.0,Cloudy
+2023-08-23,London,12.9,83.0,2.7,Rainy
+2023-08-24,London,9.5,80.4,3.7,Snowy
+2023-08-25,London,13.5,65.4,0.0,Overcast
+2023-08-26,London,8.7,61.6,5.7,Rainy
+2023-08-27,London,8.5,74.1,4.8,Cloudy
+2023-08-28,London,9.5,75.2,2.8,Rainy
+2023-08-29,London,15.1,81.2,3.9,Rainy
+2023-08-30,London,7.5,80.2,0.0,Rainy
+2023-08-31,London,12.1,90.9,2.6,Foggy
+2023-09-01,London,4.7,77.3,5.4,Rainy
+2023-09-02,London,7.6,87.7,0.0,Cloudy
+2023-09-03,London,4.8,82.0,0.9,Overcast
+2023-09-04,London,5.1,87.3,3.8,Rainy
+2023-09-05,London,5.8,86.8,8.3,Heavy Rain
+2023-09-06,London,8.2,68.9,0.0,Overcast
+2023-09-07,London,2.0,90.5,0.0,Foggy
+2023-09-08,London,7.2,69.5,1.2,Cloudy
+2023-09-09,London,4.2,72.4,0.0,Snowy
+2023-09-10,London,6.5,72.6,5.4,Heavy Rain
+2023-09-11,London,3.2,83.8,6.5,Rainy
+2023-09-12,London,4.3,85.0,4.9,Rainy
+2023-09-13,London,6.0,82.2,1.9,Cloudy
+2023-09-14,London,9.0,90.8,0.0,Foggy
+2023-09-15,London,5.4,67.0,3.7,Snowy
+2023-09-16,London,2.3,83.4,0.0,Cloudy
+2023-09-17,London,5.7,60.6,1.7,Snowy
+2023-09-18,London,3.8,87.3,5.1,Rainy
+2023-09-19,London,5.5,75.8,3.0,Cloudy
+2023-09-20,London,0.9,64.3,0.0,Snowy
+2023-09-21,London,5.5,93.2,0.0,Cloudy
+2023-09-22,London,3.9,80.2,0.7,Cloudy
+2023-09-23,London,5.6,75.4,0.0,Snowy
+2023-09-24,London,-3.0,73.9,6.2,Rainy
+2023-09-25,London,2.7,81.6,0.0,Rainy
+2023-09-26,London,4.9,68.5,0.0,Rainy
+2023-09-27,London,5.3,90.7,0.0,Cloudy
+2023-09-28,London,10.0,88.6,2.5,Cloudy
+2023-09-29,London,2.7,64.5,3.0,Cloudy
+2023-09-30,London,7.3,69.9,0.0,Cloudy
+2023-10-01,London,-2.6,80.9,2.4,Overcast
+2023-10-02,London,-0.1,77.9,2.5,Rainy
+2023-10-03,London,-4.2,85.4,0.0,Rainy
+2023-10-04,London,2.2,73.1,6.2,Rainy
+2023-10-05,London,3.1,92.0,14.0,Snowy
+2023-10-06,London,1.1,93.6,2.7,Overcast
+2023-10-07,London,-0.9,90.2,0.5,Cloudy
+2023-10-08,London,-1.1,94.4,1.6,Cloudy
+2023-10-09,London,-0.5,83.4,0.0,Cloudy
+2023-10-10,London,1.0,84.7,4.5,Snowy
+2023-10-11,London,1.2,90.5,5.6,Heavy Rain
+2023-10-12,London,-2.0,71.1,2.6,Foggy
+2023-10-13,London,1.4,76.1,0.0,Cloudy
+2023-10-14,London,-1.2,90.2,7.2,Heavy Rain
+2023-10-15,London,-0.2,93.5,1.6,Cloudy
+2023-10-16,London,-6.3,65.0,3.9,Overcast
+2023-10-17,London,3.1,88.1,3.9,Snowy
+2023-10-18,London,4.5,85.2,8.0,Heavy Rain
+2023-10-19,London,0.2,73.1,0.0,Rainy
+2023-10-20,London,-0.9,74.7,4.8,Cloudy
+2023-10-21,London,4.1,75.3,0.0,Rainy
+2023-10-22,London,-4.2,60.8,0.0,Overcast
+2023-10-23,London,2.1,71.2,12.7,Rainy
+2023-10-24,London,1.4,75.2,0.0,Cloudy
+2023-10-25,London,-0.2,61.9,1.2,Snowy
+2023-10-26,London,5.1,72.0,12.6,Snowy
+2023-10-27,London,-7.3,65.9,5.5,Rainy
+2023-10-28,London,-0.2,68.5,1.6,Overcast
+2023-10-29,London,-4.5,83.7,0.0,Snowy
+2023-10-30,London,-5.3,63.7,0.0,Rainy
+2023-10-31,London,-0.7,79.2,10.0,Rainy
+2023-11-01,London,-5.9,63.6,1.9,Foggy
+2023-11-02,London,-5.5,92.6,4.0,Foggy
+2023-11-03,London,-5.0,66.2,10.9,Snowy
+2023-11-04,London,-5.7,91.0,0.0,Overcast
+2023-11-05,London,-3.0,78.7,0.0,Cloudy
+2023-11-06,London,-5.6,82.1,6.5,Heavy Rain
+2023-11-07,London,-6.8,69.1,11.9,Snowy
+2023-11-08,London,-1.9,88.5,18.2,Heavy Rain
+2023-11-09,London,-2.9,66.8,0.6,Cloudy
+2023-11-10,London,-6.3,78.2,9.5,Heavy Rain
+2023-11-11,London,-2.8,89.5,8.3,Heavy Rain
+2023-11-12,London,-7.3,87.9,0.0,Overcast
+2023-11-13,London,-0.1,60.4,6.0,Heavy Rain
+2023-11-14,London,-3.7,65.9,0.3,Sunny
+2023-11-15,London,-6.4,81.1,4.5,Overcast
+2023-11-16,London,-1.4,91.4,0.0,Cloudy
+2023-11-17,London,1.0,87.7,7.7,Heavy Rain
+2023-11-18,London,-2.4,60.8,1.7,Snowy
+2023-11-19,London,-7.3,62.6,4.6,Snowy
+2023-11-20,London,-2.7,82.2,0.0,Cloudy
+2023-11-21,London,-4.8,62.4,6.0,Heavy Rain
+2023-11-22,London,-5.6,71.4,1.5,Cloudy
+2023-11-23,London,-2.4,79.1,0.0,Foggy
+2023-11-24,London,-1.5,70.3,3.9,Sunny
+2023-11-25,London,-4.7,85.2,4.0,Overcast
+2023-11-26,London,-4.8,85.3,2.9,Rainy
+2023-11-27,London,1.4,69.8,4.2,Cloudy
+2023-11-28,London,-6.6,67.9,4.5,Rainy
+2023-11-29,London,-6.3,81.0,4.4,Sunny
+2023-11-30,London,-5.7,73.7,0.0,Sunny
+2023-12-01,London,-6.4,88.6,0.9,Overcast
+2023-12-02,London,-6.9,77.1,0.0,Overcast
+2023-12-03,London,-3.0,75.1,1.8,Foggy
+2023-12-04,London,-6.7,65.4,2.7,Cloudy
+2023-12-05,London,-3.2,66.2,3.5,Foggy
+2023-12-06,London,1.2,77.5,5.0,Foggy
+2023-12-07,London,-3.2,89.6,0.0,Sunny
+2023-12-08,London,2.0,67.3,0.3,Overcast
+2023-12-09,London,-1.0,65.3,0.4,Foggy
+2023-12-10,London,-7.7,85.6,12.3,Rainy
+2023-12-11,London,-8.0,77.2,0.0,Rainy
+2023-12-12,London,-7.1,72.9,0.0,Cloudy
+2023-12-13,London,-2.9,80.4,0.0,Overcast
+2023-12-14,London,-5.6,73.0,0.0,Snowy
+2023-12-15,London,-1.4,65.6,0.0,Sunny
+2023-12-16,London,-0.2,63.9,0.0,Rainy
+2023-12-17,London,-2.9,72.7,3.5,Sunny
+2023-12-18,London,-5.8,60.2,0.0,Rainy
+2023-12-19,London,-5.7,82.5,0.0,Rainy
+2023-12-20,London,-4.2,90.5,0.0,Foggy
+2023-12-21,London,-7.9,91.0,6.3,Snowy
+2023-12-22,London,-6.0,64.0,0.0,Overcast
+2023-12-23,London,-6.9,82.8,0.0,Overcast
+2023-12-24,London,-3.1,75.6,0.0,Rainy
+2023-12-25,London,-3.0,65.0,0.0,Overcast
+2023-12-26,London,-2.5,69.1,0.2,Cloudy
+2023-12-27,London,-4.3,60.8,2.9,Snowy
+2023-12-28,London,1.6,74.3,0.0,Overcast
+2023-12-29,London,-3.1,80.1,3.5,Sunny
+2023-12-30,London,-3.3,69.6,0.0,Foggy
+2023-12-31,London,-1.9,93.6,1.5,Overcast
+2023-01-01,Manchester,-2.1,92.1,0.0,Foggy
+2023-01-02,Manchester,-4.6,79.4,7.3,Snowy
+2023-01-03,Manchester,-2.7,89.6,3.2,Snowy
+2023-01-04,Manchester,3.8,86.6,12.2,Snowy
+2023-01-05,Manchester,-6.4,94.7,0.0,Foggy
+2023-01-06,Manchester,-2.7,61.9,0.0,Cloudy
+2023-01-07,Manchester,-7.5,80.0,5.5,Snowy
+2023-01-08,Manchester,-4.4,94.0,1.3,Overcast
+2023-01-09,Manchester,-1.7,87.4,8.6,Heavy Rain
+2023-01-10,Manchester,-6.8,82.1,0.8,Foggy
+2023-01-11,Manchester,3.2,76.8,9.4,Rainy
+2023-01-12,Manchester,-6.3,80.9,0.4,Overcast
+2023-01-13,Manchester,-5.7,87.7,0.0,Sunny
+2023-01-14,Manchester,0.3,81.5,0.0,Rainy
+2023-01-15,Manchester,-5.0,61.3,2.0,Snowy
+2023-01-16,Manchester,0.4,84.6,6.5,Rainy
+2023-01-17,Manchester,0.3,84.2,6.9,Rainy
+2023-01-18,Manchester,-1.3,72.7,5.9,Snowy
+2023-01-19,Manchester,-10.5,70.9,9.8,Snowy
+2023-01-20,Manchester,-1.5,66.6,9.3,Heavy Rain
+2023-01-21,Manchester,-5.2,83.0,0.0,Overcast
+2023-01-22,Manchester,-3.5,68.8,3.7,Rainy
+2023-01-23,Manchester,-4.3,91.1,7.0,Snowy
+2023-01-24,Manchester,-2.9,69.0,3.8,Overcast
+2023-01-25,Manchester,-4.2,71.6,0.7,Cloudy
+2023-01-26,Manchester,-4.4,94.4,7.8,Heavy Rain
+2023-01-27,Manchester,-2.7,73.3,4.4,Sunny
+2023-01-28,Manchester,-0.1,83.5,10.7,Heavy Rain
+2023-01-29,Manchester,-9.8,93.1,1.4,Overcast
+2023-01-30,Manchester,-8.6,87.5,5.9,Heavy Rain
+2023-01-31,Manchester,4.2,79.2,4.8,Rainy
+2023-02-01,Manchester,-0.6,69.3,6.6,Snowy
+2023-02-02,Manchester,-1.7,90.5,0.2,Cloudy
+2023-02-03,Manchester,1.5,77.1,0.0,Foggy
+2023-02-04,Manchester,-2.5,81.3,6.6,Heavy Rain
+2023-02-05,Manchester,-2.6,71.6,1.2,Foggy
+2023-02-06,Manchester,3.9,91.0,0.7,Overcast
+2023-02-07,Manchester,0.0,77.4,0.0,Rainy
+2023-02-08,Manchester,3.2,90.6,0.0,Overcast
+2023-02-09,Manchester,-0.1,80.9,0.0,Rainy
+2023-02-10,Manchester,0.4,63.8,3.1,Cloudy
+2023-02-11,Manchester,-3.5,64.2,3.0,Overcast
+2023-02-12,Manchester,-1.5,72.1,2.3,Cloudy
+2023-02-13,Manchester,-2.7,85.2,1.9,Overcast
+2023-02-14,Manchester,-3.0,87.9,0.0,Sunny
+2023-02-15,Manchester,-2.9,62.6,0.0,Rainy
+2023-02-16,Manchester,-1.3,73.8,0.0,Sunny
+2023-02-17,Manchester,-2.3,92.7,0.0,Cloudy
+2023-02-18,Manchester,1.9,62.8,7.3,Snowy
+2023-02-19,Manchester,-2.7,87.4,12.4,Rainy
+2023-02-20,Manchester,2.2,78.8,0.0,Rainy
+2023-02-21,Manchester,-1.9,64.8,0.0,Foggy
+2023-02-22,Manchester,6.6,84.2,6.2,Snowy
+2023-02-23,Manchester,3.3,82.5,10.0,Snowy
+2023-02-24,Manchester,3.5,71.3,11.6,Snowy
+2023-02-25,Manchester,7.9,75.2,0.0,Cloudy
+2023-02-26,Manchester,3.9,82.3,8.3,Rainy
+2023-02-27,Manchester,4.1,86.4,1.4,Sunny
+2023-02-28,Manchester,2.4,70.7,8.2,Heavy Rain
+2023-03-01,Manchester,-0.1,66.6,2.3,Snowy
+2023-03-02,Manchester,2.9,93.8,5.2,Snowy
+2023-03-03,Manchester,-1.7,60.5,2.4,Sunny
+2023-03-04,Manchester,3.9,75.1,6.8,Heavy Rain
+2023-03-05,Manchester,3.0,82.2,1.1,Rainy
+2023-03-06,Manchester,2.0,83.9,0.0,Rainy
+2023-03-07,Manchester,6.8,90.6,0.0,Overcast
+2023-03-08,Manchester,3.9,65.5,8.2,Snowy
+2023-03-09,Manchester,7.8,63.1,10.0,Rainy
+2023-03-10,Manchester,2.9,72.7,0.0,Snowy
+2023-03-11,Manchester,6.3,84.3,0.0,Overcast
+2023-03-12,Manchester,1.3,60.9,2.5,Foggy
+2023-03-13,Manchester,10.2,73.0,8.8,Heavy Rain
+2023-03-14,Manchester,5.4,73.0,3.5,Foggy
+2023-03-15,Manchester,10.2,73.7,0.0,Cloudy
+2023-03-16,Manchester,-0.7,64.6,8.1,Snowy
+2023-03-17,Manchester,4.6,63.8,0.0,Foggy
+2023-03-18,Manchester,7.8,84.5,4.9,Overcast
+2023-03-19,Manchester,6.3,81.0,2.9,Snowy
+2023-03-20,Manchester,3.8,93.5,0.6,Overcast
+2023-03-21,Manchester,3.6,92.6,2.8,Overcast
+2023-03-22,Manchester,4.5,73.6,0.0,Overcast
+2023-03-23,Manchester,8.9,86.4,0.4,Sunny
+2023-03-24,Manchester,9.2,81.2,1.1,Rainy
+2023-03-25,Manchester,9.3,72.5,1.6,Snowy
+2023-03-26,Manchester,8.8,92.5,10.4,Heavy Rain
+2023-03-27,Manchester,1.3,89.9,12.2,Snowy
+2023-03-28,Manchester,4.0,79.1,2.4,Cloudy
+2023-03-29,Manchester,3.6,89.7,9.7,Snowy
+2023-03-30,Manchester,8.6,76.4,1.3,Cloudy
+2023-03-31,Manchester,7.3,92.1,0.0,Cloudy
+2023-04-01,Manchester,13.7,92.6,1.2,Overcast
+2023-04-02,Manchester,12.1,94.5,8.0,Rainy
+2023-04-03,Manchester,11.2,83.9,8.1,Rainy
+2023-04-04,Manchester,10.2,88.2,7.2,Snowy
+2023-04-05,Manchester,6.9,85.5,6.6,Snowy
+2023-04-06,Manchester,5.7,84.2,0.0,Rainy
+2023-04-07,Manchester,9.9,84.0,0.2,Snowy
+2023-04-08,Manchester,9.6,77.1,0.0,Overcast
+2023-04-09,Manchester,11.5,63.5,6.0,Heavy Rain
+2023-04-10,Manchester,10.2,82.7,0.0,Foggy
+2023-04-11,Manchester,8.2,74.7,3.9,Overcast
+2023-04-12,Manchester,6.6,70.5,2.1,Foggy
+2023-04-13,Manchester,13.0,73.3,3.5,Foggy
+2023-04-14,Manchester,10.1,89.0,4.9,Snowy
+2023-04-15,Manchester,14.5,84.7,2.7,Snowy
+2023-04-16,Manchester,6.3,79.4,4.4,Snowy
+2023-04-17,Manchester,6.1,92.2,2.9,Foggy
+2023-04-18,Manchester,10.5,90.1,5.5,Heavy Rain
+2023-04-19,Manchester,13.3,82.7,0.0,Cloudy
+2023-04-20,Manchester,9.5,64.8,0.0,Sunny
+2023-04-21,Manchester,13.3,79.9,0.0,Rainy
+2023-04-22,Manchester,10.4,81.9,4.7,Sunny
+2023-04-23,Manchester,8.3,66.2,8.9,Rainy
+2023-04-24,Manchester,9.5,61.1,0.0,Sunny
+2023-04-25,Manchester,11.4,63.6,3.6,Rainy
+2023-04-26,Manchester,14.1,71.2,0.0,Foggy
+2023-04-27,Manchester,9.0,87.2,0.0,Rainy
+2023-04-28,Manchester,15.2,60.2,0.0,Sunny
+2023-04-29,Manchester,6.2,61.7,1.5,Snowy
+2023-04-30,Manchester,10.7,85.2,2.5,Snowy
+2023-05-01,Manchester,11.2,63.1,6.4,Heavy Rain
+2023-05-02,Manchester,10.5,92.9,0.0,Overcast
+2023-05-03,Manchester,17.6,76.5,3.8,Rainy
+2023-05-04,Manchester,14.6,70.1,3.3,Cloudy
+2023-05-05,Manchester,16.2,64.5,0.0,Partly Cloudy
+2023-05-06,Manchester,14.4,70.8,0.0,Foggy
+2023-05-07,Manchester,14.0,63.3,9.4,Rainy
+2023-05-08,Manchester,10.5,91.8,8.7,Rainy
+2023-05-09,Manchester,8.6,70.4,3.7,Overcast
+2023-05-10,Manchester,15.2,87.2,0.7,Rainy
+2023-05-11,Manchester,14.3,76.4,0.8,Foggy
+2023-05-12,Manchester,16.0,84.4,6.7,Rainy
+2023-05-13,Manchester,11.0,92.0,0.0,Overcast
+2023-05-14,Manchester,14.4,76.4,5.7,Snowy
+2023-05-15,Manchester,21.5,83.5,5.7,Snowy
+2023-05-16,Manchester,6.3,84.7,3.4,Overcast
+2023-05-17,Manchester,16.7,89.6,2.7,Overcast
+2023-05-18,Manchester,9.5,84.9,3.1,Foggy
+2023-05-19,Manchester,16.6,93.0,0.0,Overcast
+2023-05-20,Manchester,11.1,86.5,10.2,Snowy
+2023-05-21,Manchester,8.4,77.4,1.5,Rainy
+2023-05-22,Manchester,15.5,94.7,0.0,Overcast
+2023-05-23,Manchester,15.6,94.2,8.6,Heavy Rain
+2023-05-24,Manchester,11.7,75.8,2.9,Cloudy
+2023-05-25,Manchester,10.4,65.8,4.6,Rainy
+2023-05-26,Manchester,13.6,70.7,11.4,Snowy
+2023-05-27,Manchester,19.8,70.1,2.2,Cloudy
+2023-05-28,Manchester,20.1,84.7,0.0,Partly Cloudy
+2023-05-29,Manchester,15.8,61.0,6.5,Rainy
+2023-05-30,Manchester,15.0,73.4,3.2,Snowy
+2023-05-31,Manchester,11.9,60.5,2.6,Sunny
+2023-06-01,Manchester,13.3,62.2,5.1,Heavy Rain
+2023-06-02,Manchester,14.9,72.5,0.0,Rainy
+2023-06-03,Manchester,12.7,92.3,0.0,Overcast
+2023-06-04,Manchester,14.4,64.8,7.8,Snowy
+2023-06-05,Manchester,15.1,73.2,0.0,Partly Cloudy
+2023-06-06,Manchester,11.5,61.5,8.2,Rainy
+2023-06-07,Manchester,16.6,82.4,1.9,Sunny
+2023-06-08,Manchester,12.3,61.5,0.9,Cloudy
+2023-06-09,Manchester,19.4,64.7,0.0,Partly Cloudy
+2023-06-10,Manchester,18.0,79.3,0.1,Sunny
+2023-06-11,Manchester,16.2,77.6,2.9,Rainy
+2023-06-12,Manchester,8.2,67.1,1.6,Snowy
+2023-06-13,Manchester,19.6,72.8,0.0,Partly Cloudy
+2023-06-14,Manchester,10.7,66.1,0.0,Overcast
+2023-06-15,Manchester,15.4,65.2,0.7,Sunny
+2023-06-16,Manchester,13.9,64.4,2.5,Rainy
+2023-06-17,Manchester,14.3,69.0,8.7,Snowy
+2023-06-18,Manchester,19.2,84.2,0.9,Cloudy
+2023-06-19,Manchester,15.7,69.5,3.9,Overcast
+2023-06-20,Manchester,14.7,93.8,1.2,Overcast
+2023-06-21,Manchester,14.4,84.0,6.9,Snowy
+2023-06-22,Manchester,16.0,88.6,6.7,Rainy
+2023-06-23,Manchester,15.4,78.5,1.5,Foggy
+2023-06-24,Manchester,16.6,66.3,0.0,Partly Cloudy
+2023-06-25,Manchester,16.5,90.0,5.1,Snowy
+2023-06-26,Manchester,15.1,90.2,0.0,Foggy
+2023-06-27,Manchester,13.1,72.8,5.5,Heavy Rain
+2023-06-28,Manchester,18.7,69.4,3.3,Foggy
+2023-06-29,Manchester,10.7,70.0,11.9,Snowy
+2023-06-30,Manchester,11.3,89.6,8.1,Heavy Rain
+2023-07-01,Manchester,14.3,72.7,0.0,Rainy
+2023-07-02,Manchester,14.1,68.0,4.0,Rainy
+2023-07-03,Manchester,15.3,91.8,0.0,Cloudy
+2023-07-04,Manchester,12.8,61.9,1.6,Overcast
+2023-07-05,Manchester,13.1,88.1,6.8,Heavy Rain
+2023-07-06,Manchester,13.1,93.2,0.2,Cloudy
+2023-07-07,Manchester,15.8,62.9,0.0,Partly Cloudy
+2023-07-08,Manchester,10.9,62.2,0.5,Rainy
+2023-07-09,Manchester,12.0,70.4,2.3,Overcast
+2023-07-10,Manchester,14.5,87.0,0.0,Sunny
+2023-07-11,Manchester,16.5,75.6,0.0,Sunny
+2023-07-12,Manchester,15.8,75.4,0.0,Partly Cloudy
+2023-07-13,Manchester,9.1,88.8,0.0,Overcast
+2023-07-14,Manchester,14.4,66.5,0.0,Snowy
+2023-07-15,Manchester,9.0,86.4,0.0,Foggy
+2023-07-16,Manchester,15.4,87.8,9.6,Snowy
+2023-07-17,Manchester,13.1,91.5,0.0,Foggy
+2023-07-18,Manchester,16.7,87.4,0.0,Sunny
+2023-07-19,Manchester,16.7,89.1,0.0,Sunny
+2023-07-20,Manchester,12.9,67.5,4.0,Foggy
+2023-07-21,Manchester,13.9,61.3,0.0,Cloudy
+2023-07-22,Manchester,17.5,69.3,6.3,Snowy
+2023-07-23,Manchester,21.0,69.7,5.4,Rainy
+2023-07-24,Manchester,14.2,74.9,0.0,Rainy
+2023-07-25,Manchester,11.3,85.1,2.0,Rainy
+2023-07-26,Manchester,14.0,83.7,4.7,Rainy
+2023-07-27,Manchester,11.9,82.2,0.0,Rainy
+2023-07-28,Manchester,21.1,79.5,0.0,Sunny
+2023-07-29,Manchester,21.5,63.5,3.4,Sunny
+2023-07-30,Manchester,11.7,62.6,0.0,Sunny
+2023-07-31,Manchester,16.4,77.4,0.0,Partly Cloudy
+2023-08-01,Manchester,8.0,72.8,7.5,Heavy Rain
+2023-08-02,Manchester,2.6,79.8,0.0,Cloudy
+2023-08-03,Manchester,8.7,63.8,6.0,Heavy Rain
+2023-08-04,Manchester,7.1,70.9,14.4,Snowy
+2023-08-05,Manchester,10.6,71.9,0.0,Cloudy
+2023-08-06,Manchester,12.2,78.4,0.0,Overcast
+2023-08-07,Manchester,11.3,87.9,0.0,Sunny
+2023-08-08,Manchester,13.5,70.4,0.0,Snowy
+2023-08-09,Manchester,14.4,84.7,0.0,Foggy
+2023-08-10,Manchester,8.1,68.1,3.1,Sunny
+2023-08-11,Manchester,2.6,83.3,1.1,Sunny
+2023-08-12,Manchester,14.5,93.8,0.0,Foggy
+2023-08-13,Manchester,15.8,84.6,0.0,Partly Cloudy
+2023-08-14,Manchester,10.9,87.4,0.0,Snowy
+2023-08-15,Manchester,8.9,69.7,11.8,Snowy
+2023-08-16,Manchester,12.2,64.4,4.7,Snowy
+2023-08-17,Manchester,6.1,82.7,0.0,Foggy
+2023-08-18,Manchester,10.3,66.5,0.0,Overcast
+2023-08-19,Manchester,11.9,78.9,12.2,Rainy
+2023-08-20,Manchester,10.4,78.1,2.6,Sunny
+2023-08-21,Manchester,6.2,83.4,0.8,Sunny
+2023-08-22,Manchester,6.7,84.3,6.7,Rainy
+2023-08-23,Manchester,9.7,74.8,0.0,Foggy
+2023-08-24,Manchester,7.2,88.9,1.8,Rainy
+2023-08-25,Manchester,10.2,65.6,0.0,Foggy
+2023-08-26,Manchester,12.3,73.2,4.8,Rainy
+2023-08-27,Manchester,10.6,77.5,3.1,Cloudy
+2023-08-28,Manchester,8.7,62.9,0.0,Rainy
+2023-08-29,Manchester,12.9,69.7,7.0,Snowy
+2023-08-30,Manchester,10.5,65.4,0.0,Rainy
+2023-08-31,Manchester,14.1,73.8,1.2,Foggy
+2023-09-01,Manchester,5.7,82.2,3.8,Rainy
+2023-09-02,Manchester,6.0,86.0,6.3,Heavy Rain
+2023-09-03,Manchester,4.1,87.7,3.5,Foggy
+2023-09-04,Manchester,-1.2,85.7,2.7,Snowy
+2023-09-05,Manchester,8.1,83.1,0.0,Foggy
+2023-09-06,Manchester,5.1,69.5,0.0,Overcast
+2023-09-07,Manchester,3.8,72.3,0.0,Snowy
+2023-09-08,Manchester,8.1,87.9,10.1,Rainy
+2023-09-09,Manchester,0.9,84.9,0.0,Rainy
+2023-09-10,Manchester,-1.8,60.4,3.9,Overcast
+2023-09-11,Manchester,10.4,83.8,0.0,Foggy
+2023-09-12,Manchester,7.1,64.8,8.5,Heavy Rain
+2023-09-13,Manchester,0.2,94.5,1.1,Cloudy
+2023-09-14,Manchester,8.8,92.7,4.9,Cloudy
+2023-09-15,Manchester,-0.9,76.9,8.7,Heavy Rain
+2023-09-16,Manchester,9.8,85.7,4.0,Rainy
+2023-09-17,Manchester,7.4,84.7,0.6,Foggy
+2023-09-18,Manchester,7.2,66.0,3.3,Foggy
+2023-09-19,Manchester,3.5,90.5,6.6,Rainy
+2023-09-20,Manchester,2.6,77.3,1.2,Snowy
+2023-09-21,Manchester,11.1,73.1,0.0,Sunny
+2023-09-22,Manchester,4.0,73.9,7.3,Heavy Rain
+2023-09-23,Manchester,7.1,62.8,0.0,Sunny
+2023-09-24,Manchester,0.5,88.8,9.0,Snowy
+2023-09-25,Manchester,7.0,82.1,4.3,Sunny
+2023-09-26,Manchester,0.6,65.2,2.4,Snowy
+2023-09-27,Manchester,3.8,66.2,0.0,Overcast
+2023-09-28,Manchester,8.4,64.1,5.5,Snowy
+2023-09-29,Manchester,9.5,69.7,0.7,Snowy
+2023-09-30,Manchester,8.8,60.8,0.7,Sunny
+2023-10-01,Manchester,-0.4,64.4,0.0,Sunny
+2023-10-02,Manchester,-0.4,91.0,12.8,Heavy Rain
+2023-10-03,Manchester,0.5,63.2,2.8,Foggy
+2023-10-04,Manchester,-3.4,63.2,0.0,Cloudy
+2023-10-05,Manchester,-1.4,77.0,0.0,Sunny
+2023-10-06,Manchester,-5.3,76.8,0.0,Sunny
+2023-10-07,Manchester,0.6,71.9,16.1,Heavy Rain
+2023-10-08,Manchester,-1.1,70.8,0.0,Snowy
+2023-10-09,Manchester,-3.5,76.5,9.4,Snowy
+2023-10-10,Manchester,1.9,93.5,0.0,Cloudy
+2023-10-11,Manchester,4.2,74.9,0.0,Rainy
+2023-10-12,Manchester,-4.5,71.6,2.0,Foggy
+2023-10-13,Manchester,-3.6,69.5,0.5,Snowy
+2023-10-14,Manchester,-2.0,61.5,7.4,Rainy
+2023-10-15,Manchester,6.1,74.6,4.2,Rainy
+2023-10-16,Manchester,-1.8,63.3,4.7,Cloudy
+2023-10-17,Manchester,1.1,91.5,0.0,Cloudy
+2023-10-18,Manchester,-1.0,94.6,2.9,Cloudy
+2023-10-19,Manchester,2.8,79.9,4.3,Sunny
+2023-10-20,Manchester,-0.9,78.6,0.0,Foggy
+2023-10-21,Manchester,2.0,77.4,3.4,Overcast
+2023-10-22,Manchester,2.7,83.0,0.0,Foggy
+2023-10-23,Manchester,-0.9,89.6,0.0,Sunny
+2023-10-24,Manchester,2.8,90.4,6.1,Heavy Rain
+2023-10-25,Manchester,-3.1,82.4,3.7,Foggy
+2023-10-26,Manchester,-0.4,69.3,7.6,Heavy Rain
+2023-10-27,Manchester,1.0,73.1,0.5,Foggy
+2023-10-28,Manchester,-3.5,65.2,4.4,Rainy
+2023-10-29,Manchester,-4.4,92.9,13.9,Heavy Rain
+2023-10-30,Manchester,-4.7,93.0,0.0,Cloudy
+2023-10-31,Manchester,0.0,87.8,10.1,Rainy
+2023-11-01,Manchester,-5.5,84.7,1.1,Foggy
+2023-11-02,Manchester,-3.1,92.6,0.3,Overcast
+2023-11-03,Manchester,0.2,83.2,5.4,Heavy Rain
+2023-11-04,Manchester,-3.8,77.2,8.6,Snowy
+2023-11-05,Manchester,-0.3,91.5,3.4,Cloudy
+2023-11-06,Manchester,-1.2,86.1,0.0,Foggy
+2023-11-07,Manchester,-5.4,88.3,11.5,Snowy
+2023-11-08,Manchester,-2.8,90.6,4.3,Foggy
+2023-11-09,Manchester,-2.9,83.4,0.0,Foggy
+2023-11-10,Manchester,0.7,63.6,1.3,Snowy
+2023-11-11,Manchester,-6.7,76.2,4.5,Sunny
+2023-11-12,Manchester,-2.8,82.0,8.4,Rainy
+2023-11-13,Manchester,-3.6,63.3,0.0,Foggy
+2023-11-14,Manchester,-8.4,76.6,3.1,Rainy
+2023-11-15,Manchester,-6.0,62.5,0.0,Sunny
+2023-11-16,Manchester,-6.0,75.5,0.0,Overcast
+2023-11-17,Manchester,-9.6,93.5,0.1,Foggy
+2023-11-18,Manchester,-5.7,70.9,11.4,Heavy Rain
+2023-11-19,Manchester,-1.4,75.5,0.0,Sunny
+2023-11-20,Manchester,-0.7,91.9,6.9,Rainy
+2023-11-21,Manchester,-3.6,88.3,0.1,Snowy
+2023-11-22,Manchester,-3.1,78.0,3.0,Rainy
+2023-11-23,Manchester,-5.6,94.3,0.0,Cloudy
+2023-11-24,Manchester,-5.4,89.8,6.7,Heavy Rain
+2023-11-25,Manchester,-3.3,91.7,3.0,Overcast
+2023-11-26,Manchester,0.5,91.4,0.0,Overcast
+2023-11-27,Manchester,-8.8,93.3,0.0,Cloudy
+2023-11-28,Manchester,-4.1,90.6,0.0,Overcast
+2023-11-29,Manchester,-5.8,63.0,0.0,Cloudy
+2023-11-30,Manchester,-7.9,89.3,5.4,Heavy Rain
+2023-12-01,Manchester,-4.0,71.2,2.5,Rainy
+2023-12-02,Manchester,-6.7,64.3,0.0,Foggy
+2023-12-03,Manchester,-7.4,68.7,11.4,Snowy
+2023-12-04,Manchester,-8.6,89.9,6.7,Rainy
+2023-12-05,Manchester,-1.8,81.5,7.8,Snowy
+2023-12-06,Manchester,-4.1,64.3,0.0,Cloudy
+2023-12-07,Manchester,-8.4,94.7,0.0,Cloudy
+2023-12-08,Manchester,-5.4,84.6,0.0,Foggy
+2023-12-09,Manchester,-5.3,81.0,0.0,Snowy
+2023-12-10,Manchester,-9.3,83.3,0.0,Snowy
+2023-12-11,Manchester,-5.4,85.7,0.0,Sunny
+2023-12-12,Manchester,-4.0,69.1,0.0,Cloudy
+2023-12-13,Manchester,-8.7,62.7,0.0,Foggy
+2023-12-14,Manchester,-5.1,61.4,4.0,Foggy
+2023-12-15,Manchester,-5.8,77.7,5.8,Heavy Rain
+2023-12-16,Manchester,-2.3,67.4,7.0,Heavy Rain
+2023-12-17,Manchester,-6.3,83.3,6.2,Heavy Rain
+2023-12-18,Manchester,-4.7,60.6,0.0,Snowy
+2023-12-19,Manchester,-2.3,84.5,0.0,Foggy
+2023-12-20,Manchester,-6.0,90.6,9.3,Heavy Rain
+2023-12-21,Manchester,-3.1,63.2,1.8,Cloudy
+2023-12-22,Manchester,-1.8,61.8,0.0,Rainy
+2023-12-23,Manchester,-5.3,76.6,0.0,Overcast
+2023-12-24,Manchester,-7.6,69.6,4.1,Foggy
+2023-12-25,Manchester,-5.8,66.3,4.3,Rainy
+2023-12-26,Manchester,-4.3,83.2,0.0,Snowy
+2023-12-27,Manchester,-7.4,83.4,0.0,Foggy
+2023-12-28,Manchester,-4.5,78.9,1.7,Foggy
+2023-12-29,Manchester,-5.0,92.1,4.5,Foggy
+2023-12-30,Manchester,-2.1,72.1,0.0,Snowy
+2023-12-31,Manchester,-2.1,80.9,8.4,Snowy
+2023-01-01,Edinburgh,-10.7,76.6,10.8,Heavy Rain
+2023-01-02,Edinburgh,-2.6,86.7,9.6,Snowy
+2023-01-03,Edinburgh,-2.9,91.8,9.9,Heavy Rain
+2023-01-04,Edinburgh,-4.6,78.4,11.2,Rainy
+2023-01-05,Edinburgh,-3.8,88.8,5.9,Heavy Rain
+2023-01-06,Edinburgh,-0.6,76.8,3.4,Rainy
+2023-01-07,Edinburgh,-6.6,70.2,6.6,Snowy
+2023-01-08,Edinburgh,-6.9,60.0,2.3,Rainy
+2023-01-09,Edinburgh,-4.8,71.3,6.0,Snowy
+2023-01-10,Edinburgh,-5.2,76.9,7.6,Heavy Rain
+2023-01-11,Edinburgh,-1.6,63.7,5.9,Snowy
+2023-01-12,Edinburgh,-7.8,88.9,8.1,Rainy
+2023-01-13,Edinburgh,-11.6,73.2,0.0,Sunny
+2023-01-14,Edinburgh,-4.2,66.3,2.2,Sunny
+2023-01-15,Edinburgh,-5.4,67.8,0.0,Cloudy
+2023-01-16,Edinburgh,-10.4,78.3,4.0,Rainy
+2023-01-17,Edinburgh,-3.0,70.0,2.7,Snowy
+2023-01-18,Edinburgh,-3.3,84.6,0.0,Sunny
+2023-01-19,Edinburgh,-4.9,94.4,0.0,Foggy
+2023-01-20,Edinburgh,-2.3,71.7,0.0,Snowy
+2023-01-21,Edinburgh,-4.3,93.7,4.4,Cloudy
+2023-01-22,Edinburgh,-6.0,72.2,0.0,Foggy
+2023-01-23,Edinburgh,-5.3,72.9,4.4,Sunny
+2023-01-24,Edinburgh,-1.8,77.7,4.6,Cloudy
+2023-01-25,Edinburgh,-6.9,88.8,0.0,Foggy
+2023-01-26,Edinburgh,-1.7,72.5,0.0,Foggy
+2023-01-27,Edinburgh,-9.6,72.1,0.0,Snowy
+2023-01-28,Edinburgh,1.4,76.2,0.0,Rainy
+2023-01-29,Edinburgh,-7.1,91.7,4.1,Foggy
+2023-01-30,Edinburgh,-8.2,90.5,2.3,Cloudy
+2023-01-31,Edinburgh,-4.1,76.7,0.0,Rainy
+2023-02-01,Edinburgh,-2.8,75.1,0.0,Snowy
+2023-02-02,Edinburgh,2.6,66.6,0.0,Foggy
+2023-02-03,Edinburgh,-1.7,60.3,3.1,Overcast
+2023-02-04,Edinburgh,-2.1,89.2,1.2,Sunny
+2023-02-05,Edinburgh,-0.3,63.2,4.8,Cloudy
+2023-02-06,Edinburgh,3.3,65.7,0.0,Overcast
+2023-02-07,Edinburgh,-3.7,88.2,1.3,Overcast
+2023-02-08,Edinburgh,1.2,92.6,0.0,Overcast
+2023-02-09,Edinburgh,2.6,72.1,2.2,Sunny
+2023-02-10,Edinburgh,-2.2,63.2,0.0,Foggy
+2023-02-11,Edinburgh,1.1,67.2,0.0,Cloudy
+2023-02-12,Edinburgh,-3.9,66.6,6.0,Rainy
+2023-02-13,Edinburgh,-0.3,88.6,8.2,Heavy Rain
+2023-02-14,Edinburgh,1.7,90.4,0.0,Foggy
+2023-02-15,Edinburgh,-2.6,79.7,0.0,Cloudy
+2023-02-16,Edinburgh,-7.8,62.7,5.0,Rainy
+2023-02-17,Edinburgh,0.2,81.4,8.6,Rainy
+2023-02-18,Edinburgh,0.5,76.9,1.4,Rainy
+2023-02-19,Edinburgh,-0.3,77.8,0.0,Overcast
+2023-02-20,Edinburgh,4.8,79.6,9.7,Rainy
+2023-02-21,Edinburgh,-0.7,85.0,4.0,Sunny
+2023-02-22,Edinburgh,0.5,87.9,0.0,Cloudy
+2023-02-23,Edinburgh,-2.4,83.8,2.2,Cloudy
+2023-02-24,Edinburgh,-3.6,83.8,4.7,Foggy
+2023-02-25,Edinburgh,2.1,94.8,0.0,Overcast
+2023-02-26,Edinburgh,-1.6,77.9,0.0,Snowy
+2023-02-27,Edinburgh,-3.3,67.4,0.0,Snowy
+2023-02-28,Edinburgh,0.8,69.0,6.5,Heavy Rain
+2023-03-01,Edinburgh,7.9,94.4,2.6,Foggy
+2023-03-02,Edinburgh,5.0,62.9,6.1,Snowy
+2023-03-03,Edinburgh,10.0,75.4,0.0,Cloudy
+2023-03-04,Edinburgh,3.5,89.3,3.0,Sunny
+2023-03-05,Edinburgh,5.6,94.6,7.9,Heavy Rain
+2023-03-06,Edinburgh,1.0,69.7,13.9,Snowy
+2023-03-07,Edinburgh,1.4,64.8,0.0,Sunny
+2023-03-08,Edinburgh,-0.8,78.4,1.4,Rainy
+2023-03-09,Edinburgh,4.3,80.1,3.1,Rainy
+2023-03-10,Edinburgh,6.0,82.8,0.0,Sunny
+2023-03-11,Edinburgh,5.2,61.1,11.5,Heavy Rain
+2023-03-12,Edinburgh,4.0,79.1,3.8,Rainy
+2023-03-13,Edinburgh,10.0,84.1,8.2,Snowy
+2023-03-14,Edinburgh,8.4,90.7,2.4,Overcast
+2023-03-15,Edinburgh,10.7,64.6,4.6,Snowy
+2023-03-16,Edinburgh,-1.7,74.2,0.0,Foggy
+2023-03-17,Edinburgh,3.8,85.8,2.5,Overcast
+2023-03-18,Edinburgh,2.6,68.5,0.3,Cloudy
+2023-03-19,Edinburgh,2.9,73.8,0.5,Sunny
+2023-03-20,Edinburgh,3.4,85.8,0.0,Sunny
+2023-03-21,Edinburgh,12.3,92.5,7.8,Heavy Rain
+2023-03-22,Edinburgh,4.6,90.2,3.6,Cloudy
+2023-03-23,Edinburgh,6.2,92.0,0.0,Foggy
+2023-03-24,Edinburgh,2.1,72.9,11.4,Heavy Rain
+2023-03-25,Edinburgh,6.3,75.8,0.0,Snowy
+2023-03-26,Edinburgh,-1.1,82.0,1.4,Sunny
+2023-03-27,Edinburgh,5.2,83.0,0.0,Foggy
+2023-03-28,Edinburgh,6.3,92.2,0.0,Foggy
+2023-03-29,Edinburgh,6.8,62.8,0.0,Overcast
+2023-03-30,Edinburgh,7.3,75.5,5.0,Overcast
+2023-03-31,Edinburgh,5.4,91.3,3.1,Overcast
+2023-04-01,Edinburgh,7.6,76.7,5.1,Snowy
+2023-04-02,Edinburgh,12.3,93.9,0.0,Foggy
+2023-04-03,Edinburgh,8.6,62.1,0.0,Cloudy
+2023-04-04,Edinburgh,13.2,64.8,7.7,Rainy
+2023-04-05,Edinburgh,7.3,73.3,4.5,Cloudy
+2023-04-06,Edinburgh,10.4,82.9,0.0,Sunny
+2023-04-07,Edinburgh,11.6,60.7,0.0,Cloudy
+2023-04-08,Edinburgh,5.4,72.8,0.0,Snowy
+2023-04-09,Edinburgh,7.1,73.1,5.5,Heavy Rain
+2023-04-10,Edinburgh,17.0,93.7,0.0,Foggy
+2023-04-11,Edinburgh,7.6,76.4,1.3,Rainy
+2023-04-12,Edinburgh,10.6,78.6,0.0,Sunny
+2023-04-13,Edinburgh,13.1,71.5,0.0,Snowy
+2023-04-14,Edinburgh,12.7,77.0,5.0,Sunny
+2023-04-15,Edinburgh,6.0,66.1,1.6,Overcast
+2023-04-16,Edinburgh,9.2,88.3,0.0,Foggy
+2023-04-17,Edinburgh,8.4,62.3,0.3,Overcast
+2023-04-18,Edinburgh,10.9,77.4,4.6,Cloudy
+2023-04-19,Edinburgh,6.6,63.6,0.0,Overcast
+2023-04-20,Edinburgh,10.3,67.8,2.9,Rainy
+2023-04-21,Edinburgh,11.5,79.1,4.8,Cloudy
+2023-04-22,Edinburgh,13.1,65.1,0.7,Rainy
+2023-04-23,Edinburgh,9.9,93.1,2.2,Foggy
+2023-04-24,Edinburgh,14.0,79.2,9.7,Rainy
+2023-04-25,Edinburgh,9.2,71.1,6.2,Heavy Rain
+2023-04-26,Edinburgh,11.6,86.4,5.5,Rainy
+2023-04-27,Edinburgh,14.3,90.2,0.0,Overcast
+2023-04-28,Edinburgh,10.9,72.0,8.8,Heavy Rain
+2023-04-29,Edinburgh,7.5,87.6,6.9,Rainy
+2023-04-30,Edinburgh,10.8,63.4,0.0,Sunny
+2023-05-01,Edinburgh,16.0,62.0,0.0,Sunny
+2023-05-02,Edinburgh,14.6,92.3,4.3,Overcast
+2023-05-03,Edinburgh,11.1,85.9,0.0,Snowy
+2023-05-04,Edinburgh,11.6,75.5,0.0,Snowy
+2023-05-05,Edinburgh,11.2,80.6,0.0,Overcast
+2023-05-06,Edinburgh,15.9,70.9,7.0,Snowy
+2023-05-07,Edinburgh,15.2,69.0,0.0,Partly Cloudy
+2023-05-08,Edinburgh,10.8,67.1,0.0,Snowy
+2023-05-09,Edinburgh,10.5,61.1,0.0,Sunny
+2023-05-10,Edinburgh,17.4,75.6,0.1,Cloudy
+2023-05-11,Edinburgh,5.2,91.9,0.0,Cloudy
+2023-05-12,Edinburgh,7.8,73.4,3.8,Cloudy
+2023-05-13,Edinburgh,14.6,82.4,2.5,Foggy
+2023-05-14,Edinburgh,6.4,94.1,0.2,Foggy
+2023-05-15,Edinburgh,10.4,75.4,2.8,Overcast
+2023-05-16,Edinburgh,16.7,68.7,2.3,Overcast
+2023-05-17,Edinburgh,14.5,76.8,2.0,Cloudy
+2023-05-18,Edinburgh,7.0,85.6,2.3,Foggy
+2023-05-19,Edinburgh,10.2,79.5,0.0,Rainy
+2023-05-20,Edinburgh,11.0,71.0,0.0,Foggy
+2023-05-21,Edinburgh,13.1,65.6,3.6,Sunny
+2023-05-22,Edinburgh,15.6,74.2,4.7,Overcast
+2023-05-23,Edinburgh,9.8,60.8,5.1,Rainy
+2023-05-24,Edinburgh,10.8,83.9,0.0,Snowy
+2023-05-25,Edinburgh,6.1,86.5,0.0,Sunny
+2023-05-26,Edinburgh,11.9,67.7,0.3,Sunny
+2023-05-27,Edinburgh,11.3,93.2,8.4,Heavy Rain
+2023-05-28,Edinburgh,12.0,69.3,4.6,Sunny
+2023-05-29,Edinburgh,11.7,61.9,1.5,Cloudy
+2023-05-30,Edinburgh,16.3,73.6,0.0,Sunny
+2023-05-31,Edinburgh,10.1,68.0,0.1,Sunny
+2023-06-01,Edinburgh,15.1,89.3,0.0,Partly Cloudy
+2023-06-02,Edinburgh,11.1,60.3,7.2,Heavy Rain
+2023-06-03,Edinburgh,15.6,90.4,5.5,Rainy
+2023-06-04,Edinburgh,20.9,65.1,0.0,Partly Cloudy
+2023-06-05,Edinburgh,13.1,84.2,0.0,Cloudy
+2023-06-06,Edinburgh,9.9,84.0,8.7,Rainy
+2023-06-07,Edinburgh,16.1,84.9,0.0,Partly Cloudy
+2023-06-08,Edinburgh,16.7,68.3,0.5,Overcast
+2023-06-09,Edinburgh,15.2,65.1,9.4,Rainy
+2023-06-10,Edinburgh,15.8,83.4,4.8,Foggy
+2023-06-11,Edinburgh,13.2,61.4,5.8,Rainy
+2023-06-12,Edinburgh,12.7,70.4,4.5,Sunny
+2023-06-13,Edinburgh,21.9,68.4,0.0,Sunny
+2023-06-14,Edinburgh,20.2,70.2,2.7,Cloudy
+2023-06-15,Edinburgh,10.1,68.8,2.3,Sunny
+2023-06-16,Edinburgh,13.8,91.2,4.6,Foggy
+2023-06-17,Edinburgh,20.1,78.3,9.0,Rainy
+2023-06-18,Edinburgh,12.2,67.2,0.0,Snowy
+2023-06-19,Edinburgh,9.2,60.7,8.0,Snowy
+2023-06-20,Edinburgh,10.4,80.0,0.0,Overcast
+2023-06-21,Edinburgh,15.4,71.7,2.3,Sunny
+2023-06-22,Edinburgh,14.1,79.1,3.5,Sunny
+2023-06-23,Edinburgh,15.4,85.3,4.9,Overcast
+2023-06-24,Edinburgh,16.4,68.9,0.0,Sunny
+2023-06-25,Edinburgh,16.0,63.4,3.3,Overcast
+2023-06-26,Edinburgh,16.4,82.6,0.0,Partly Cloudy
+2023-06-27,Edinburgh,13.7,73.1,0.1,Overcast
+2023-06-28,Edinburgh,13.2,81.8,0.0,Foggy
+2023-06-29,Edinburgh,16.2,91.1,6.2,Heavy Rain
+2023-06-30,Edinburgh,12.9,83.2,7.1,Heavy Rain
+2023-07-01,Edinburgh,11.1,67.1,0.0,Sunny
+2023-07-02,Edinburgh,12.1,71.5,5.5,Rainy
+2023-07-03,Edinburgh,17.9,62.4,5.2,Snowy
+2023-07-04,Edinburgh,11.8,63.7,0.0,Snowy
+2023-07-05,Edinburgh,7.6,82.3,1.4,Sunny
+2023-07-06,Edinburgh,12.5,66.0,0.0,Sunny
+2023-07-07,Edinburgh,14.4,85.8,0.8,Foggy
+2023-07-08,Edinburgh,17.5,65.2,2.9,Cloudy
+2023-07-09,Edinburgh,12.7,62.6,0.0,Cloudy
+2023-07-10,Edinburgh,10.1,77.9,1.6,Foggy
+2023-07-11,Edinburgh,7.3,93.9,0.7,Overcast
+2023-07-12,Edinburgh,9.5,90.8,4.1,Cloudy
+2023-07-13,Edinburgh,16.2,90.0,7.2,Rainy
+2023-07-14,Edinburgh,9.6,63.6,11.0,Snowy
+2023-07-15,Edinburgh,14.9,92.1,1.3,Overcast
+2023-07-16,Edinburgh,14.9,87.5,6.7,Snowy
+2023-07-17,Edinburgh,17.1,80.8,5.2,Snowy
+2023-07-18,Edinburgh,16.2,72.8,7.7,Rainy
+2023-07-19,Edinburgh,14.3,82.3,5.0,Snowy
+2023-07-20,Edinburgh,13.6,61.0,1.6,Overcast
+2023-07-21,Edinburgh,12.1,79.9,0.0,Foggy
+2023-07-22,Edinburgh,13.4,79.3,0.0,Snowy
+2023-07-23,Edinburgh,17.5,77.7,12.1,Snowy
+2023-07-24,Edinburgh,12.4,87.7,6.7,Snowy
+2023-07-25,Edinburgh,11.5,90.8,0.0,Foggy
+2023-07-26,Edinburgh,15.0,85.3,0.7,Cloudy
+2023-07-27,Edinburgh,13.4,70.6,3.8,Foggy
+2023-07-28,Edinburgh,11.9,83.3,0.8,Snowy
+2023-07-29,Edinburgh,12.8,74.8,15.6,Snowy
+2023-07-30,Edinburgh,18.1,80.1,0.0,Sunny
+2023-07-31,Edinburgh,16.5,64.4,0.0,Partly Cloudy
+2023-08-01,Edinburgh,8.9,70.1,1.8,Overcast
+2023-08-02,Edinburgh,1.6,89.4,13.2,Heavy Rain
+2023-08-03,Edinburgh,7.5,80.0,3.6,Rainy
+2023-08-04,Edinburgh,17.5,73.1,0.0,Sunny
+2023-08-05,Edinburgh,12.9,68.1,1.3,Sunny
+2023-08-06,Edinburgh,8.9,87.6,0.0,Cloudy
+2023-08-07,Edinburgh,12.6,70.9,8.1,Heavy Rain
+2023-08-08,Edinburgh,13.5,87.9,0.6,Snowy
+2023-08-09,Edinburgh,11.9,63.3,6.7,Rainy
+2023-08-10,Edinburgh,5.9,76.7,0.0,Cloudy
+2023-08-11,Edinburgh,11.2,70.9,0.0,Foggy
+2023-08-12,Edinburgh,10.6,90.9,0.0,Cloudy
+2023-08-13,Edinburgh,6.0,61.7,1.8,Foggy
+2023-08-14,Edinburgh,13.7,62.7,0.0,Rainy
+2023-08-15,Edinburgh,9.5,81.0,10.3,Snowy
+2023-08-16,Edinburgh,11.9,84.6,0.0,Cloudy
+2023-08-17,Edinburgh,9.9,83.7,2.6,Rainy
+2023-08-18,Edinburgh,9.8,71.2,8.7,Snowy
+2023-08-19,Edinburgh,8.8,60.4,6.2,Snowy
+2023-08-20,Edinburgh,9.6,60.9,10.1,Rainy
+2023-08-21,Edinburgh,10.4,65.2,5.1,Rainy
+2023-08-22,Edinburgh,11.4,61.3,7.3,Snowy
+2023-08-23,Edinburgh,5.8,75.8,0.3,Rainy
+2023-08-24,Edinburgh,7.1,88.7,12.6,Snowy
+2023-08-25,Edinburgh,15.7,89.0,1.0,Sunny
+2023-08-26,Edinburgh,9.4,90.4,0.2,Foggy
+2023-08-27,Edinburgh,9.4,67.1,0.0,Sunny
+2023-08-28,Edinburgh,7.5,80.7,8.2,Snowy
+2023-08-29,Edinburgh,13.1,83.7,0.0,Cloudy
+2023-08-30,Edinburgh,11.8,89.8,0.0,Rainy
+2023-08-31,Edinburgh,3.7,63.6,1.2,Overcast
+2023-09-01,Edinburgh,2.4,71.0,8.5,Snowy
+2023-09-02,Edinburgh,6.3,82.2,0.5,Snowy
+2023-09-03,Edinburgh,5.7,70.9,0.0,Cloudy
+2023-09-04,Edinburgh,2.9,74.5,8.5,Snowy
+2023-09-05,Edinburgh,2.4,65.8,0.0,Overcast
+2023-09-06,Edinburgh,7.0,88.6,0.3,Sunny
+2023-09-07,Edinburgh,6.5,65.3,10.8,Heavy Rain
+2023-09-08,Edinburgh,5.3,70.2,6.8,Heavy Rain
+2023-09-09,Edinburgh,7.7,90.5,3.2,Cloudy
+2023-09-10,Edinburgh,-0.9,75.0,1.5,Rainy
+2023-09-11,Edinburgh,6.2,88.4,0.0,Foggy
+2023-09-12,Edinburgh,6.9,66.5,1.2,Cloudy
+2023-09-13,Edinburgh,4.5,64.2,0.6,Sunny
+2023-09-14,Edinburgh,7.4,68.6,3.5,Sunny
+2023-09-15,Edinburgh,9.9,80.0,9.6,Rainy
+2023-09-16,Edinburgh,5.9,60.3,2.1,Foggy
+2023-09-17,Edinburgh,8.7,72.1,0.0,Rainy
+2023-09-18,Edinburgh,6.5,79.4,0.0,Foggy
+2023-09-19,Edinburgh,4.0,78.2,5.1,Heavy Rain
+2023-09-20,Edinburgh,8.8,84.1,7.5,Heavy Rain
+2023-09-21,Edinburgh,6.8,60.6,1.1,Sunny
+2023-09-22,Edinburgh,6.7,87.1,0.0,Rainy
+2023-09-23,Edinburgh,6.2,66.4,7.8,Heavy Rain
+2023-09-24,Edinburgh,7.8,71.3,6.2,Snowy
+2023-09-25,Edinburgh,2.5,83.8,3.9,Foggy
+2023-09-26,Edinburgh,7.3,69.8,1.3,Sunny
+2023-09-27,Edinburgh,5.2,91.7,12.3,Heavy Rain
+2023-09-28,Edinburgh,6.7,90.2,12.1,Snowy
+2023-09-29,Edinburgh,1.7,75.7,8.1,Snowy
+2023-09-30,Edinburgh,4.4,76.7,5.5,Heavy Rain
+2023-10-01,Edinburgh,-1.9,67.7,3.1,Snowy
+2023-10-02,Edinburgh,3.0,79.8,0.1,Rainy
+2023-10-03,Edinburgh,-5.2,73.7,0.5,Sunny
+2023-10-04,Edinburgh,1.9,66.2,0.0,Cloudy
+2023-10-05,Edinburgh,0.2,66.2,0.0,Cloudy
+2023-10-06,Edinburgh,-6.1,62.1,3.9,Snowy
+2023-10-07,Edinburgh,-3.2,63.0,5.1,Rainy
+2023-10-08,Edinburgh,4.7,62.5,1.3,Cloudy
+2023-10-09,Edinburgh,-3.4,65.9,0.0,Overcast
+2023-10-10,Edinburgh,-1.6,93.1,2.0,Foggy
+2023-10-11,Edinburgh,0.7,87.6,0.0,Foggy
+2023-10-12,Edinburgh,0.3,78.9,3.4,Snowy
+2023-10-13,Edinburgh,-4.8,90.2,0.0,Foggy
+2023-10-14,Edinburgh,0.1,93.3,2.1,Cloudy
+2023-10-15,Edinburgh,-1.5,93.3,5.3,Heavy Rain
+2023-10-16,Edinburgh,-1.7,81.8,5.7,Heavy Rain
+2023-10-17,Edinburgh,-3.4,82.8,0.5,Rainy
+2023-10-18,Edinburgh,-3.1,63.9,3.0,Cloudy
+2023-10-19,Edinburgh,1.8,88.9,2.1,Snowy
+2023-10-20,Edinburgh,-4.5,62.1,4.5,Sunny
+2023-10-21,Edinburgh,2.6,65.3,6.4,Heavy Rain
+2023-10-22,Edinburgh,-1.8,91.1,0.0,Foggy
+2023-10-23,Edinburgh,-2.9,69.0,8.7,Heavy Rain
+2023-10-24,Edinburgh,1.9,65.4,5.0,Sunny
+2023-10-25,Edinburgh,-2.6,73.6,2.2,Snowy
+2023-10-26,Edinburgh,-1.9,67.7,3.2,Foggy
+2023-10-27,Edinburgh,0.7,62.1,3.2,Foggy
+2023-10-28,Edinburgh,2.2,91.9,4.0,Cloudy
+2023-10-29,Edinburgh,1.2,85.8,0.0,Rainy
+2023-10-30,Edinburgh,-2.3,85.9,3.1,Rainy
+2023-10-31,Edinburgh,9.3,85.8,0.0,Overcast
+2023-11-01,Edinburgh,-5.5,94.9,2.6,Cloudy
+2023-11-02,Edinburgh,-7.3,92.4,0.0,Cloudy
+2023-11-03,Edinburgh,-5.0,76.5,1.7,Foggy
+2023-11-04,Edinburgh,-7.3,90.9,0.0,Foggy
+2023-11-05,Edinburgh,-6.4,80.1,0.0,Overcast
+2023-11-06,Edinburgh,-1.2,79.0,0.0,Foggy
+2023-11-07,Edinburgh,-3.7,90.3,5.2,Rainy
+2023-11-08,Edinburgh,-2.7,90.2,1.1,Foggy
+2023-11-09,Edinburgh,-6.1,90.2,12.7,Heavy Rain
+2023-11-10,Edinburgh,1.1,60.3,10.5,Snowy
+2023-11-11,Edinburgh,-5.5,82.0,2.2,Cloudy
+2023-11-12,Edinburgh,-1.8,64.1,0.1,Foggy
+2023-11-13,Edinburgh,-0.8,73.9,0.3,Cloudy
+2023-11-14,Edinburgh,-4.6,77.2,0.0,Overcast
+2023-11-15,Edinburgh,-6.7,83.4,3.8,Cloudy
+2023-11-16,Edinburgh,-6.3,81.6,0.0,Sunny
+2023-11-17,Edinburgh,-7.1,85.0,2.7,Overcast
+2023-11-18,Edinburgh,0.8,66.1,0.0,Overcast
+2023-11-19,Edinburgh,-3.1,86.1,1.1,Foggy
+2023-11-20,Edinburgh,-0.2,72.9,0.0,Overcast
+2023-11-21,Edinburgh,-6.3,62.9,0.0,Cloudy
+2023-11-22,Edinburgh,-5.9,93.3,9.4,Rainy
+2023-11-23,Edinburgh,0.2,90.3,2.7,Cloudy
+2023-11-24,Edinburgh,1.4,92.5,7.8,Snowy
+2023-11-25,Edinburgh,-6.8,64.8,1.4,Rainy
+2023-11-26,Edinburgh,-5.2,64.8,16.1,Rainy
+2023-11-27,Edinburgh,-2.5,82.6,8.8,Snowy
+2023-11-28,Edinburgh,-7.2,68.5,9.1,Heavy Rain
+2023-11-29,Edinburgh,-4.9,78.8,2.9,Overcast
+2023-11-30,Edinburgh,-2.6,73.3,0.0,Overcast
+2023-12-01,Edinburgh,-5.1,65.5,0.0,Rainy
+2023-12-02,Edinburgh,-7.8,87.8,5.8,Heavy Rain
+2023-12-03,Edinburgh,-2.5,94.0,0.0,Overcast
+2023-12-04,Edinburgh,-6.4,91.3,0.8,Overcast
+2023-12-05,Edinburgh,-1.0,62.5,11.7,Heavy Rain
+2023-12-06,Edinburgh,-6.3,63.5,0.0,Snowy
+2023-12-07,Edinburgh,-9.0,66.2,0.0,Cloudy
+2023-12-08,Edinburgh,0.9,67.6,7.4,Heavy Rain
+2023-12-09,Edinburgh,-8.6,70.4,7.0,Heavy Rain
+2023-12-10,Edinburgh,-7.2,80.1,0.0,Sunny
+2023-12-11,Edinburgh,-2.8,67.5,0.0,Snowy
+2023-12-12,Edinburgh,-3.8,63.2,2.9,Foggy
+2023-12-13,Edinburgh,-2.4,85.8,0.0,Overcast
+2023-12-14,Edinburgh,-4.4,67.9,1.2,Foggy
+2023-12-15,Edinburgh,-6.1,64.4,0.0,Snowy
+2023-12-16,Edinburgh,-8.0,71.9,8.1,Heavy Rain
+2023-12-17,Edinburgh,-4.6,60.1,5.2,Snowy
+2023-12-18,Edinburgh,-4.8,91.4,6.6,Snowy
+2023-12-19,Edinburgh,-8.0,67.8,6.5,Heavy Rain
+2023-12-20,Edinburgh,-3.8,68.2,0.0,Overcast
+2023-12-21,Edinburgh,-7.3,88.4,0.0,Foggy
+2023-12-22,Edinburgh,-8.1,75.9,0.0,Overcast
+2023-12-23,Edinburgh,-0.9,83.4,2.0,Foggy
+2023-12-24,Edinburgh,-3.9,62.7,0.0,Sunny
+2023-12-25,Edinburgh,-4.3,67.0,0.0,Cloudy
+2023-12-26,Edinburgh,-7.7,72.2,1.2,Overcast
+2023-12-27,Edinburgh,-6.6,61.2,0.0,Overcast
+2023-12-28,Edinburgh,-7.8,60.0,10.3,Heavy Rain
+2023-12-29,Edinburgh,-8.4,91.6,7.8,Rainy
+2023-12-30,Edinburgh,-4.7,81.6,7.9,Snowy
+2023-12-31,Edinburgh,-1.8,94.1,1.8,Foggy
+2023-01-01,Cardiff,-4.0,72.6,0.0,Rainy
+2023-01-02,Cardiff,1.4,66.1,0.0,Overcast
+2023-01-03,Cardiff,-2.5,90.9,1.0,Overcast
+2023-01-04,Cardiff,-2.3,93.5,2.6,Overcast
+2023-01-05,Cardiff,-7.5,67.1,12.5,Heavy Rain
+2023-01-06,Cardiff,-2.1,71.4,0.0,Cloudy
+2023-01-07,Cardiff,2.4,62.6,0.1,Foggy
+2023-01-08,Cardiff,-5.2,89.5,5.6,Heavy Rain
+2023-01-09,Cardiff,-2.7,65.3,0.0,Snowy
+2023-01-10,Cardiff,-4.1,93.8,11.1,Snowy
+2023-01-11,Cardiff,-4.6,82.0,0.0,Snowy
+2023-01-12,Cardiff,-4.3,77.8,0.0,Sunny
+2023-01-13,Cardiff,-5.1,72.1,0.0,Rainy
+2023-01-14,Cardiff,-1.3,63.5,4.0,Sunny
+2023-01-15,Cardiff,-11.3,83.9,1.9,Sunny
+2023-01-16,Cardiff,-9.6,79.4,0.8,Rainy
+2023-01-17,Cardiff,0.6,81.9,0.3,Cloudy
+2023-01-18,Cardiff,-5.2,80.7,2.1,Foggy
+2023-01-19,Cardiff,-3.8,89.9,0.0,Snowy
+2023-01-20,Cardiff,-1.2,72.2,0.0,Overcast
+2023-01-21,Cardiff,-2.3,85.2,2.7,Rainy
+2023-01-22,Cardiff,-5.4,60.4,0.0,Rainy
+2023-01-23,Cardiff,-4.7,89.1,4.1,Rainy
+2023-01-24,Cardiff,-0.7,94.9,0.0,Overcast
+2023-01-25,Cardiff,-4.7,83.8,0.0,Snowy
+2023-01-26,Cardiff,-6.5,87.9,0.0,Cloudy
+2023-01-27,Cardiff,-4.5,63.0,1.0,Overcast
+2023-01-28,Cardiff,-5.1,93.7,3.0,Overcast
+2023-01-29,Cardiff,-4.8,80.3,1.3,Snowy
+2023-01-30,Cardiff,-1.2,64.9,0.2,Rainy
+2023-01-31,Cardiff,-1.0,73.8,0.0,Foggy
+2023-02-01,Cardiff,1.6,84.9,0.0,Overcast
+2023-02-02,Cardiff,-2.7,73.3,8.7,Heavy Rain
+2023-02-03,Cardiff,4.9,76.5,0.0,Snowy
+2023-02-04,Cardiff,-0.6,79.5,7.5,Rainy
+2023-02-05,Cardiff,-4.2,90.1,3.6,Cloudy
+2023-02-06,Cardiff,-4.3,94.2,4.5,Foggy
+2023-02-07,Cardiff,-2.1,93.3,6.8,Snowy
+2023-02-08,Cardiff,3.5,74.5,6.2,Heavy Rain
+2023-02-09,Cardiff,-0.8,74.8,4.7,Snowy
+2023-02-10,Cardiff,2.0,77.7,2.1,Cloudy
+2023-02-11,Cardiff,-0.3,65.0,2.3,Overcast
+2023-02-12,Cardiff,-2.3,89.0,0.0,Snowy
+2023-02-13,Cardiff,-3.2,91.5,0.0,Overcast
+2023-02-14,Cardiff,6.1,68.7,0.0,Foggy
+2023-02-15,Cardiff,1.6,92.6,6.5,Rainy
+2023-02-16,Cardiff,1.2,92.5,0.0,Overcast
+2023-02-17,Cardiff,-4.7,93.8,9.0,Heavy Rain
+2023-02-18,Cardiff,-0.6,62.3,3.4,Sunny
+2023-02-19,Cardiff,-0.0,80.8,4.2,Snowy
+2023-02-20,Cardiff,-2.5,92.1,0.0,Overcast
+2023-02-21,Cardiff,3.3,77.0,13.8,Heavy Rain
+2023-02-22,Cardiff,3.2,86.1,0.0,Cloudy
+2023-02-23,Cardiff,-3.6,91.8,4.3,Foggy
+2023-02-24,Cardiff,0.2,64.3,0.0,Cloudy
+2023-02-25,Cardiff,-5.1,93.2,10.4,Heavy Rain
+2023-02-26,Cardiff,5.1,77.2,7.5,Rainy
+2023-02-27,Cardiff,3.7,84.4,1.5,Snowy
+2023-02-28,Cardiff,2.5,78.2,1.1,Overcast
+2023-03-01,Cardiff,1.7,76.7,0.0,Sunny
+2023-03-02,Cardiff,10.8,75.2,7.7,Heavy Rain
+2023-03-03,Cardiff,5.6,62.0,2.4,Rainy
+2023-03-04,Cardiff,1.2,80.6,3.6,Cloudy
+2023-03-05,Cardiff,6.1,78.2,0.2,Cloudy
+2023-03-06,Cardiff,5.8,71.5,6.0,Rainy
+2023-03-07,Cardiff,4.5,93.1,13.4,Snowy
+2023-03-08,Cardiff,1.8,61.0,3.2,Rainy
+2023-03-09,Cardiff,2.1,61.2,0.0,Snowy
+2023-03-10,Cardiff,-0.0,66.8,0.0,Overcast
+2023-03-11,Cardiff,7.4,64.3,1.0,Foggy
+2023-03-12,Cardiff,0.7,69.1,8.2,Rainy
+2023-03-13,Cardiff,4.4,69.4,10.8,Rainy
+2023-03-14,Cardiff,-3.3,85.3,10.3,Rainy
+2023-03-15,Cardiff,5.5,74.8,3.3,Sunny
+2023-03-16,Cardiff,-0.6,66.6,9.6,Heavy Rain
+2023-03-17,Cardiff,3.6,75.5,0.4,Overcast
+2023-03-18,Cardiff,8.1,94.1,0.9,Cloudy
+2023-03-19,Cardiff,-0.4,82.0,2.2,Rainy
+2023-03-20,Cardiff,4.8,73.4,1.6,Cloudy
+2023-03-21,Cardiff,3.1,62.2,9.8,Rainy
+2023-03-22,Cardiff,3.2,82.4,6.6,Heavy Rain
+2023-03-23,Cardiff,4.6,73.3,0.3,Sunny
+2023-03-24,Cardiff,4.2,93.1,1.7,Foggy
+2023-03-25,Cardiff,4.6,78.0,5.9,Rainy
+2023-03-26,Cardiff,9.8,79.6,0.2,Foggy
+2023-03-27,Cardiff,7.9,72.7,0.0,Overcast
+2023-03-28,Cardiff,0.8,63.1,1.1,Overcast
+2023-03-29,Cardiff,1.5,77.5,6.8,Heavy Rain
+2023-03-30,Cardiff,-1.5,78.6,4.7,Sunny
+2023-03-31,Cardiff,3.7,81.2,5.9,Heavy Rain
+2023-04-01,Cardiff,7.0,74.3,6.4,Heavy Rain
+2023-04-02,Cardiff,15.2,82.2,2.7,Rainy
+2023-04-03,Cardiff,7.3,71.7,0.7,Rainy
+2023-04-04,Cardiff,0.1,73.0,4.0,Sunny
+2023-04-05,Cardiff,7.9,82.4,0.0,Sunny
+2023-04-06,Cardiff,13.4,73.2,2.2,Rainy
+2023-04-07,Cardiff,8.6,60.7,2.9,Foggy
+2023-04-08,Cardiff,11.5,62.2,5.7,Snowy
+2023-04-09,Cardiff,10.1,89.9,5.6,Snowy
+2023-04-10,Cardiff,12.2,91.2,1.7,Overcast
+2023-04-11,Cardiff,9.3,85.9,0.0,Foggy
+2023-04-12,Cardiff,7.6,66.8,0.0,Snowy
+2023-04-13,Cardiff,12.7,85.3,5.7,Rainy
+2023-04-14,Cardiff,11.3,76.5,0.0,Sunny
+2023-04-15,Cardiff,14.1,69.8,1.2,Cloudy
+2023-04-16,Cardiff,9.4,88.0,0.0,Snowy
+2023-04-17,Cardiff,7.5,64.6,0.0,Foggy
+2023-04-18,Cardiff,8.7,69.2,0.0,Foggy
+2023-04-19,Cardiff,9.1,78.8,0.9,Rainy
+2023-04-20,Cardiff,5.3,93.2,2.4,Cloudy
+2023-04-21,Cardiff,9.7,90.4,4.1,Cloudy
+2023-04-22,Cardiff,10.8,68.6,4.4,Overcast
+2023-04-23,Cardiff,8.9,65.6,9.6,Rainy
+2023-04-24,Cardiff,8.4,63.4,0.0,Overcast
+2023-04-25,Cardiff,11.4,69.1,1.4,Sunny
+2023-04-26,Cardiff,8.4,85.8,4.6,Sunny
+2023-04-27,Cardiff,7.2,73.9,0.0,Snowy
+2023-04-28,Cardiff,12.1,68.7,10.2,Heavy Rain
+2023-04-29,Cardiff,7.5,89.6,6.8,Heavy Rain
+2023-04-30,Cardiff,13.9,83.4,5.6,Snowy
+2023-05-01,Cardiff,10.2,75.8,10.5,Snowy
+2023-05-02,Cardiff,13.7,78.9,11.5,Rainy
+2023-05-03,Cardiff,11.0,86.0,1.5,Cloudy
+2023-05-04,Cardiff,8.4,63.2,4.8,Rainy
+2023-05-05,Cardiff,10.1,79.3,7.4,Heavy Rain
+2023-05-06,Cardiff,12.4,68.8,0.0,Cloudy
+2023-05-07,Cardiff,14.4,94.4,5.2,Rainy
+2023-05-08,Cardiff,10.5,72.7,3.2,Foggy
+2023-05-09,Cardiff,9.3,77.1,8.1,Rainy
+2023-05-10,Cardiff,14.1,72.5,5.2,Rainy
+2023-05-11,Cardiff,17.8,85.1,1.8,Rainy
+2023-05-12,Cardiff,15.3,76.4,3.1,Rainy
+2023-05-13,Cardiff,18.3,74.4,0.0,Sunny
+2023-05-14,Cardiff,13.4,83.2,0.0,Snowy
+2023-05-15,Cardiff,20.0,83.7,7.3,Rainy
+2023-05-16,Cardiff,16.9,89.4,3.1,Rainy
+2023-05-17,Cardiff,16.0,69.3,2.1,Overcast
+2023-05-18,Cardiff,20.7,68.1,0.0,Sunny
+2023-05-19,Cardiff,13.6,80.7,0.0,Cloudy
+2023-05-20,Cardiff,15.6,81.4,0.4,Rainy
+2023-05-21,Cardiff,15.6,66.2,3.2,Overcast
+2023-05-22,Cardiff,14.7,66.3,7.2,Snowy
+2023-05-23,Cardiff,15.6,69.8,5.2,Snowy
+2023-05-24,Cardiff,18.5,62.5,4.7,Snowy
+2023-05-25,Cardiff,13.4,74.2,0.0,Rainy
+2023-05-26,Cardiff,11.2,80.3,2.2,Overcast
+2023-05-27,Cardiff,11.9,81.8,0.7,Foggy
+2023-05-28,Cardiff,13.5,81.0,0.7,Snowy
+2023-05-29,Cardiff,12.7,76.7,9.1,Rainy
+2023-05-30,Cardiff,15.3,88.1,0.0,Sunny
+2023-05-31,Cardiff,15.1,65.9,0.0,Partly Cloudy
+2023-06-01,Cardiff,15.8,67.2,4.5,Foggy
+2023-06-02,Cardiff,18.2,85.4,0.0,Sunny
+2023-06-03,Cardiff,14.8,88.8,2.8,Sunny
+2023-06-04,Cardiff,24.4,62.4,0.0,Partly Cloudy
+2023-06-05,Cardiff,16.3,87.2,4.6,Sunny
+2023-06-06,Cardiff,17.9,69.3,5.7,Heavy Rain
+2023-06-07,Cardiff,10.0,83.0,2.8,Overcast
+2023-06-08,Cardiff,13.2,77.0,0.0,Foggy
+2023-06-09,Cardiff,13.9,78.7,1.0,Sunny
+2023-06-10,Cardiff,12.3,60.2,2.8,Sunny
+2023-06-11,Cardiff,12.5,76.6,8.0,Heavy Rain
+2023-06-12,Cardiff,17.0,79.1,0.0,Sunny
+2023-06-13,Cardiff,17.2,69.3,7.3,Snowy
+2023-06-14,Cardiff,17.9,63.9,3.7,Overcast
+2023-06-15,Cardiff,15.1,79.4,10.2,Rainy
+2023-06-16,Cardiff,14.8,61.2,0.0,Sunny
+2023-06-17,Cardiff,17.3,90.1,9.3,Heavy Rain
+2023-06-18,Cardiff,12.2,61.6,0.0,Overcast
+2023-06-19,Cardiff,15.6,78.3,0.0,Sunny
+2023-06-20,Cardiff,22.2,66.1,0.0,Sunny
+2023-06-21,Cardiff,11.6,85.6,2.0,Sunny
+2023-06-22,Cardiff,22.1,81.0,0.0,Partly Cloudy
+2023-06-23,Cardiff,12.8,79.2,1.9,Overcast
+2023-06-24,Cardiff,14.9,69.6,3.3,Sunny
+2023-06-25,Cardiff,13.4,73.4,4.3,Cloudy
+2023-06-26,Cardiff,14.1,73.0,0.0,Sunny
+2023-06-27,Cardiff,18.2,81.0,1.8,Foggy
+2023-06-28,Cardiff,10.3,86.5,4.4,Cloudy
+2023-06-29,Cardiff,11.7,66.3,8.1,Heavy Rain
+2023-06-30,Cardiff,10.7,94.2,0.0,Cloudy
+2023-07-01,Cardiff,11.4,94.4,5.9,Rainy
+2023-07-02,Cardiff,12.8,66.4,6.3,Rainy
+2023-07-03,Cardiff,15.9,93.2,0.0,Overcast
+2023-07-04,Cardiff,9.3,82.1,0.0,Snowy
+2023-07-05,Cardiff,14.8,66.1,0.0,Overcast
+2023-07-06,Cardiff,10.1,81.5,7.2,Snowy
+2023-07-07,Cardiff,15.0,83.8,5.6,Rainy
+2023-07-08,Cardiff,13.3,71.8,1.3,Cloudy
+2023-07-09,Cardiff,14.3,88.1,1.9,Overcast
+2023-07-10,Cardiff,13.8,84.8,1.9,Foggy
+2023-07-11,Cardiff,10.2,89.1,6.5,Heavy Rain
+2023-07-12,Cardiff,14.2,76.4,0.0,Snowy
+2023-07-13,Cardiff,13.8,91.8,2.2,Overcast
+2023-07-14,Cardiff,13.1,92.3,6.0,Heavy Rain
+2023-07-15,Cardiff,16.0,82.0,8.7,Snowy
+2023-07-16,Cardiff,14.4,89.1,0.0,Overcast
+2023-07-17,Cardiff,9.2,78.4,0.0,Overcast
+2023-07-18,Cardiff,14.9,78.5,0.0,Sunny
+2023-07-19,Cardiff,9.5,89.1,0.0,Sunny
+2023-07-20,Cardiff,7.6,86.4,0.0,Snowy
+2023-07-21,Cardiff,18.7,86.7,0.0,Sunny
+2023-07-22,Cardiff,12.1,86.4,7.7,Rainy
+2023-07-23,Cardiff,12.6,83.6,0.0,Overcast
+2023-07-24,Cardiff,8.9,81.2,4.0,Rainy
+2023-07-25,Cardiff,17.2,87.3,4.1,Sunny
+2023-07-26,Cardiff,11.9,65.5,0.0,Rainy
+2023-07-27,Cardiff,15.6,91.2,10.5,Snowy
+2023-07-28,Cardiff,12.8,67.9,0.0,Foggy
+2023-07-29,Cardiff,21.4,84.9,1.2,Foggy
+2023-07-30,Cardiff,19.0,90.4,3.5,Foggy
+2023-07-31,Cardiff,10.7,90.8,0.0,Foggy
+2023-08-01,Cardiff,11.5,88.1,4.0,Foggy
+2023-08-02,Cardiff,8.1,61.7,2.8,Cloudy
+2023-08-03,Cardiff,6.6,65.5,0.7,Snowy
+2023-08-04,Cardiff,10.2,70.5,0.0,Rainy
+2023-08-05,Cardiff,9.3,69.6,0.0,Sunny
+2023-08-06,Cardiff,10.9,68.5,0.0,Rainy
+2023-08-07,Cardiff,9.9,79.5,6.4,Heavy Rain
+2023-08-08,Cardiff,8.4,94.7,0.5,Overcast
+2023-08-09,Cardiff,9.7,87.8,0.0,Overcast
+2023-08-10,Cardiff,7.1,84.6,0.0,Cloudy
+2023-08-11,Cardiff,12.2,88.4,0.0,Rainy
+2023-08-12,Cardiff,16.6,75.5,0.0,Sunny
+2023-08-13,Cardiff,11.5,93.3,0.0,Foggy
+2023-08-14,Cardiff,11.9,81.4,0.2,Foggy
+2023-08-15,Cardiff,5.0,80.3,0.0,Sunny
+2023-08-16,Cardiff,8.2,68.5,2.0,Overcast
+2023-08-17,Cardiff,13.0,92.0,9.6,Rainy
+2023-08-18,Cardiff,3.9,92.1,0.9,Foggy
+2023-08-19,Cardiff,8.2,64.1,1.4,Sunny
+2023-08-20,Cardiff,10.2,64.6,5.6,Rainy
+2023-08-21,Cardiff,14.8,70.9,0.0,Rainy
+2023-08-22,Cardiff,6.5,90.3,3.3,Cloudy
+2023-08-23,Cardiff,14.2,77.2,7.3,Snowy
+2023-08-24,Cardiff,9.3,67.6,1.4,Snowy
+2023-08-25,Cardiff,9.8,78.5,12.0,Heavy Rain
+2023-08-26,Cardiff,14.5,84.1,5.7,Rainy
+2023-08-27,Cardiff,16.4,90.2,0.0,Overcast
+2023-08-28,Cardiff,9.3,94.9,0.0,Foggy
+2023-08-29,Cardiff,12.6,61.9,4.6,Snowy
+2023-08-30,Cardiff,13.3,64.5,10.9,Snowy
+2023-08-31,Cardiff,9.1,64.1,0.0,Cloudy
+2023-09-01,Cardiff,8.4,78.5,0.0,Snowy
+2023-09-02,Cardiff,4.3,63.7,0.0,Overcast
+2023-09-03,Cardiff,-0.2,63.7,0.0,Overcast
+2023-09-04,Cardiff,8.0,70.9,6.3,Snowy
+2023-09-05,Cardiff,11.2,72.9,3.4,Sunny
+2023-09-06,Cardiff,9.3,91.9,0.0,Cloudy
+2023-09-07,Cardiff,4.0,68.7,0.0,Overcast
+2023-09-08,Cardiff,-2.9,67.3,0.0,Cloudy
+2023-09-09,Cardiff,4.1,90.1,0.0,Foggy
+2023-09-10,Cardiff,3.6,61.0,0.0,Overcast
+2023-09-11,Cardiff,5.2,60.2,0.0,Foggy
+2023-09-12,Cardiff,5.2,91.0,5.8,Snowy
+2023-09-13,Cardiff,7.6,80.3,4.2,Snowy
+2023-09-14,Cardiff,6.8,77.0,0.0,Overcast
+2023-09-15,Cardiff,6.0,76.6,4.6,Sunny
+2023-09-16,Cardiff,12.9,64.2,2.4,Rainy
+2023-09-17,Cardiff,1.3,60.4,0.0,Cloudy
+2023-09-18,Cardiff,6.3,77.6,0.8,Rainy
+2023-09-19,Cardiff,5.4,74.6,0.0,Rainy
+2023-09-20,Cardiff,1.5,84.2,0.0,Cloudy
+2023-09-21,Cardiff,4.9,90.8,0.0,Foggy
+2023-09-22,Cardiff,4.1,82.4,7.5,Rainy
+2023-09-23,Cardiff,4.5,73.2,0.0,Cloudy
+2023-09-24,Cardiff,5.6,61.8,0.0,Rainy
+2023-09-25,Cardiff,6.9,66.5,0.0,Rainy
+2023-09-26,Cardiff,9.5,82.7,0.0,Overcast
+2023-09-27,Cardiff,4.7,67.2,3.4,Snowy
+2023-09-28,Cardiff,3.8,66.1,3.1,Overcast
+2023-09-29,Cardiff,7.1,76.7,0.0,Rainy
+2023-09-30,Cardiff,5.0,60.7,0.0,Cloudy
+2023-10-01,Cardiff,2.3,73.0,0.0,Foggy
+2023-10-02,Cardiff,5.0,69.6,0.0,Rainy
+2023-10-03,Cardiff,5.9,88.3,4.6,Foggy
+2023-10-04,Cardiff,-1.0,84.6,1.4,Snowy
+2023-10-05,Cardiff,-5.1,61.2,0.0,Snowy
+2023-10-06,Cardiff,1.3,74.0,4.2,Overcast
+2023-10-07,Cardiff,-2.2,62.0,1.0,Snowy
+2023-10-08,Cardiff,-0.1,79.5,3.1,Sunny
+2023-10-09,Cardiff,2.2,62.1,0.3,Sunny
+2023-10-10,Cardiff,-5.5,64.8,0.0,Overcast
+2023-10-11,Cardiff,1.7,69.4,3.8,Rainy
+2023-10-12,Cardiff,-2.6,74.4,0.0,Sunny
+2023-10-13,Cardiff,-0.2,71.5,4.7,Rainy
+2023-10-14,Cardiff,-0.9,94.3,2.8,Foggy
+2023-10-15,Cardiff,0.4,62.7,0.0,Rainy
+2023-10-16,Cardiff,-5.3,81.4,3.9,Foggy
+2023-10-17,Cardiff,-0.8,72.5,4.9,Rainy
+2023-10-18,Cardiff,-1.2,72.2,0.4,Snowy
+2023-10-19,Cardiff,0.4,61.4,3.6,Overcast
+2023-10-20,Cardiff,-3.0,65.0,8.5,Snowy
+2023-10-21,Cardiff,-1.4,77.4,3.3,Cloudy
+2023-10-22,Cardiff,-0.5,76.4,4.5,Foggy
+2023-10-23,Cardiff,-2.0,69.9,12.4,Heavy Rain
+2023-10-24,Cardiff,-1.3,76.6,6.9,Rainy
+2023-10-25,Cardiff,1.2,85.1,11.6,Snowy
+2023-10-26,Cardiff,3.0,92.5,0.0,Cloudy
+2023-10-27,Cardiff,4.7,71.1,2.6,Snowy
+2023-10-28,Cardiff,0.3,63.8,0.9,Cloudy
+2023-10-29,Cardiff,-0.5,88.6,0.0,Overcast
+2023-10-30,Cardiff,-0.4,85.1,2.6,Cloudy
+2023-10-31,Cardiff,0.2,92.1,0.0,Overcast
+2023-11-01,Cardiff,-8.1,87.6,3.2,Foggy
+2023-11-02,Cardiff,-0.1,87.5,0.0,Sunny
+2023-11-03,Cardiff,-5.3,64.4,0.0,Sunny
+2023-11-04,Cardiff,-4.0,73.6,11.5,Snowy
+2023-11-05,Cardiff,-6.3,85.1,6.1,Snowy
+2023-11-06,Cardiff,-6.2,80.0,0.0,Foggy
+2023-11-07,Cardiff,1.8,75.6,0.0,Overcast
+2023-11-08,Cardiff,-4.9,81.3,0.9,Overcast
+2023-11-09,Cardiff,-1.5,82.9,4.3,Rainy
+2023-11-10,Cardiff,-2.4,87.1,0.0,Sunny
+2023-11-11,Cardiff,-2.2,81.4,7.5,Rainy
+2023-11-12,Cardiff,-10.1,72.4,3.1,Snowy
+2023-11-13,Cardiff,-2.3,83.1,0.0,Foggy
+2023-11-14,Cardiff,-11.5,62.3,0.0,Rainy
+2023-11-15,Cardiff,-8.0,80.8,0.8,Snowy
+2023-11-16,Cardiff,-4.6,86.2,0.0,Overcast
+2023-11-17,Cardiff,1.5,84.1,0.0,Cloudy
+2023-11-18,Cardiff,5.2,86.5,0.0,Snowy
+2023-11-19,Cardiff,0.2,80.4,7.6,Rainy
+2023-11-20,Cardiff,-6.2,61.4,3.7,Snowy
+2023-11-21,Cardiff,-2.7,73.7,0.0,Snowy
+2023-11-22,Cardiff,-0.7,79.8,0.5,Snowy
+2023-11-23,Cardiff,-11.3,73.9,5.4,Heavy Rain
+2023-11-24,Cardiff,-4.5,76.7,6.3,Heavy Rain
+2023-11-25,Cardiff,-1.6,92.1,0.0,Cloudy
+2023-11-26,Cardiff,-2.4,80.0,1.0,Sunny
+2023-11-27,Cardiff,-7.8,68.5,5.6,Rainy
+2023-11-28,Cardiff,-7.0,70.8,0.0,Sunny
+2023-11-29,Cardiff,-2.2,73.6,0.0,Sunny
+2023-11-30,Cardiff,-6.8,60.8,0.0,Cloudy
+2023-12-01,Cardiff,-5.8,73.1,5.6,Snowy
+2023-12-02,Cardiff,-2.8,89.6,0.0,Overcast
+2023-12-03,Cardiff,-6.5,74.6,3.9,Snowy
+2023-12-04,Cardiff,-3.2,80.1,11.6,Heavy Rain
+2023-12-05,Cardiff,-7.2,87.2,5.4,Heavy Rain
+2023-12-06,Cardiff,-1.8,81.9,4.9,Sunny
+2023-12-07,Cardiff,-9.0,80.6,0.0,Snowy
+2023-12-08,Cardiff,-11.0,67.4,0.0,Sunny
+2023-12-09,Cardiff,-0.4,83.7,4.3,Cloudy
+2023-12-10,Cardiff,-6.2,66.2,0.0,Overcast
+2023-12-11,Cardiff,-9.4,62.5,0.0,Rainy
+2023-12-12,Cardiff,-7.0,93.0,8.3,Heavy Rain
+2023-12-13,Cardiff,-7.6,71.2,7.4,Rainy
+2023-12-14,Cardiff,-8.3,67.2,10.9,Rainy
+2023-12-15,Cardiff,-3.4,92.4,0.0,Foggy
+2023-12-16,Cardiff,-5.7,72.4,9.7,Rainy
+2023-12-17,Cardiff,-6.9,66.0,0.0,Sunny
+2023-12-18,Cardiff,-5.8,69.4,0.0,Overcast
+2023-12-19,Cardiff,-2.9,78.4,13.0,Snowy
+2023-12-20,Cardiff,-5.8,84.5,0.9,Snowy
+2023-12-21,Cardiff,-7.6,94.5,4.8,Foggy
+2023-12-22,Cardiff,-3.5,71.4,7.1,Snowy
+2023-12-23,Cardiff,-7.9,89.5,1.6,Snowy
+2023-12-24,Cardiff,-3.9,92.0,3.3,Overcast
+2023-12-25,Cardiff,-6.6,73.5,0.0,Cloudy
+2023-12-26,Cardiff,-11.7,69.3,4.7,Rainy
+2023-12-27,Cardiff,-10.0,65.7,0.0,Overcast
+2023-12-28,Cardiff,-0.4,63.4,1.0,Cloudy
+2023-12-29,Cardiff,-5.4,82.5,1.0,Snowy
+2023-12-30,Cardiff,-1.0,71.4,0.0,Foggy
+2023-12-31,Cardiff,-6.8,80.7,0.0,Snowy
+2023-01-01,Belfast,-5.1,76.0,3.2,Rainy
+2023-01-02,Belfast,-5.3,75.5,0.0,Cloudy
+2023-01-03,Belfast,-0.5,91.6,9.7,Snowy
+2023-01-04,Belfast,-1.9,94.9,1.3,Overcast
+2023-01-05,Belfast,-2.7,92.7,2.0,Foggy
+2023-01-06,Belfast,-5.4,80.5,0.0,Overcast
+2023-01-07,Belfast,-1.4,73.2,9.7,Heavy Rain
+2023-01-08,Belfast,-5.9,92.3,1.0,Overcast
+2023-01-09,Belfast,-5.0,61.2,0.0,Sunny
+2023-01-10,Belfast,-1.3,93.1,10.4,Rainy
+2023-01-11,Belfast,-5.4,87.7,1.6,Overcast
+2023-01-12,Belfast,-5.2,61.5,4.7,Foggy
+2023-01-13,Belfast,-0.5,67.4,7.4,Rainy
+2023-01-14,Belfast,-0.2,77.9,4.4,Overcast
+2023-01-15,Belfast,-5.0,79.7,3.7,Snowy
+2023-01-16,Belfast,-4.4,83.6,10.5,Rainy
+2023-01-17,Belfast,-11.2,73.4,1.1,Sunny
+2023-01-18,Belfast,-2.9,81.8,0.0,Sunny
+2023-01-19,Belfast,-7.1,69.4,9.1,Rainy
+2023-01-20,Belfast,-2.4,60.3,1.4,Foggy
+2023-01-21,Belfast,-0.3,67.4,7.6,Rainy
+2023-01-22,Belfast,-4.3,83.3,0.0,Overcast
+2023-01-23,Belfast,-5.7,85.1,7.3,Snowy
+2023-01-24,Belfast,-1.6,90.7,0.0,Foggy
+2023-01-25,Belfast,1.5,63.1,11.5,Heavy Rain
+2023-01-26,Belfast,-8.0,86.3,0.0,Overcast
+2023-01-27,Belfast,-5.1,86.7,6.2,Rainy
+2023-01-28,Belfast,-4.6,63.1,0.0,Sunny
+2023-01-29,Belfast,-2.6,77.2,8.8,Rainy
+2023-01-30,Belfast,-7.2,60.4,3.0,Cloudy
+2023-01-31,Belfast,-3.8,71.7,0.0,Cloudy
+2023-02-01,Belfast,-1.6,68.7,3.9,Cloudy
+2023-02-02,Belfast,-2.0,91.8,2.8,Foggy
+2023-02-03,Belfast,0.9,60.7,0.0,Snowy
+2023-02-04,Belfast,4.3,82.8,8.4,Heavy Rain
+2023-02-05,Belfast,-0.2,60.4,0.0,Overcast
+2023-02-06,Belfast,-3.4,69.7,6.1,Heavy Rain
+2023-02-07,Belfast,1.8,90.6,9.6,Rainy
+2023-02-08,Belfast,2.3,65.6,12.3,Rainy
+2023-02-09,Belfast,5.1,91.4,2.8,Cloudy
+2023-02-10,Belfast,-2.6,77.4,4.6,Snowy
+2023-02-11,Belfast,-6.0,94.9,0.0,Overcast
+2023-02-12,Belfast,-0.6,88.7,4.6,Cloudy
+2023-02-13,Belfast,-1.5,92.9,8.2,Snowy
+2023-02-14,Belfast,5.6,75.5,8.8,Heavy Rain
+2023-02-15,Belfast,-4.8,63.5,0.4,Sunny
+2023-02-16,Belfast,-1.2,90.1,7.2,Heavy Rain
+2023-02-17,Belfast,0.3,78.4,2.2,Sunny
+2023-02-18,Belfast,1.6,76.5,3.7,Cloudy
+2023-02-19,Belfast,2.3,72.7,0.0,Overcast
+2023-02-20,Belfast,-11.1,87.3,0.0,Snowy
+2023-02-21,Belfast,2.1,92.6,1.4,Cloudy
+2023-02-22,Belfast,-6.0,67.5,2.0,Rainy
+2023-02-23,Belfast,1.3,90.3,5.3,Heavy Rain
+2023-02-24,Belfast,5.8,75.3,3.1,Overcast
+2023-02-25,Belfast,2.0,65.5,7.4,Heavy Rain
+2023-02-26,Belfast,0.3,70.2,0.0,Cloudy
+2023-02-27,Belfast,6.8,87.6,8.2,Heavy Rain
+2023-02-28,Belfast,0.1,71.2,0.0,Snowy
+2023-03-01,Belfast,4.0,74.2,0.7,Rainy
+2023-03-02,Belfast,7.2,66.8,0.0,Overcast
+2023-03-03,Belfast,6.3,81.5,0.0,Rainy
+2023-03-04,Belfast,4.8,94.4,8.3,Snowy
+2023-03-05,Belfast,3.1,92.7,3.0,Overcast
+2023-03-06,Belfast,8.5,68.6,4.7,Rainy
+2023-03-07,Belfast,6.5,87.5,2.0,Foggy
+2023-03-08,Belfast,6.0,89.6,0.0,Overcast
+2023-03-09,Belfast,6.5,64.9,0.0,Foggy
+2023-03-10,Belfast,3.0,77.3,0.0,Overcast
+2023-03-11,Belfast,5.3,68.0,9.6,Rainy
+2023-03-12,Belfast,4.4,85.4,0.0,Sunny
+2023-03-13,Belfast,0.4,63.3,3.4,Sunny
+2023-03-14,Belfast,10.6,76.6,0.0,Rainy
+2023-03-15,Belfast,7.8,83.8,0.0,Foggy
+2023-03-16,Belfast,1.3,94.8,0.0,Foggy
+2023-03-17,Belfast,7.0,94.8,0.0,Foggy
+2023-03-18,Belfast,7.5,92.1,5.5,Heavy Rain
+2023-03-19,Belfast,6.4,83.7,0.0,Snowy
+2023-03-20,Belfast,5.6,93.7,1.9,Overcast
+2023-03-21,Belfast,8.0,83.9,7.9,Snowy
+2023-03-22,Belfast,7.4,73.3,0.0,Cloudy
+2023-03-23,Belfast,8.9,68.7,0.0,Foggy
+2023-03-24,Belfast,9.9,73.9,3.8,Snowy
+2023-03-25,Belfast,2.9,72.3,0.0,Sunny
+2023-03-26,Belfast,7.4,84.6,0.5,Sunny
+2023-03-27,Belfast,9.4,89.2,0.0,Overcast
+2023-03-28,Belfast,4.7,72.2,1.1,Cloudy
+2023-03-29,Belfast,0.0,89.4,4.6,Snowy
+2023-03-30,Belfast,0.1,79.2,0.0,Rainy
+2023-03-31,Belfast,6.1,84.3,0.0,Foggy
+2023-04-01,Belfast,8.3,85.7,5.6,Heavy Rain
+2023-04-02,Belfast,9.1,84.7,0.0,Rainy
+2023-04-03,Belfast,7.1,72.7,3.4,Cloudy
+2023-04-04,Belfast,8.3,81.9,7.3,Snowy
+2023-04-05,Belfast,8.9,86.6,2.7,Overcast
+2023-04-06,Belfast,9.6,88.3,0.0,Overcast
+2023-04-07,Belfast,9.9,77.2,3.0,Overcast
+2023-04-08,Belfast,11.3,85.5,0.1,Foggy
+2023-04-09,Belfast,8.4,72.0,2.4,Sunny
+2023-04-10,Belfast,8.5,65.6,2.8,Sunny
+2023-04-11,Belfast,14.2,87.5,3.1,Snowy
+2023-04-12,Belfast,5.8,78.0,0.0,Sunny
+2023-04-13,Belfast,7.3,74.3,4.6,Overcast
+2023-04-14,Belfast,5.8,75.7,1.9,Sunny
+2023-04-15,Belfast,12.2,73.2,0.4,Snowy
+2023-04-16,Belfast,10.8,69.9,0.5,Foggy
+2023-04-17,Belfast,5.3,75.7,1.4,Snowy
+2023-04-18,Belfast,8.1,88.6,9.1,Snowy
+2023-04-19,Belfast,13.9,88.3,7.0,Rainy
+2023-04-20,Belfast,14.4,87.0,0.0,Cloudy
+2023-04-21,Belfast,12.0,73.3,0.0,Snowy
+2023-04-22,Belfast,18.4,90.0,0.0,Partly Cloudy
+2023-04-23,Belfast,12.2,85.9,4.4,Cloudy
+2023-04-24,Belfast,8.2,77.0,8.6,Rainy
+2023-04-25,Belfast,10.7,78.4,2.0,Sunny
+2023-04-26,Belfast,6.7,87.0,0.0,Rainy
+2023-04-27,Belfast,9.8,78.5,8.1,Snowy
+2023-04-28,Belfast,7.0,63.0,3.9,Rainy
+2023-04-29,Belfast,7.1,91.6,2.0,Foggy
+2023-04-30,Belfast,14.9,67.7,0.0,Snowy
+2023-05-01,Belfast,14.3,68.3,1.9,Overcast
+2023-05-02,Belfast,14.3,65.8,5.7,Heavy Rain
+2023-05-03,Belfast,14.8,60.9,0.0,Snowy
+2023-05-04,Belfast,12.9,88.6,4.9,Foggy
+2023-05-05,Belfast,12.0,80.7,10.2,Heavy Rain
+2023-05-06,Belfast,10.3,88.4,0.0,Foggy
+2023-05-07,Belfast,15.9,61.4,0.0,Partly Cloudy
+2023-05-08,Belfast,11.6,63.9,0.0,Sunny
+2023-05-09,Belfast,14.6,84.7,6.5,Heavy Rain
+2023-05-10,Belfast,14.6,94.2,4.7,Foggy
+2023-05-11,Belfast,12.6,67.4,0.0,Sunny
+2023-05-12,Belfast,11.8,63.9,7.8,Snowy
+2023-05-13,Belfast,11.7,86.6,6.0,Heavy Rain
+2023-05-14,Belfast,10.3,78.4,0.0,Overcast
+2023-05-15,Belfast,14.5,89.9,0.0,Sunny
+2023-05-16,Belfast,14.7,82.0,6.5,Snowy
+2023-05-17,Belfast,14.0,85.3,0.0,Sunny
+2023-05-18,Belfast,11.2,91.6,3.4,Overcast
+2023-05-19,Belfast,14.1,92.1,8.9,Snowy
+2023-05-20,Belfast,9.7,93.9,5.4,Heavy Rain
+2023-05-21,Belfast,16.7,81.4,0.0,Partly Cloudy
+2023-05-22,Belfast,20.3,61.0,0.0,Partly Cloudy
+2023-05-23,Belfast,18.8,61.8,2.9,Foggy
+2023-05-24,Belfast,11.1,74.9,1.6,Rainy
+2023-05-25,Belfast,10.6,61.2,5.6,Rainy
+2023-05-26,Belfast,13.7,81.1,5.3,Heavy Rain
+2023-05-27,Belfast,13.1,90.4,4.9,Foggy
+2023-05-28,Belfast,7.2,84.6,14.4,Snowy
+2023-05-29,Belfast,12.9,82.5,7.7,Rainy
+2023-05-30,Belfast,10.3,91.9,0.0,Cloudy
+2023-05-31,Belfast,17.4,74.1,0.0,Partly Cloudy
+2023-06-01,Belfast,16.1,83.6,6.7,Heavy Rain
+2023-06-02,Belfast,9.6,83.1,3.6,Cloudy
+2023-06-03,Belfast,12.4,64.1,6.8,Rainy
+2023-06-04,Belfast,13.2,79.0,0.0,Overcast
+2023-06-05,Belfast,15.3,88.0,0.0,Sunny
+2023-06-06,Belfast,18.2,86.4,0.0,Partly Cloudy
+2023-06-07,Belfast,17.1,71.6,9.6,Rainy
+2023-06-08,Belfast,16.3,94.2,7.9,Snowy
+2023-06-09,Belfast,18.1,72.3,4.1,Rainy
+2023-06-10,Belfast,12.8,81.6,6.2,Snowy
+2023-06-11,Belfast,12.7,89.6,4.5,Sunny
+2023-06-12,Belfast,17.6,65.3,1.3,Cloudy
+2023-06-13,Belfast,15.9,67.5,6.4,Snowy
+2023-06-14,Belfast,13.9,83.4,1.9,Overcast
+2023-06-15,Belfast,15.2,68.0,0.0,Partly Cloudy
+2023-06-16,Belfast,14.1,63.4,1.7,Foggy
+2023-06-17,Belfast,16.4,92.3,6.8,Rainy
+2023-06-18,Belfast,19.2,82.9,6.3,Heavy Rain
+2023-06-19,Belfast,12.0,69.9,8.2,Rainy
+2023-06-20,Belfast,15.8,73.4,0.0,Partly Cloudy
+2023-06-21,Belfast,15.8,80.3,0.5,Rainy
+2023-06-22,Belfast,15.1,75.0,2.9,Foggy
+2023-06-23,Belfast,15.7,84.2,6.5,Heavy Rain
+2023-06-24,Belfast,12.5,63.6,1.1,Overcast
+2023-06-25,Belfast,14.3,83.9,7.1,Snowy
+2023-06-26,Belfast,11.0,92.6,0.0,Cloudy
+2023-06-27,Belfast,15.4,67.2,0.0,Sunny
+2023-06-28,Belfast,16.4,74.7,0.0,Sunny
+2023-06-29,Belfast,14.2,65.9,0.6,Rainy
+2023-06-30,Belfast,19.2,62.6,0.0,Sunny
+2023-07-01,Belfast,13.2,86.3,0.0,Snowy
+2023-07-02,Belfast,16.7,94.3,0.0,Cloudy
+2023-07-03,Belfast,14.2,64.6,0.6,Overcast
+2023-07-04,Belfast,17.5,87.9,0.0,Partly Cloudy
+2023-07-05,Belfast,8.9,90.6,4.8,Cloudy
+2023-07-06,Belfast,10.1,94.8,5.4,Heavy Rain
+2023-07-07,Belfast,13.1,62.4,2.4,Cloudy
+2023-07-08,Belfast,17.1,73.0,2.8,Foggy
+2023-07-09,Belfast,14.9,89.5,6.7,Rainy
+2023-07-10,Belfast,13.0,91.6,7.3,Heavy Rain
+2023-07-11,Belfast,12.3,82.6,4.0,Snowy
+2023-07-12,Belfast,12.0,68.0,0.0,Overcast
+2023-07-13,Belfast,10.0,77.3,4.6,Foggy
+2023-07-14,Belfast,13.8,65.6,0.0,Snowy
+2023-07-15,Belfast,14.7,60.9,0.0,Foggy
+2023-07-16,Belfast,11.9,71.3,0.0,Cloudy
+2023-07-17,Belfast,15.7,91.4,3.4,Foggy
+2023-07-18,Belfast,20.0,83.0,2.8,Foggy
+2023-07-19,Belfast,8.4,81.6,3.3,Cloudy
+2023-07-20,Belfast,15.8,60.7,6.8,Heavy Rain
+2023-07-21,Belfast,14.0,84.8,0.5,Foggy
+2023-07-22,Belfast,18.9,94.1,5.1,Rainy
+2023-07-23,Belfast,11.2,69.5,8.4,Rainy
+2023-07-24,Belfast,12.1,78.5,2.1,Cloudy
+2023-07-25,Belfast,11.3,91.1,0.0,Foggy
+2023-07-26,Belfast,10.5,87.2,0.0,Snowy
+2023-07-27,Belfast,13.0,87.4,4.6,Overcast
+2023-07-28,Belfast,16.2,81.7,5.7,Snowy
+2023-07-29,Belfast,16.1,84.0,6.4,Heavy Rain
+2023-07-30,Belfast,14.8,64.4,0.0,Overcast
+2023-07-31,Belfast,17.8,67.7,7.0,Rainy
+2023-08-01,Belfast,16.3,63.1,0.0,Partly Cloudy
+2023-08-02,Belfast,9.9,78.0,0.0,Rainy
+2023-08-03,Belfast,12.5,92.3,3.0,Cloudy
+2023-08-04,Belfast,14.7,77.4,3.6,Snowy
+2023-08-05,Belfast,8.1,68.9,10.8,Rainy
+2023-08-06,Belfast,9.7,94.2,7.2,Snowy
+2023-08-07,Belfast,7.6,93.2,9.0,Rainy
+2023-08-08,Belfast,7.0,62.7,0.0,Cloudy
+2023-08-09,Belfast,10.7,67.4,3.0,Overcast
+2023-08-10,Belfast,8.9,85.3,2.1,Sunny
+2023-08-11,Belfast,9.5,67.8,7.8,Rainy
+2023-08-12,Belfast,10.4,87.5,8.5,Heavy Rain
+2023-08-13,Belfast,9.5,82.8,0.0,Overcast
+2023-08-14,Belfast,12.4,93.3,0.0,Overcast
+2023-08-15,Belfast,8.1,85.7,2.2,Cloudy
+2023-08-16,Belfast,6.8,73.2,0.0,Sunny
+2023-08-17,Belfast,13.9,90.2,0.0,Cloudy
+2023-08-18,Belfast,12.2,82.1,3.5,Sunny
+2023-08-19,Belfast,13.3,80.1,3.9,Sunny
+2023-08-20,Belfast,8.4,77.0,1.6,Sunny
+2023-08-21,Belfast,10.9,71.1,0.0,Snowy
+2023-08-22,Belfast,9.7,65.6,0.0,Rainy
+2023-08-23,Belfast,9.4,72.9,0.0,Rainy
+2023-08-24,Belfast,4.7,89.0,3.2,Sunny
+2023-08-25,Belfast,14.7,75.8,0.0,Snowy
+2023-08-26,Belfast,11.9,88.1,0.0,Rainy
+2023-08-27,Belfast,13.4,78.7,0.0,Foggy
+2023-08-28,Belfast,14.6,74.9,3.7,Cloudy
+2023-08-29,Belfast,10.2,83.5,3.1,Snowy
+2023-08-30,Belfast,13.0,67.3,3.1,Sunny
+2023-08-31,Belfast,10.0,80.4,3.3,Snowy
+2023-09-01,Belfast,7.4,76.6,3.4,Cloudy
+2023-09-02,Belfast,1.6,67.8,3.2,Sunny
+2023-09-03,Belfast,6.1,75.8,6.1,Rainy
+2023-09-04,Belfast,6.7,63.5,3.5,Rainy
+2023-09-05,Belfast,2.3,82.0,2.1,Snowy
+2023-09-06,Belfast,4.8,78.4,6.7,Snowy
+2023-09-07,Belfast,7.0,70.4,2.9,Cloudy
+2023-09-08,Belfast,4.3,76.2,3.0,Foggy
+2023-09-09,Belfast,7.9,87.3,7.6,Rainy
+2023-09-10,Belfast,1.0,64.0,0.0,Snowy
+2023-09-11,Belfast,5.4,66.2,0.0,Cloudy
+2023-09-12,Belfast,4.8,88.1,9.8,Rainy
+2023-09-13,Belfast,6.9,83.8,5.7,Snowy
+2023-09-14,Belfast,8.1,90.5,0.0,Foggy
+2023-09-15,Belfast,2.6,75.4,0.4,Overcast
+2023-09-16,Belfast,2.0,78.1,5.5,Snowy
+2023-09-17,Belfast,7.1,78.1,6.0,Heavy Rain
+2023-09-18,Belfast,2.0,83.4,0.0,Cloudy
+2023-09-19,Belfast,3.6,65.3,0.0,Overcast
+2023-09-20,Belfast,1.6,72.3,17.8,Rainy
+2023-09-21,Belfast,4.3,81.6,0.0,Overcast
+2023-09-22,Belfast,11.9,76.8,1.3,Cloudy
+2023-09-23,Belfast,2.9,90.9,5.1,Rainy
+2023-09-24,Belfast,7.4,60.2,9.1,Heavy Rain
+2023-09-25,Belfast,1.0,64.5,0.0,Rainy
+2023-09-26,Belfast,5.8,71.9,0.0,Snowy
+2023-09-27,Belfast,-0.3,67.3,11.4,Rainy
+2023-09-28,Belfast,3.8,74.2,0.0,Overcast
+2023-09-29,Belfast,3.1,80.9,2.6,Cloudy
+2023-09-30,Belfast,1.9,76.2,1.7,Overcast
+2023-10-01,Belfast,-4.8,93.5,5.9,Snowy
+2023-10-02,Belfast,0.1,80.4,0.0,Cloudy
+2023-10-03,Belfast,2.7,76.9,2.3,Rainy
+2023-10-04,Belfast,-3.2,74.8,5.3,Rainy
+2023-10-05,Belfast,2.6,90.1,3.3,Foggy
+2023-10-06,Belfast,-1.5,91.6,2.9,Cloudy
+2023-10-07,Belfast,3.5,77.2,0.0,Rainy
+2023-10-08,Belfast,5.4,68.9,9.5,Rainy
+2023-10-09,Belfast,4.2,81.8,0.4,Sunny
+2023-10-10,Belfast,-8.4,81.4,0.0,Cloudy
+2023-10-11,Belfast,-1.4,75.0,4.1,Sunny
+2023-10-12,Belfast,-2.3,63.8,5.4,Rainy
+2023-10-13,Belfast,1.7,84.9,8.9,Rainy
+2023-10-14,Belfast,-6.5,83.0,2.9,Foggy
+2023-10-15,Belfast,1.6,77.1,11.7,Snowy
+2023-10-16,Belfast,-1.3,60.0,6.6,Snowy
+2023-10-17,Belfast,0.7,69.4,2.8,Overcast
+2023-10-18,Belfast,-4.7,70.7,5.8,Snowy
+2023-10-19,Belfast,-5.7,91.9,6.8,Rainy
+2023-10-20,Belfast,-1.9,92.5,0.0,Overcast
+2023-10-21,Belfast,0.6,69.6,3.6,Rainy
+2023-10-22,Belfast,3.2,81.7,0.0,Snowy
+2023-10-23,Belfast,-1.1,70.5,5.5,Heavy Rain
+2023-10-24,Belfast,0.9,77.9,9.7,Rainy
+2023-10-25,Belfast,-3.8,61.8,0.4,Cloudy
+2023-10-26,Belfast,-1.2,78.8,4.4,Cloudy
+2023-10-27,Belfast,-0.3,87.9,0.0,Foggy
+2023-10-28,Belfast,2.2,87.8,4.3,Snowy
+2023-10-29,Belfast,6.0,84.8,5.3,Rainy
+2023-10-30,Belfast,6.9,81.5,0.0,Overcast
+2023-10-31,Belfast,-2.0,87.9,0.0,Cloudy
+2023-11-01,Belfast,-2.6,73.9,5.1,Snowy
+2023-11-02,Belfast,-3.3,68.0,0.0,Sunny
+2023-11-03,Belfast,-6.9,90.9,3.8,Overcast
+2023-11-04,Belfast,-1.7,94.9,5.4,Heavy Rain
+2023-11-05,Belfast,-3.2,67.1,0.0,Cloudy
+2023-11-06,Belfast,-1.6,72.4,8.0,Rainy
+2023-11-07,Belfast,-4.3,94.2,6.5,Heavy Rain
+2023-11-08,Belfast,-2.0,82.8,0.0,Cloudy
+2023-11-09,Belfast,-0.5,85.3,11.0,Snowy
+2023-11-10,Belfast,-2.4,61.9,14.8,Heavy Rain
+2023-11-11,Belfast,-3.4,85.4,1.8,Sunny
+2023-11-12,Belfast,-3.4,89.5,4.6,Rainy
+2023-11-13,Belfast,-8.1,66.3,5.0,Cloudy
+2023-11-14,Belfast,-4.8,74.1,5.3,Heavy Rain
+2023-11-15,Belfast,-1.4,94.1,8.5,Heavy Rain
+2023-11-16,Belfast,-3.4,67.0,0.0,Sunny
+2023-11-17,Belfast,2.8,84.8,5.3,Snowy
+2023-11-18,Belfast,1.4,75.9,8.8,Snowy
+2023-11-19,Belfast,-1.1,79.1,2.8,Sunny
+2023-11-20,Belfast,-3.0,60.7,0.0,Overcast
+2023-11-21,Belfast,-1.5,88.9,3.4,Cloudy
+2023-11-22,Belfast,-1.6,62.6,0.0,Foggy
+2023-11-23,Belfast,-2.7,94.1,7.7,Heavy Rain
+2023-11-24,Belfast,-1.9,87.0,4.7,Foggy
+2023-11-25,Belfast,-9.5,65.6,2.7,Snowy
+2023-11-26,Belfast,2.2,93.9,1.4,Overcast
+2023-11-27,Belfast,-3.7,67.8,0.0,Foggy
+2023-11-28,Belfast,-5.6,78.3,7.6,Heavy Rain
+2023-11-29,Belfast,-1.3,81.0,0.0,Sunny
+2023-11-30,Belfast,-1.4,78.5,0.4,Snowy
+2023-12-01,Belfast,-9.5,67.5,3.3,Foggy
+2023-12-02,Belfast,-2.3,62.4,0.0,Rainy
+2023-12-03,Belfast,-7.7,63.2,9.8,Rainy
+2023-12-04,Belfast,-7.7,65.3,1.6,Cloudy
+2023-12-05,Belfast,-3.9,65.8,3.2,Snowy
+2023-12-06,Belfast,-1.0,71.8,1.0,Cloudy
+2023-12-07,Belfast,-2.1,89.9,0.4,Overcast
+2023-12-08,Belfast,-6.9,71.8,2.3,Overcast
+2023-12-09,Belfast,-3.8,85.1,6.1,Rainy
+2023-12-10,Belfast,-3.8,83.6,3.5,Cloudy
+2023-12-11,Belfast,0.8,60.2,5.4,Heavy Rain
+2023-12-12,Belfast,3.2,80.4,0.0,Rainy
+2023-12-13,Belfast,-7.5,80.8,10.7,Rainy
+2023-12-14,Belfast,-2.5,86.1,0.0,Overcast
+2023-12-15,Belfast,-6.4,87.5,4.1,Rainy
+2023-12-16,Belfast,-8.4,70.0,1.4,Sunny
+2023-12-17,Belfast,-7.8,91.3,0.0,Overcast
+2023-12-18,Belfast,-5.0,91.0,6.1,Heavy Rain
+2023-12-19,Belfast,-5.5,81.2,0.0,Foggy
+2023-12-20,Belfast,-6.4,60.1,5.1,Snowy
+2023-12-21,Belfast,-2.8,75.5,16.9,Snowy
+2023-12-22,Belfast,-3.8,62.7,0.0,Sunny
+2023-12-23,Belfast,-7.6,80.0,0.5,Overcast
+2023-12-24,Belfast,-9.5,78.2,8.8,Snowy
+2023-12-25,Belfast,-4.4,89.4,1.5,Snowy
+2023-12-26,Belfast,-6.2,62.8,5.7,Heavy Rain
+2023-12-27,Belfast,-4.8,66.6,6.5,Snowy
+2023-12-28,Belfast,-7.4,90.1,1.5,Foggy
+2023-12-29,Belfast,-0.4,93.5,5.6,Snowy
+2023-12-30,Belfast,-2.9,85.2,9.4,Snowy
+2023-12-31,Belfast,-7.0,93.3,6.0,Heavy Rain
+2023-01-01,Birmingham,-4.9,88.4,0.0,Snowy
+2023-01-02,Birmingham,-0.4,70.0,12.5,Rainy
+2023-01-03,Birmingham,-6.4,73.6,2.7,Snowy
+2023-01-04,Birmingham,2.2,77.3,5.7,Heavy Rain
+2023-01-05,Birmingham,-3.7,72.8,0.0,Foggy
+2023-01-06,Birmingham,-11.0,63.3,1.8,Foggy
+2023-01-07,Birmingham,-7.4,89.0,1.5,Foggy
+2023-01-08,Birmingham,-5.7,66.0,11.8,Snowy
+2023-01-09,Birmingham,0.3,86.5,0.0,Snowy
+2023-01-10,Birmingham,-7.0,89.4,0.0,Overcast
+2023-01-11,Birmingham,0.6,71.1,5.9,Snowy
+2023-01-12,Birmingham,-3.7,89.3,3.5,Cloudy
+2023-01-13,Birmingham,-3.0,78.6,3.0,Sunny
+2023-01-14,Birmingham,-4.9,91.4,0.0,Overcast
+2023-01-15,Birmingham,-0.6,87.2,0.0,Foggy
+2023-01-16,Birmingham,1.3,92.1,3.5,Foggy
+2023-01-17,Birmingham,-4.0,79.9,9.7,Rainy
+2023-01-18,Birmingham,-10.7,84.5,4.8,Rainy
+2023-01-19,Birmingham,-6.2,62.5,1.6,Rainy
+2023-01-20,Birmingham,0.6,67.8,10.8,Rainy
+2023-01-21,Birmingham,-1.3,69.2,3.1,Cloudy
+2023-01-22,Birmingham,-3.6,79.1,0.0,Overcast
+2023-01-23,Birmingham,-4.5,82.4,0.0,Foggy
+2023-01-24,Birmingham,-5.4,93.5,0.0,Cloudy
+2023-01-25,Birmingham,-2.2,84.5,0.1,Overcast
+2023-01-26,Birmingham,-1.2,92.9,6.8,Rainy
+2023-01-27,Birmingham,-0.3,84.3,5.6,Snowy
+2023-01-28,Birmingham,-3.8,86.7,0.0,Overcast
+2023-01-29,Birmingham,-2.4,76.1,4.3,Foggy
+2023-01-30,Birmingham,-6.6,83.6,8.7,Snowy
+2023-01-31,Birmingham,-6.5,94.1,8.8,Rainy
+2023-02-01,Birmingham,2.6,75.7,0.1,Snowy
+2023-02-02,Birmingham,-2.8,63.7,0.0,Snowy
+2023-02-03,Birmingham,0.4,69.6,1.1,Foggy
+2023-02-04,Birmingham,1.2,64.9,5.1,Heavy Rain
+2023-02-05,Birmingham,-1.9,79.5,0.0,Foggy
+2023-02-06,Birmingham,1.2,83.6,0.0,Foggy
+2023-02-07,Birmingham,-2.0,64.0,0.0,Sunny
+2023-02-08,Birmingham,1.5,87.0,0.0,Cloudy
+2023-02-09,Birmingham,-0.2,85.3,8.1,Heavy Rain
+2023-02-10,Birmingham,-2.4,80.2,0.0,Snowy
+2023-02-11,Birmingham,1.7,85.0,2.3,Snowy
+2023-02-12,Birmingham,0.3,66.9,2.1,Sunny
+2023-02-13,Birmingham,0.5,66.6,8.7,Rainy
+2023-02-14,Birmingham,-4.6,73.6,0.0,Snowy
+2023-02-15,Birmingham,-2.6,80.1,0.0,Sunny
+2023-02-16,Birmingham,-3.2,79.5,4.8,Overcast
+2023-02-17,Birmingham,0.5,63.9,5.5,Snowy
+2023-02-18,Birmingham,1.9,84.7,8.7,Snowy
+2023-02-19,Birmingham,-0.8,73.3,0.0,Snowy
+2023-02-20,Birmingham,1.8,65.1,0.0,Foggy
+2023-02-21,Birmingham,-1.3,76.3,6.2,Heavy Rain
+2023-02-22,Birmingham,-1.5,94.7,0.0,Cloudy
+2023-02-23,Birmingham,-0.5,70.2,0.0,Overcast
+2023-02-24,Birmingham,3.3,90.6,1.3,Cloudy
+2023-02-25,Birmingham,6.4,71.4,6.1,Snowy
+2023-02-26,Birmingham,4.7,87.4,4.4,Snowy
+2023-02-27,Birmingham,-0.2,91.3,8.4,Heavy Rain
+2023-02-28,Birmingham,-3.1,87.5,5.7,Snowy
+2023-03-01,Birmingham,5.5,93.0,0.0,Foggy
+2023-03-02,Birmingham,3.8,93.4,0.7,Overcast
+2023-03-03,Birmingham,6.5,94.8,0.0,Cloudy
+2023-03-04,Birmingham,2.2,93.5,0.0,Overcast
+2023-03-05,Birmingham,5.9,92.8,9.1,Snowy
+2023-03-06,Birmingham,3.7,84.1,4.4,Snowy
+2023-03-07,Birmingham,7.3,62.3,4.0,Rainy
+2023-03-08,Birmingham,3.6,72.8,7.5,Snowy
+2023-03-09,Birmingham,2.4,71.2,11.2,Heavy Rain
+2023-03-10,Birmingham,3.8,85.6,0.0,Snowy
+2023-03-11,Birmingham,5.8,74.3,0.0,Foggy
+2023-03-12,Birmingham,1.4,83.2,2.2,Rainy
+2023-03-13,Birmingham,3.5,92.3,0.7,Foggy
+2023-03-14,Birmingham,8.4,64.9,11.1,Rainy
+2023-03-15,Birmingham,2.9,90.9,0.3,Overcast
+2023-03-16,Birmingham,4.1,77.4,2.5,Overcast
+2023-03-17,Birmingham,6.5,82.5,1.9,Rainy
+2023-03-18,Birmingham,7.2,63.6,6.3,Snowy
+2023-03-19,Birmingham,5.6,89.8,0.0,Overcast
+2023-03-20,Birmingham,5.8,93.7,1.6,Overcast
+2023-03-21,Birmingham,7.8,86.7,3.6,Cloudy
+2023-03-22,Birmingham,4.1,65.5,0.0,Snowy
+2023-03-23,Birmingham,5.7,87.7,2.0,Foggy
+2023-03-24,Birmingham,0.5,74.0,1.9,Rainy
+2023-03-25,Birmingham,-0.9,87.3,10.1,Rainy
+2023-03-26,Birmingham,3.7,77.4,10.5,Snowy
+2023-03-27,Birmingham,1.8,94.4,0.0,Cloudy
+2023-03-28,Birmingham,2.3,93.7,2.2,Foggy
+2023-03-29,Birmingham,7.7,80.6,2.7,Snowy
+2023-03-30,Birmingham,3.6,89.6,4.3,Sunny
+2023-03-31,Birmingham,7.1,89.5,3.2,Overcast
+2023-04-01,Birmingham,9.2,83.3,0.0,Cloudy
+2023-04-02,Birmingham,10.3,80.5,0.7,Snowy
+2023-04-03,Birmingham,13.7,64.1,3.4,Foggy
+2023-04-04,Birmingham,15.0,63.7,0.0,Snowy
+2023-04-05,Birmingham,12.7,86.8,0.0,Sunny
+2023-04-06,Birmingham,8.7,89.4,4.0,Foggy
+2023-04-07,Birmingham,8.4,65.5,0.9,Foggy
+2023-04-08,Birmingham,10.7,61.8,3.3,Snowy
+2023-04-09,Birmingham,9.7,89.3,7.9,Heavy Rain
+2023-04-10,Birmingham,10.6,67.6,8.5,Heavy Rain
+2023-04-11,Birmingham,11.0,86.6,0.0,Foggy
+2023-04-12,Birmingham,10.9,90.3,0.9,Cloudy
+2023-04-13,Birmingham,16.2,63.4,5.0,Cloudy
+2023-04-14,Birmingham,12.2,80.0,2.4,Sunny
+2023-04-15,Birmingham,6.2,94.2,3.4,Overcast
+2023-04-16,Birmingham,15.9,90.7,2.5,Foggy
+2023-04-17,Birmingham,7.3,65.0,0.0,Foggy
+2023-04-18,Birmingham,7.7,74.2,9.0,Rainy
+2023-04-19,Birmingham,8.7,75.9,0.0,Overcast
+2023-04-20,Birmingham,9.7,76.5,0.6,Rainy
+2023-04-21,Birmingham,10.8,90.8,0.0,Foggy
+2023-04-22,Birmingham,13.2,79.4,7.7,Heavy Rain
+2023-04-23,Birmingham,9.8,78.1,0.0,Sunny
+2023-04-24,Birmingham,16.2,61.5,1.6,Rainy
+2023-04-25,Birmingham,11.7,91.4,3.5,Cloudy
+2023-04-26,Birmingham,8.6,91.4,0.0,Overcast
+2023-04-27,Birmingham,12.1,94.9,3.0,Cloudy
+2023-04-28,Birmingham,10.4,81.8,6.6,Snowy
+2023-04-29,Birmingham,14.8,85.7,2.0,Rainy
+2023-04-30,Birmingham,1.3,86.6,9.7,Heavy Rain
+2023-05-01,Birmingham,17.4,94.1,6.1,Snowy
+2023-05-02,Birmingham,10.1,62.6,3.6,Cloudy
+2023-05-03,Birmingham,12.4,76.3,0.9,Sunny
+2023-05-04,Birmingham,14.3,94.0,4.4,Overcast
+2023-05-05,Birmingham,13.5,88.6,4.5,Sunny
+2023-05-06,Birmingham,15.8,64.7,11.4,Heavy Rain
+2023-05-07,Birmingham,15.8,86.2,0.0,Sunny
+2023-05-08,Birmingham,12.4,86.4,6.6,Snowy
+2023-05-09,Birmingham,15.7,78.3,3.3,Foggy
+2023-05-10,Birmingham,15.0,71.9,5.0,Overcast
+2023-05-11,Birmingham,10.5,66.1,0.0,Sunny
+2023-05-12,Birmingham,12.8,93.1,1.8,Overcast
+2023-05-13,Birmingham,16.5,76.6,2.9,Rainy
+2023-05-14,Birmingham,13.5,78.3,0.0,Rainy
+2023-05-15,Birmingham,15.4,88.7,2.1,Foggy
+2023-05-16,Birmingham,10.9,70.5,5.5,Heavy Rain
+2023-05-17,Birmingham,12.8,70.3,0.0,Sunny
+2023-05-18,Birmingham,19.8,63.6,8.2,Snowy
+2023-05-19,Birmingham,12.1,81.1,0.0,Foggy
+2023-05-20,Birmingham,15.6,88.5,3.0,Snowy
+2023-05-21,Birmingham,12.4,65.4,8.2,Snowy
+2023-05-22,Birmingham,11.7,92.7,3.2,Foggy
+2023-05-23,Birmingham,10.9,75.3,10.4,Rainy
+2023-05-24,Birmingham,19.2,64.8,0.0,Partly Cloudy
+2023-05-25,Birmingham,12.9,85.0,1.4,Rainy
+2023-05-26,Birmingham,15.2,85.3,10.6,Rainy
+2023-05-27,Birmingham,13.9,70.1,0.0,Cloudy
+2023-05-28,Birmingham,11.2,74.2,0.0,Overcast
+2023-05-29,Birmingham,12.5,68.7,0.0,Overcast
+2023-05-30,Birmingham,13.7,90.3,2.5,Foggy
+2023-05-31,Birmingham,17.4,76.5,1.4,Foggy
+2023-06-01,Birmingham,13.5,92.1,0.0,Cloudy
+2023-06-02,Birmingham,18.3,62.8,0.0,Sunny
+2023-06-03,Birmingham,15.2,87.4,0.0,Partly Cloudy
+2023-06-04,Birmingham,13.4,66.2,5.6,Snowy
+2023-06-05,Birmingham,13.3,64.5,4.2,Sunny
+2023-06-06,Birmingham,13.9,92.2,0.0,Cloudy
+2023-06-07,Birmingham,16.2,77.7,0.0,Partly Cloudy
+2023-06-08,Birmingham,9.1,83.3,0.0,Snowy
+2023-06-09,Birmingham,18.1,91.5,8.6,Heavy Rain
+2023-06-10,Birmingham,13.0,77.7,7.8,Snowy
+2023-06-11,Birmingham,13.3,73.6,0.1,Rainy
+2023-06-12,Birmingham,13.8,85.1,0.0,Overcast
+2023-06-13,Birmingham,12.4,63.6,0.0,Snowy
+2023-06-14,Birmingham,18.6,67.5,1.2,Overcast
+2023-06-15,Birmingham,14.7,87.9,6.1,Heavy Rain
+2023-06-16,Birmingham,22.8,83.2,0.0,Sunny
+2023-06-17,Birmingham,16.2,92.6,7.7,Rainy
+2023-06-18,Birmingham,11.0,93.7,3.8,Cloudy
+2023-06-19,Birmingham,15.3,84.5,6.4,Snowy
+2023-06-20,Birmingham,15.3,61.9,0.9,Snowy
+2023-06-21,Birmingham,18.8,76.2,3.7,Snowy
+2023-06-22,Birmingham,12.1,78.7,3.6,Cloudy
+2023-06-23,Birmingham,12.0,71.8,0.0,Cloudy
+2023-06-24,Birmingham,15.2,69.1,0.0,Partly Cloudy
+2023-06-25,Birmingham,13.8,61.9,0.0,Snowy
+2023-06-26,Birmingham,15.2,91.6,0.2,Cloudy
+2023-06-27,Birmingham,19.8,82.2,3.4,Foggy
+2023-06-28,Birmingham,11.0,70.6,7.0,Heavy Rain
+2023-06-29,Birmingham,12.6,86.7,8.7,Rainy
+2023-06-30,Birmingham,10.7,68.2,5.3,Snowy
+2023-07-01,Birmingham,10.7,61.9,0.0,Overcast
+2023-07-02,Birmingham,13.2,80.4,9.4,Snowy
+2023-07-03,Birmingham,12.8,85.2,2.7,Rainy
+2023-07-04,Birmingham,14.4,74.1,0.0,Rainy
+2023-07-05,Birmingham,16.4,85.9,2.7,Sunny
+2023-07-06,Birmingham,16.5,69.2,0.0,Partly Cloudy
+2023-07-07,Birmingham,17.4,68.7,0.0,Partly Cloudy
+2023-07-08,Birmingham,13.3,92.4,0.0,Foggy
+2023-07-09,Birmingham,15.1,85.8,0.0,Sunny
+2023-07-10,Birmingham,12.7,86.5,5.6,Snowy
+2023-07-11,Birmingham,12.3,66.3,0.2,Foggy
+2023-07-12,Birmingham,13.6,82.0,0.0,Foggy
+2023-07-13,Birmingham,13.9,82.7,3.4,Snowy
+2023-07-14,Birmingham,13.1,94.8,0.0,Overcast
+2023-07-15,Birmingham,17.1,80.8,2.6,Foggy
+2023-07-16,Birmingham,16.7,89.7,0.0,Sunny
+2023-07-17,Birmingham,13.5,73.5,0.0,Rainy
+2023-07-18,Birmingham,13.6,81.4,0.0,Rainy
+2023-07-19,Birmingham,12.6,62.3,3.6,Cloudy
+2023-07-20,Birmingham,12.7,94.1,2.2,Overcast
+2023-07-21,Birmingham,11.9,80.5,1.3,Overcast
+2023-07-22,Birmingham,14.0,90.0,0.0,Sunny
+2023-07-23,Birmingham,12.8,60.9,0.0,Rainy
+2023-07-24,Birmingham,13.6,90.8,4.3,Cloudy
+2023-07-25,Birmingham,14.4,65.7,3.4,Rainy
+2023-07-26,Birmingham,11.0,82.9,5.6,Heavy Rain
+2023-07-27,Birmingham,14.8,70.6,0.0,Cloudy
+2023-07-28,Birmingham,17.3,83.5,3.4,Overcast
+2023-07-29,Birmingham,11.1,61.5,2.3,Foggy
+2023-07-30,Birmingham,17.9,81.1,0.0,Sunny
+2023-07-31,Birmingham,9.2,73.0,10.7,Rainy
+2023-08-01,Birmingham,6.6,63.7,0.0,Overcast
+2023-08-02,Birmingham,7.7,71.3,4.9,Foggy
+2023-08-03,Birmingham,9.2,69.7,6.6,Snowy
+2023-08-04,Birmingham,12.0,70.5,2.4,Cloudy
+2023-08-05,Birmingham,6.4,83.1,5.9,Snowy
+2023-08-06,Birmingham,7.5,71.8,0.0,Snowy
+2023-08-07,Birmingham,6.9,85.9,7.8,Snowy
+2023-08-08,Birmingham,-0.2,72.8,0.0,Overcast
+2023-08-09,Birmingham,9.7,76.2,10.3,Snowy
+2023-08-10,Birmingham,8.3,71.7,2.3,Rainy
+2023-08-11,Birmingham,12.9,67.7,5.5,Snowy
+2023-08-12,Birmingham,11.8,60.8,11.1,Heavy Rain
+2023-08-13,Birmingham,9.5,63.6,0.0,Rainy
+2023-08-14,Birmingham,12.4,81.5,4.8,Cloudy
+2023-08-15,Birmingham,5.8,91.4,10.4,Snowy
+2023-08-16,Birmingham,9.0,62.1,0.0,Snowy
+2023-08-17,Birmingham,14.7,68.9,0.0,Cloudy
+2023-08-18,Birmingham,10.5,94.1,2.4,Foggy
+2023-08-19,Birmingham,7.5,90.9,10.1,Snowy
+2023-08-20,Birmingham,11.8,92.6,0.0,Foggy
+2023-08-21,Birmingham,11.2,60.7,0.0,Sunny
+2023-08-22,Birmingham,11.5,85.8,3.0,Rainy
+2023-08-23,Birmingham,10.4,73.1,0.0,Snowy
+2023-08-24,Birmingham,9.4,84.2,7.8,Rainy
+2023-08-25,Birmingham,11.9,89.8,2.1,Snowy
+2023-08-26,Birmingham,8.8,61.9,0.0,Snowy
+2023-08-27,Birmingham,14.3,76.2,5.9,Snowy
+2023-08-28,Birmingham,10.7,78.4,5.8,Heavy Rain
+2023-08-29,Birmingham,17.0,74.8,4.8,Rainy
+2023-08-30,Birmingham,10.6,77.7,6.8,Heavy Rain
+2023-08-31,Birmingham,14.9,87.5,6.9,Heavy Rain
+2023-09-01,Birmingham,7.7,84.2,0.0,Overcast
+2023-09-02,Birmingham,6.5,88.1,0.0,Cloudy
+2023-09-03,Birmingham,-2.4,84.4,0.0,Sunny
+2023-09-04,Birmingham,3.9,74.8,7.6,Heavy Rain
+2023-09-05,Birmingham,7.8,64.1,3.1,Cloudy
+2023-09-06,Birmingham,1.2,80.3,3.3,Snowy
+2023-09-07,Birmingham,1.6,62.8,5.4,Rainy
+2023-09-08,Birmingham,7.4,87.3,0.0,Rainy
+2023-09-09,Birmingham,2.0,72.6,5.3,Snowy
+2023-09-10,Birmingham,2.8,68.2,7.2,Heavy Rain
+2023-09-11,Birmingham,8.3,63.7,1.6,Overcast
+2023-09-12,Birmingham,0.5,88.1,3.4,Sunny
+2023-09-13,Birmingham,5.9,75.0,0.0,Overcast
+2023-09-14,Birmingham,0.9,94.9,0.0,Foggy
+2023-09-15,Birmingham,5.2,61.4,3.2,Foggy
+2023-09-16,Birmingham,4.5,74.5,0.0,Rainy
+2023-09-17,Birmingham,0.0,81.6,2.1,Sunny
+2023-09-18,Birmingham,7.1,82.8,4.6,Foggy
+2023-09-19,Birmingham,5.4,63.6,2.1,Snowy
+2023-09-20,Birmingham,6.0,91.3,3.7,Cloudy
+2023-09-21,Birmingham,4.0,65.0,0.0,Rainy
+2023-09-22,Birmingham,10.8,81.4,0.1,Sunny
+2023-09-23,Birmingham,3.1,89.9,0.0,Overcast
+2023-09-24,Birmingham,4.1,86.6,0.5,Sunny
+2023-09-25,Birmingham,5.2,77.9,0.0,Snowy
+2023-09-26,Birmingham,5.5,91.3,0.0,Cloudy
+2023-09-27,Birmingham,2.5,77.0,6.3,Snowy
+2023-09-28,Birmingham,6.9,69.4,0.0,Snowy
+2023-09-29,Birmingham,7.7,83.6,0.0,Overcast
+2023-09-30,Birmingham,4.5,60.7,0.0,Rainy
+2023-10-01,Birmingham,-2.9,83.5,1.5,Overcast
+2023-10-02,Birmingham,1.6,78.4,6.5,Rainy
+2023-10-03,Birmingham,-1.8,92.8,5.3,Snowy
+2023-10-04,Birmingham,-1.9,86.6,0.0,Overcast
+2023-10-05,Birmingham,-1.6,60.6,0.1,Overcast
+2023-10-06,Birmingham,4.0,74.0,7.1,Rainy
+2023-10-07,Birmingham,-2.7,72.5,2.6,Foggy
+2023-10-08,Birmingham,-2.3,65.5,0.0,Cloudy
+2023-10-09,Birmingham,3.8,91.9,3.1,Foggy
+2023-10-10,Birmingham,-0.5,61.8,2.9,Cloudy
+2023-10-11,Birmingham,-6.8,92.0,0.0,Cloudy
+2023-10-12,Birmingham,-4.0,68.5,10.3,Rainy
+2023-10-13,Birmingham,7.3,77.5,3.0,Overcast
+2023-10-14,Birmingham,-3.1,91.0,0.0,Cloudy
+2023-10-15,Birmingham,-2.7,60.9,0.0,Foggy
+2023-10-16,Birmingham,2.0,93.5,2.0,Cloudy
+2023-10-17,Birmingham,-4.0,87.0,0.0,Snowy
+2023-10-18,Birmingham,-2.4,69.3,0.0,Sunny
+2023-10-19,Birmingham,2.5,63.1,5.6,Heavy Rain
+2023-10-20,Birmingham,4.8,71.5,6.5,Heavy Rain
+2023-10-21,Birmingham,-0.1,76.3,0.0,Foggy
+2023-10-22,Birmingham,-1.5,67.0,0.4,Foggy
+2023-10-23,Birmingham,2.5,66.5,9.7,Rainy
+2023-10-24,Birmingham,-2.2,91.6,0.0,Overcast
+2023-10-25,Birmingham,-4.8,86.3,0.0,Overcast
+2023-10-26,Birmingham,1.8,72.5,6.2,Rainy
+2023-10-27,Birmingham,4.5,82.3,0.0,Rainy
+2023-10-28,Birmingham,1.0,86.4,5.4,Snowy
+2023-10-29,Birmingham,0.7,61.5,9.0,Rainy
+2023-10-30,Birmingham,0.5,88.9,0.0,Snowy
+2023-10-31,Birmingham,-2.0,95.0,5.5,Heavy Rain
+2023-11-01,Birmingham,-1.4,62.4,0.0,Rainy
+2023-11-02,Birmingham,-4.3,82.6,2.4,Sunny
+2023-11-03,Birmingham,-1.4,83.9,4.9,Overcast
+2023-11-04,Birmingham,-12.1,79.0,7.2,Heavy Rain
+2023-11-05,Birmingham,-7.2,75.3,0.0,Sunny
+2023-11-06,Birmingham,-4.8,67.7,4.8,Cloudy
+2023-11-07,Birmingham,-4.9,76.9,2.9,Sunny
+2023-11-08,Birmingham,-1.6,85.6,0.0,Rainy
+2023-11-09,Birmingham,-4.6,93.9,0.0,Overcast
+2023-11-10,Birmingham,2.6,88.1,16.9,Heavy Rain
+2023-11-11,Birmingham,-0.7,84.3,0.0,Overcast
+2023-11-12,Birmingham,-6.1,70.9,2.3,Snowy
+2023-11-13,Birmingham,-4.4,90.8,0.0,Overcast
+2023-11-14,Birmingham,-13.4,75.6,0.4,Foggy
+2023-11-15,Birmingham,-10.6,86.5,8.0,Snowy
+2023-11-16,Birmingham,-0.9,80.2,0.0,Foggy
+2023-11-17,Birmingham,0.4,76.5,4.1,Cloudy
+2023-11-18,Birmingham,-2.9,65.5,0.0,Overcast
+2023-11-19,Birmingham,0.4,77.7,8.2,Heavy Rain
+2023-11-20,Birmingham,-2.5,87.8,0.7,Foggy
+2023-11-21,Birmingham,-9.5,78.5,2.4,Rainy
+2023-11-22,Birmingham,0.9,92.8,1.3,Cloudy
+2023-11-23,Birmingham,-0.4,85.3,7.9,Snowy
+2023-11-24,Birmingham,-6.2,62.9,0.0,Overcast
+2023-11-25,Birmingham,-1.4,88.6,0.0,Foggy
+2023-11-26,Birmingham,-3.2,77.8,0.0,Cloudy
+2023-11-27,Birmingham,0.3,77.7,6.6,Snowy
+2023-11-28,Birmingham,-3.9,88.4,0.0,Rainy
+2023-11-29,Birmingham,-6.7,61.1,9.1,Snowy
+2023-11-30,Birmingham,-1.7,70.9,8.3,Heavy Rain
+2023-12-01,Birmingham,-9.4,73.7,0.0,Overcast
+2023-12-02,Birmingham,-3.2,78.6,5.8,Rainy
+2023-12-03,Birmingham,-4.1,81.3,0.0,Sunny
+2023-12-04,Birmingham,-4.5,86.4,4.8,Rainy
+2023-12-05,Birmingham,-5.6,69.2,0.0,Overcast
+2023-12-06,Birmingham,-7.2,74.7,13.8,Rainy
+2023-12-07,Birmingham,-5.6,93.5,6.4,Snowy
+2023-12-08,Birmingham,-3.7,64.9,2.4,Snowy
+2023-12-09,Birmingham,-6.6,87.9,2.0,Rainy
+2023-12-10,Birmingham,-0.3,68.1,4.0,Rainy
+2023-12-11,Birmingham,-6.0,81.9,9.2,Rainy
+2023-12-12,Birmingham,-5.9,63.5,5.1,Snowy
+2023-12-13,Birmingham,-5.8,88.9,6.7,Heavy Rain
+2023-12-14,Birmingham,-5.5,81.9,0.0,Foggy
+2023-12-15,Birmingham,-7.1,93.8,4.8,Foggy
+2023-12-16,Birmingham,-4.7,60.9,2.5,Snowy
+2023-12-17,Birmingham,-0.6,92.7,0.0,Cloudy
+2023-12-18,Birmingham,-6.1,66.1,5.1,Heavy Rain
+2023-12-19,Birmingham,-1.5,63.3,0.2,Rainy
+2023-12-20,Birmingham,-1.0,90.0,0.0,Foggy
+2023-12-21,Birmingham,-7.8,81.0,0.0,Foggy
+2023-12-22,Birmingham,1.1,75.9,5.5,Rainy
+2023-12-23,Birmingham,2.3,78.8,2.2,Overcast
+2023-12-24,Birmingham,-5.2,82.0,4.7,Foggy
+2023-12-25,Birmingham,1.0,60.3,0.0,Sunny
+2023-12-26,Birmingham,-6.9,85.1,2.4,Sunny
+2023-12-27,Birmingham,-6.2,61.5,6.3,Heavy Rain
+2023-12-28,Birmingham,-2.2,71.4,1.0,Sunny
+2023-12-29,Birmingham,-4.4,77.5,0.0,Foggy
+2023-12-30,Birmingham,-3.9,77.1,3.4,Sunny
+2023-12-31,Birmingham,-5.8,77.0,4.5,Overcast
+2023-01-01,Glasgow,-0.2,88.5,0.0,Foggy
+2023-01-02,Glasgow,-4.9,94.1,2.3,Cloudy
+2023-01-03,Glasgow,-6.5,64.1,1.5,Overcast
+2023-01-04,Glasgow,-1.7,83.5,9.7,Rainy
+2023-01-05,Glasgow,-5.1,61.2,4.8,Foggy
+2023-01-06,Glasgow,-2.5,86.8,3.5,Snowy
+2023-01-07,Glasgow,-2.5,61.7,3.6,Overcast
+2023-01-08,Glasgow,-6.9,71.0,3.4,Sunny
+2023-01-09,Glasgow,-5.0,92.1,1.4,Overcast
+2023-01-10,Glasgow,-3.5,84.5,5.7,Rainy
+2023-01-11,Glasgow,-1.5,62.4,0.0,Sunny
+2023-01-12,Glasgow,-7.7,72.2,4.0,Snowy
+2023-01-13,Glasgow,-6.0,76.8,3.7,Overcast
+2023-01-14,Glasgow,-3.4,81.2,1.5,Overcast
+2023-01-15,Glasgow,-7.1,66.9,7.8,Heavy Rain
+2023-01-16,Glasgow,-8.2,74.6,0.6,Rainy
+2023-01-17,Glasgow,-7.9,73.6,0.0,Overcast
+2023-01-18,Glasgow,-1.9,77.9,8.4,Rainy
+2023-01-19,Glasgow,1.4,75.9,7.7,Heavy Rain
+2023-01-20,Glasgow,-7.6,92.8,1.7,Foggy
+2023-01-21,Glasgow,-3.8,68.6,4.9,Cloudy
+2023-01-22,Glasgow,-5.2,76.6,6.8,Heavy Rain
+2023-01-23,Glasgow,-0.2,72.9,0.0,Foggy
+2023-01-24,Glasgow,-3.8,86.3,1.9,Overcast
+2023-01-25,Glasgow,-6.6,89.4,6.0,Heavy Rain
+2023-01-26,Glasgow,4.6,92.5,3.1,Foggy
+2023-01-27,Glasgow,-10.3,63.7,6.7,Snowy
+2023-01-28,Glasgow,-3.6,67.3,6.2,Heavy Rain
+2023-01-29,Glasgow,-4.3,63.0,0.0,Sunny
+2023-01-30,Glasgow,-4.9,68.4,13.3,Heavy Rain
+2023-01-31,Glasgow,-7.0,82.6,8.8,Rainy
+2023-02-01,Glasgow,-1.3,72.4,0.0,Overcast
+2023-02-02,Glasgow,0.1,72.9,0.0,Sunny
+2023-02-03,Glasgow,-1.8,66.8,0.0,Foggy
+2023-02-04,Glasgow,-3.0,72.4,11.1,Snowy
+2023-02-05,Glasgow,-1.9,89.5,8.9,Heavy Rain
+2023-02-06,Glasgow,-5.2,90.0,10.5,Snowy
+2023-02-07,Glasgow,-0.6,75.4,0.3,Sunny
+2023-02-08,Glasgow,-0.8,71.5,0.0,Cloudy
+2023-02-09,Glasgow,-2.8,78.1,0.0,Cloudy
+2023-02-10,Glasgow,4.4,92.0,0.9,Overcast
+2023-02-11,Glasgow,2.6,85.7,0.0,Cloudy
+2023-02-12,Glasgow,-1.1,62.5,0.0,Rainy
+2023-02-13,Glasgow,2.3,61.7,0.0,Cloudy
+2023-02-14,Glasgow,3.9,70.5,6.5,Snowy
+2023-02-15,Glasgow,0.5,66.5,0.0,Overcast
+2023-02-16,Glasgow,-0.5,92.9,3.9,Overcast
+2023-02-17,Glasgow,1.6,64.2,4.6,Cloudy
+2023-02-18,Glasgow,1.0,73.1,4.5,Overcast
+2023-02-19,Glasgow,-0.8,74.7,2.7,Overcast
+2023-02-20,Glasgow,-4.2,74.2,6.6,Heavy Rain
+2023-02-21,Glasgow,1.7,63.1,0.0,Snowy
+2023-02-22,Glasgow,0.6,77.6,5.8,Rainy
+2023-02-23,Glasgow,3.2,74.2,0.0,Cloudy
+2023-02-24,Glasgow,6.2,78.5,0.0,Foggy
+2023-02-25,Glasgow,-0.2,88.2,2.5,Overcast
+2023-02-26,Glasgow,0.7,86.3,0.0,Rainy
+2023-02-27,Glasgow,-2.7,70.4,0.6,Sunny
+2023-02-28,Glasgow,0.9,60.2,0.0,Rainy
+2023-03-01,Glasgow,5.0,61.9,8.6,Rainy
+2023-03-02,Glasgow,6.8,78.1,0.0,Foggy
+2023-03-03,Glasgow,5.9,92.8,0.0,Foggy
+2023-03-04,Glasgow,2.2,60.7,2.2,Snowy
+2023-03-05,Glasgow,-1.5,70.9,4.2,Rainy
+2023-03-06,Glasgow,4.6,75.6,9.3,Rainy
+2023-03-07,Glasgow,1.1,89.2,5.5,Snowy
+2023-03-08,Glasgow,8.4,77.5,0.0,Overcast
+2023-03-09,Glasgow,6.9,79.6,0.2,Snowy
+2023-03-10,Glasgow,5.9,84.0,0.0,Cloudy
+2023-03-11,Glasgow,1.0,92.9,0.0,Foggy
+2023-03-12,Glasgow,8.2,92.1,1.7,Cloudy
+2023-03-13,Glasgow,8.0,71.2,7.2,Heavy Rain
+2023-03-14,Glasgow,2.6,92.3,6.0,Snowy
+2023-03-15,Glasgow,6.2,64.1,1.3,Sunny
+2023-03-16,Glasgow,3.1,67.7,4.7,Cloudy
+2023-03-17,Glasgow,3.7,86.9,0.0,Overcast
+2023-03-18,Glasgow,4.0,65.3,0.8,Snowy
+2023-03-19,Glasgow,6.4,81.7,0.0,Rainy
+2023-03-20,Glasgow,0.4,74.2,11.9,Heavy Rain
+2023-03-21,Glasgow,5.4,85.3,0.0,Overcast
+2023-03-22,Glasgow,3.3,68.6,4.0,Cloudy
+2023-03-23,Glasgow,4.2,68.3,0.8,Snowy
+2023-03-24,Glasgow,6.0,75.7,0.8,Overcast
+2023-03-25,Glasgow,1.9,72.4,7.6,Snowy
+2023-03-26,Glasgow,2.3,86.8,11.8,Rainy
+2023-03-27,Glasgow,10.9,69.8,5.8,Snowy
+2023-03-28,Glasgow,2.3,73.9,1.4,Cloudy
+2023-03-29,Glasgow,2.8,70.4,1.0,Foggy
+2023-03-30,Glasgow,1.4,87.9,3.7,Snowy
+2023-03-31,Glasgow,4.6,78.1,4.9,Overcast
+2023-04-01,Glasgow,15.8,72.0,7.6,Rainy
+2023-04-02,Glasgow,10.4,81.3,0.0,Cloudy
+2023-04-03,Glasgow,15.1,64.4,2.9,Rainy
+2023-04-04,Glasgow,8.5,93.1,8.1,Rainy
+2023-04-05,Glasgow,7.4,71.3,12.2,Heavy Rain
+2023-04-06,Glasgow,10.8,76.7,9.0,Snowy
+2023-04-07,Glasgow,8.5,85.5,0.0,Rainy
+2023-04-08,Glasgow,16.2,65.6,0.3,Overcast
+2023-04-09,Glasgow,9.2,78.9,6.6,Snowy
+2023-04-10,Glasgow,8.6,82.6,2.7,Rainy
+2023-04-11,Glasgow,8.9,77.1,2.9,Snowy
+2023-04-12,Glasgow,6.8,93.5,1.5,Overcast
+2023-04-13,Glasgow,9.1,77.0,1.1,Snowy
+2023-04-14,Glasgow,11.5,91.4,0.0,Overcast
+2023-04-15,Glasgow,9.0,84.7,0.0,Foggy
+2023-04-16,Glasgow,16.8,84.6,12.0,Rainy
+2023-04-17,Glasgow,15.6,60.8,0.0,Partly Cloudy
+2023-04-18,Glasgow,6.6,75.1,2.8,Rainy
+2023-04-19,Glasgow,9.1,64.4,4.1,Foggy
+2023-04-20,Glasgow,7.0,61.6,1.5,Snowy
+2023-04-21,Glasgow,8.1,72.9,11.8,Heavy Rain
+2023-04-22,Glasgow,6.6,87.9,0.0,Sunny
+2023-04-23,Glasgow,15.5,72.8,0.0,Sunny
+2023-04-24,Glasgow,13.1,86.2,3.9,Cloudy
+2023-04-25,Glasgow,11.0,83.7,5.9,Rainy
+2023-04-26,Glasgow,12.1,74.6,7.5,Snowy
+2023-04-27,Glasgow,13.3,73.5,0.0,Cloudy
+2023-04-28,Glasgow,8.5,61.2,8.1,Heavy Rain
+2023-04-29,Glasgow,10.9,69.3,0.0,Sunny
+2023-04-30,Glasgow,7.3,64.3,6.2,Rainy
+2023-05-01,Glasgow,14.3,68.6,2.4,Cloudy
+2023-05-02,Glasgow,11.0,95.0,0.0,Foggy
+2023-05-03,Glasgow,15.5,88.7,7.1,Snowy
+2023-05-04,Glasgow,15.1,88.9,0.0,Sunny
+2023-05-05,Glasgow,15.2,69.2,0.0,Sunny
+2023-05-06,Glasgow,12.1,92.0,0.1,Cloudy
+2023-05-07,Glasgow,11.3,90.6,1.7,Foggy
+2023-05-08,Glasgow,10.2,87.4,0.0,Foggy
+2023-05-09,Glasgow,10.2,61.2,0.3,Rainy
+2023-05-10,Glasgow,15.6,90.4,10.8,Rainy
+2023-05-11,Glasgow,15.5,62.8,5.1,Rainy
+2023-05-12,Glasgow,13.6,94.9,7.8,Heavy Rain
+2023-05-13,Glasgow,13.9,62.6,3.3,Overcast
+2023-05-14,Glasgow,9.9,82.5,0.0,Foggy
+2023-05-15,Glasgow,3.1,74.4,0.4,Foggy
+2023-05-16,Glasgow,13.6,94.3,9.6,Rainy
+2023-05-17,Glasgow,9.7,67.0,0.3,Sunny
+2023-05-18,Glasgow,13.0,90.9,0.0,Foggy
+2023-05-19,Glasgow,12.0,71.0,0.0,Sunny
+2023-05-20,Glasgow,16.1,78.2,0.0,Partly Cloudy
+2023-05-21,Glasgow,15.2,67.2,9.3,Snowy
+2023-05-22,Glasgow,14.4,74.7,8.4,Snowy
+2023-05-23,Glasgow,14.4,64.7,0.0,Overcast
+2023-05-24,Glasgow,17.0,71.7,6.6,Rainy
+2023-05-25,Glasgow,12.7,87.0,0.0,Sunny
+2023-05-26,Glasgow,15.8,79.8,6.4,Rainy
+2023-05-27,Glasgow,11.9,69.3,4.3,Rainy
+2023-05-28,Glasgow,14.1,93.3,5.5,Snowy
+2023-05-29,Glasgow,15.5,61.8,0.0,Sunny
+2023-05-30,Glasgow,16.7,62.1,2.4,Overcast
+2023-05-31,Glasgow,14.0,67.4,7.3,Rainy
+2023-06-01,Glasgow,12.8,89.2,1.6,Overcast
+2023-06-02,Glasgow,9.4,84.4,0.0,Foggy
+2023-06-03,Glasgow,14.6,93.3,2.9,Overcast
+2023-06-04,Glasgow,16.9,84.8,10.2,Heavy Rain
+2023-06-05,Glasgow,14.8,89.5,0.0,Cloudy
+2023-06-06,Glasgow,9.1,77.9,0.0,Cloudy
+2023-06-07,Glasgow,15.5,77.8,0.0,Partly Cloudy
+2023-06-08,Glasgow,17.6,77.1,0.0,Sunny
+2023-06-09,Glasgow,13.9,68.1,0.0,Sunny
+2023-06-10,Glasgow,16.2,78.2,1.4,Snowy
+2023-06-11,Glasgow,10.3,94.2,0.0,Foggy
+2023-06-12,Glasgow,16.0,84.8,3.5,Rainy
+2023-06-13,Glasgow,19.4,67.5,0.0,Sunny
+2023-06-14,Glasgow,15.1,84.1,7.8,Snowy
+2023-06-15,Glasgow,17.2,89.9,0.0,Sunny
+2023-06-16,Glasgow,16.0,81.8,0.0,Sunny
+2023-06-17,Glasgow,9.1,89.4,1.9,Overcast
+2023-06-18,Glasgow,14.4,66.2,1.7,Cloudy
+2023-06-19,Glasgow,17.9,91.4,6.6,Snowy
+2023-06-20,Glasgow,15.5,72.4,1.9,Foggy
+2023-06-21,Glasgow,16.1,62.0,0.0,Partly Cloudy
+2023-06-22,Glasgow,13.6,62.7,3.9,Cloudy
+2023-06-23,Glasgow,14.2,82.5,8.4,Heavy Rain
+2023-06-24,Glasgow,13.4,67.6,2.0,Sunny
+2023-06-25,Glasgow,16.3,94.8,1.2,Overcast
+2023-06-26,Glasgow,12.8,79.0,10.0,Rainy
+2023-06-27,Glasgow,13.6,69.1,6.9,Snowy
+2023-06-28,Glasgow,17.7,68.8,0.0,Partly Cloudy
+2023-06-29,Glasgow,15.3,78.7,5.0,Cloudy
+2023-06-30,Glasgow,19.3,66.4,2.5,Rainy
+2023-07-01,Glasgow,18.0,75.2,0.0,Sunny
+2023-07-02,Glasgow,17.2,78.5,5.6,Snowy
+2023-07-03,Glasgow,11.8,64.9,0.0,Snowy
+2023-07-04,Glasgow,15.9,93.0,5.4,Snowy
+2023-07-05,Glasgow,15.0,87.9,7.4,Snowy
+2023-07-06,Glasgow,14.1,82.8,3.7,Cloudy
+2023-07-07,Glasgow,10.2,64.4,5.5,Snowy
+2023-07-08,Glasgow,17.3,81.9,0.0,Sunny
+2023-07-09,Glasgow,9.2,67.1,1.2,Overcast
+2023-07-10,Glasgow,10.3,93.4,3.1,Foggy
+2023-07-11,Glasgow,15.7,91.2,0.0,Cloudy
+2023-07-12,Glasgow,9.8,89.0,0.0,Foggy
+2023-07-13,Glasgow,14.7,92.4,7.8,Snowy
+2023-07-14,Glasgow,10.2,81.7,0.0,Foggy
+2023-07-15,Glasgow,13.8,85.4,6.7,Rainy
+2023-07-16,Glasgow,12.3,81.8,4.3,Rainy
+2023-07-17,Glasgow,11.2,91.2,3.9,Overcast
+2023-07-18,Glasgow,11.0,84.4,0.0,Rainy
+2023-07-19,Glasgow,16.2,76.8,7.4,Rainy
+2023-07-20,Glasgow,13.5,62.9,0.0,Cloudy
+2023-07-21,Glasgow,18.5,83.0,0.0,Sunny
+2023-07-22,Glasgow,14.1,75.3,0.0,Cloudy
+2023-07-23,Glasgow,13.1,61.3,4.9,Rainy
+2023-07-24,Glasgow,10.7,68.2,0.0,Foggy
+2023-07-25,Glasgow,11.1,79.9,0.0,Sunny
+2023-07-26,Glasgow,21.0,77.8,1.9,Rainy
+2023-07-27,Glasgow,15.1,66.7,10.4,Rainy
+2023-07-28,Glasgow,9.5,64.8,0.0,Rainy
+2023-07-29,Glasgow,15.0,71.9,0.0,Snowy
+2023-07-30,Glasgow,15.0,89.5,0.0,Sunny
+2023-07-31,Glasgow,8.1,61.4,9.4,Heavy Rain
+2023-08-01,Glasgow,6.7,83.4,0.0,Rainy
+2023-08-02,Glasgow,8.9,87.2,0.0,Foggy
+2023-08-03,Glasgow,12.8,60.6,0.6,Foggy
+2023-08-04,Glasgow,10.7,84.0,0.0,Cloudy
+2023-08-05,Glasgow,9.2,85.5,2.7,Rainy
+2023-08-06,Glasgow,4.4,69.5,3.5,Cloudy
+2023-08-07,Glasgow,9.8,68.9,0.0,Rainy
+2023-08-08,Glasgow,9.6,62.3,3.9,Snowy
+2023-08-09,Glasgow,16.9,75.5,0.0,Sunny
+2023-08-10,Glasgow,12.3,65.0,0.0,Cloudy
+2023-08-11,Glasgow,8.8,66.9,5.5,Snowy
+2023-08-12,Glasgow,11.6,71.5,1.4,Snowy
+2023-08-13,Glasgow,5.1,89.6,7.4,Rainy
+2023-08-14,Glasgow,7.6,80.3,0.0,Foggy
+2023-08-15,Glasgow,7.6,71.7,6.6,Heavy Rain
+2023-08-16,Glasgow,9.8,62.6,11.3,Heavy Rain
+2023-08-17,Glasgow,11.1,63.5,8.2,Heavy Rain
+2023-08-18,Glasgow,2.5,65.4,8.2,Snowy
+2023-08-19,Glasgow,8.7,60.7,4.1,Cloudy
+2023-08-20,Glasgow,8.3,76.0,0.0,Foggy
+2023-08-21,Glasgow,8.1,92.7,0.0,Cloudy
+2023-08-22,Glasgow,8.7,63.9,0.0,Sunny
+2023-08-23,Glasgow,11.6,82.4,4.4,Sunny
+2023-08-24,Glasgow,8.5,75.0,0.0,Overcast
+2023-08-25,Glasgow,13.4,93.8,0.8,Overcast
+2023-08-26,Glasgow,13.6,66.2,5.4,Snowy
+2023-08-27,Glasgow,8.7,84.1,0.0,Rainy
+2023-08-28,Glasgow,8.7,89.7,0.0,Foggy
+2023-08-29,Glasgow,9.7,77.5,0.0,Sunny
+2023-08-30,Glasgow,7.3,85.6,0.0,Snowy
+2023-08-31,Glasgow,6.8,94.6,2.2,Foggy
+2023-09-01,Glasgow,9.5,88.9,1.1,Foggy
+2023-09-02,Glasgow,8.5,92.4,7.1,Heavy Rain
+2023-09-03,Glasgow,4.3,87.5,16.2,Heavy Rain
+2023-09-04,Glasgow,4.7,80.6,9.4,Rainy
+2023-09-05,Glasgow,-2.0,68.2,1.9,Cloudy
+2023-09-06,Glasgow,7.2,74.4,13.3,Rainy
+2023-09-07,Glasgow,7.1,80.7,0.0,Overcast
+2023-09-08,Glasgow,6.6,75.4,2.2,Snowy
+2023-09-09,Glasgow,3.1,71.8,2.7,Cloudy
+2023-09-10,Glasgow,3.3,80.3,8.8,Heavy Rain
+2023-09-11,Glasgow,4.6,94.6,5.1,Heavy Rain
+2023-09-12,Glasgow,4.9,61.2,10.2,Snowy
+2023-09-13,Glasgow,4.7,81.7,0.5,Foggy
+2023-09-14,Glasgow,11.5,67.2,5.7,Rainy
+2023-09-15,Glasgow,4.0,67.9,0.5,Rainy
+2023-09-16,Glasgow,0.7,85.4,4.9,Sunny
+2023-09-17,Glasgow,7.9,64.8,0.0,Sunny
+2023-09-18,Glasgow,2.5,70.5,0.0,Cloudy
+2023-09-19,Glasgow,6.1,63.2,5.2,Heavy Rain
+2023-09-20,Glasgow,3.6,60.2,0.0,Sunny
+2023-09-21,Glasgow,2.9,76.2,7.1,Snowy
+2023-09-22,Glasgow,5.9,79.5,7.1,Rainy
+2023-09-23,Glasgow,7.5,86.4,0.0,Cloudy
+2023-09-24,Glasgow,7.9,69.5,0.0,Overcast
+2023-09-25,Glasgow,2.8,92.8,0.0,Overcast
+2023-09-26,Glasgow,1.0,92.2,9.5,Snowy
+2023-09-27,Glasgow,7.4,74.3,9.9,Rainy
+2023-09-28,Glasgow,-0.8,81.8,6.5,Snowy
+2023-09-29,Glasgow,5.0,62.4,11.9,Snowy
+2023-09-30,Glasgow,-2.2,62.1,0.3,Cloudy
+2023-10-01,Glasgow,2.4,93.6,7.3,Snowy
+2023-10-02,Glasgow,0.6,79.2,1.3,Overcast
+2023-10-03,Glasgow,-1.0,74.6,3.2,Snowy
+2023-10-04,Glasgow,-0.3,84.5,2.8,Cloudy
+2023-10-05,Glasgow,0.5,93.7,0.5,Foggy
+2023-10-06,Glasgow,0.5,71.6,0.0,Snowy
+2023-10-07,Glasgow,-3.6,83.1,2.8,Cloudy
+2023-10-08,Glasgow,-5.6,60.8,0.0,Rainy
+2023-10-09,Glasgow,-3.8,78.0,4.7,Overcast
+2023-10-10,Glasgow,0.1,92.9,0.4,Overcast
+2023-10-11,Glasgow,-4.5,84.7,1.3,Snowy
+2023-10-12,Glasgow,-2.0,91.2,3.0,Cloudy
+2023-10-13,Glasgow,3.1,80.0,3.3,Cloudy
+2023-10-14,Glasgow,-0.4,74.1,11.2,Rainy
+2023-10-15,Glasgow,-6.0,71.9,2.0,Cloudy
+2023-10-16,Glasgow,-0.1,92.2,0.3,Cloudy
+2023-10-17,Glasgow,-0.8,68.7,0.0,Overcast
+2023-10-18,Glasgow,0.9,85.4,12.2,Rainy
+2023-10-19,Glasgow,-3.5,68.2,0.0,Foggy
+2023-10-20,Glasgow,1.9,67.1,10.5,Snowy
+2023-10-21,Glasgow,-3.7,80.5,3.9,Overcast
+2023-10-22,Glasgow,-0.9,91.0,6.4,Rainy
+2023-10-23,Glasgow,-3.1,88.4,2.3,Overcast
+2023-10-24,Glasgow,-0.1,88.8,2.5,Cloudy
+2023-10-25,Glasgow,1.4,76.0,2.7,Foggy
+2023-10-26,Glasgow,2.3,79.4,0.0,Sunny
+2023-10-27,Glasgow,-2.0,89.7,0.0,Sunny
+2023-10-28,Glasgow,1.6,61.7,0.0,Foggy
+2023-10-29,Glasgow,-1.2,92.9,0.0,Cloudy
+2023-10-30,Glasgow,2.4,78.0,0.0,Rainy
+2023-10-31,Glasgow,2.7,90.6,0.0,Foggy
+2023-11-01,Glasgow,-2.0,69.2,4.2,Rainy
+2023-11-02,Glasgow,-2.7,62.4,2.8,Snowy
+2023-11-03,Glasgow,-2.8,75.9,0.0,Rainy
+2023-11-04,Glasgow,-1.1,87.1,5.2,Snowy
+2023-11-05,Glasgow,-8.1,82.3,0.9,Cloudy
+2023-11-06,Glasgow,-5.8,81.9,1.1,Sunny
+2023-11-07,Glasgow,0.2,87.7,0.0,Rainy
+2023-11-08,Glasgow,-2.4,71.5,0.4,Snowy
+2023-11-09,Glasgow,-5.9,84.1,0.0,Sunny
+2023-11-10,Glasgow,-4.6,65.7,0.0,Sunny
+2023-11-11,Glasgow,-4.0,74.8,0.0,Rainy
+2023-11-12,Glasgow,-3.8,68.2,6.7,Rainy
+2023-11-13,Glasgow,-3.9,68.8,2.5,Sunny
+2023-11-14,Glasgow,0.9,89.4,0.0,Cloudy
+2023-11-15,Glasgow,1.5,71.9,1.5,Sunny
+2023-11-16,Glasgow,-4.2,94.3,0.0,Overcast
+2023-11-17,Glasgow,-5.9,87.4,2.3,Overcast
+2023-11-18,Glasgow,-2.8,92.3,8.0,Heavy Rain
+2023-11-19,Glasgow,-1.5,81.1,2.9,Rainy
+2023-11-20,Glasgow,-5.6,87.4,7.8,Snowy
+2023-11-21,Glasgow,-9.1,66.2,0.0,Snowy
+2023-11-22,Glasgow,-4.0,81.5,4.6,Overcast
+2023-11-23,Glasgow,-9.9,93.7,0.0,Foggy
+2023-11-24,Glasgow,-1.4,91.9,0.0,Overcast
+2023-11-25,Glasgow,-3.3,90.9,3.8,Overcast
+2023-11-26,Glasgow,-5.2,83.0,7.9,Rainy
+2023-11-27,Glasgow,-4.8,64.7,0.0,Foggy
+2023-11-28,Glasgow,-3.7,88.9,4.8,Cloudy
+2023-11-29,Glasgow,-2.8,73.9,11.6,Heavy Rain
+2023-11-30,Glasgow,-4.6,75.6,9.7,Rainy
+2023-12-01,Glasgow,-0.9,72.2,0.0,Snowy
+2023-12-02,Glasgow,-5.0,80.9,0.0,Foggy
+2023-12-03,Glasgow,-7.7,81.2,0.0,Cloudy
+2023-12-04,Glasgow,-4.4,92.6,0.0,Overcast
+2023-12-05,Glasgow,-0.6,94.4,8.3,Heavy Rain
+2023-12-06,Glasgow,-5.7,67.9,0.0,Cloudy
+2023-12-07,Glasgow,2.9,80.9,0.7,Overcast
+2023-12-08,Glasgow,-0.5,81.8,0.0,Overcast
+2023-12-09,Glasgow,-4.9,79.3,4.1,Sunny
+2023-12-10,Glasgow,-3.5,93.5,0.0,Foggy
+2023-12-11,Glasgow,-6.9,91.1,5.3,Heavy Rain
+2023-12-12,Glasgow,-4.0,75.4,4.5,Cloudy
+2023-12-13,Glasgow,-4.3,66.4,6.2,Snowy
+2023-12-14,Glasgow,-4.7,61.5,0.0,Cloudy
+2023-12-15,Glasgow,-8.7,86.5,4.7,Snowy
+2023-12-16,Glasgow,-6.4,77.5,0.0,Snowy
+2023-12-17,Glasgow,-6.1,67.4,0.0,Foggy
+2023-12-18,Glasgow,-7.7,76.4,6.9,Rainy
+2023-12-19,Glasgow,-3.4,71.6,0.0,Snowy
+2023-12-20,Glasgow,-7.9,77.8,0.4,Snowy
+2023-12-21,Glasgow,-6.0,77.4,3.6,Sunny
+2023-12-22,Glasgow,-4.2,65.8,0.2,Sunny
+2023-12-23,Glasgow,-5.7,94.9,2.4,Overcast
+2023-12-24,Glasgow,-4.5,66.7,3.8,Rainy
+2023-12-25,Glasgow,-10.5,75.3,0.7,Overcast
+2023-12-26,Glasgow,-8.6,94.2,6.9,Snowy
+2023-12-27,Glasgow,-0.7,93.8,5.7,Rainy
+2023-12-28,Glasgow,-5.1,82.7,6.1,Rainy
+2023-12-29,Glasgow,-5.8,63.1,1.3,Cloudy
+2023-12-30,Glasgow,-10.2,78.0,0.0,Sunny
+2023-12-31,Glasgow,-11.6,64.8,0.0,Overcast
+2023-01-01,Liverpool,-2.5,65.9,0.0,Rainy
+2023-01-02,Liverpool,-4.2,60.2,4.0,Snowy
+2023-01-03,Liverpool,1.2,86.5,9.7,Snowy
+2023-01-04,Liverpool,-1.2,61.5,3.9,Foggy
+2023-01-05,Liverpool,-2.8,91.3,1.3,Cloudy
+2023-01-06,Liverpool,-0.9,61.6,6.6,Rainy
+2023-01-07,Liverpool,-3.1,60.9,0.0,Cloudy
+2023-01-08,Liverpool,0.1,63.3,4.8,Snowy
+2023-01-09,Liverpool,-4.7,79.9,0.0,Cloudy
+2023-01-10,Liverpool,-2.5,77.1,5.8,Snowy
+2023-01-11,Liverpool,-6.3,71.8,0.0,Cloudy
+2023-01-12,Liverpool,-1.6,69.4,0.5,Snowy
+2023-01-13,Liverpool,-5.3,85.2,0.0,Rainy
+2023-01-14,Liverpool,-0.5,80.0,0.0,Cloudy
+2023-01-15,Liverpool,-5.6,73.8,6.1,Snowy
+2023-01-16,Liverpool,-5.0,75.8,3.7,Sunny
+2023-01-17,Liverpool,-2.8,88.2,2.2,Cloudy
+2023-01-18,Liverpool,-3.1,67.8,1.2,Overcast
+2023-01-19,Liverpool,-1.0,88.9,6.5,Rainy
+2023-01-20,Liverpool,-3.7,77.7,0.0,Rainy
+2023-01-21,Liverpool,-2.2,63.8,0.0,Cloudy
+2023-01-22,Liverpool,-1.1,91.1,0.0,Overcast
+2023-01-23,Liverpool,0.3,75.0,0.0,Rainy
+2023-01-24,Liverpool,-9.4,71.5,0.0,Foggy
+2023-01-25,Liverpool,-6.5,85.2,5.5,Snowy
+2023-01-26,Liverpool,-10.3,79.7,0.0,Overcast
+2023-01-27,Liverpool,-11.1,61.9,4.6,Sunny
+2023-01-28,Liverpool,-8.1,69.7,5.1,Rainy
+2023-01-29,Liverpool,-2.8,61.5,1.0,Rainy
+2023-01-30,Liverpool,-3.5,67.1,5.8,Rainy
+2023-01-31,Liverpool,-2.7,90.1,12.2,Snowy
+2023-02-01,Liverpool,3.0,87.1,0.0,Rainy
+2023-02-02,Liverpool,-1.8,67.1,9.6,Heavy Rain
+2023-02-03,Liverpool,3.5,61.5,1.1,Foggy
+2023-02-04,Liverpool,5.4,92.2,0.0,Overcast
+2023-02-05,Liverpool,1.3,82.4,3.9,Overcast
+2023-02-06,Liverpool,-1.3,69.9,0.0,Cloudy
+2023-02-07,Liverpool,-1.8,87.8,7.2,Heavy Rain
+2023-02-08,Liverpool,-2.3,83.3,0.0,Overcast
+2023-02-09,Liverpool,-1.3,71.7,10.5,Heavy Rain
+2023-02-10,Liverpool,-1.1,86.2,0.0,Overcast
+2023-02-11,Liverpool,-3.6,92.1,3.1,Foggy
+2023-02-12,Liverpool,-4.9,64.5,0.0,Rainy
+2023-02-13,Liverpool,-2.2,83.3,0.0,Snowy
+2023-02-14,Liverpool,-1.6,90.7,0.0,Foggy
+2023-02-15,Liverpool,0.9,75.7,0.0,Snowy
+2023-02-16,Liverpool,0.6,72.5,8.9,Rainy
+2023-02-17,Liverpool,-4.9,74.0,0.0,Rainy
+2023-02-18,Liverpool,2.3,81.6,10.2,Rainy
+2023-02-19,Liverpool,-0.2,77.7,2.5,Rainy
+2023-02-20,Liverpool,1.3,70.1,2.3,Foggy
+2023-02-21,Liverpool,-5.5,70.0,9.6,Snowy
+2023-02-22,Liverpool,-1.5,75.6,5.4,Heavy Rain
+2023-02-23,Liverpool,1.7,63.0,0.0,Overcast
+2023-02-24,Liverpool,3.5,67.3,0.0,Rainy
+2023-02-25,Liverpool,-0.5,94.4,8.5,Snowy
+2023-02-26,Liverpool,-2.2,72.4,0.0,Sunny
+2023-02-27,Liverpool,1.4,74.8,1.8,Overcast
+2023-02-28,Liverpool,1.5,82.7,0.0,Overcast
+2023-03-01,Liverpool,7.1,91.8,2.0,Overcast
+2023-03-02,Liverpool,5.4,66.3,4.0,Cloudy
+2023-03-03,Liverpool,-0.5,91.8,5.5,Rainy
+2023-03-04,Liverpool,6.6,62.6,10.4,Snowy
+2023-03-05,Liverpool,0.8,62.3,2.1,Overcast
+2023-03-06,Liverpool,5.0,82.5,0.0,Snowy
+2023-03-07,Liverpool,6.4,89.9,0.0,Overcast
+2023-03-08,Liverpool,3.9,74.3,0.0,Cloudy
+2023-03-09,Liverpool,1.3,63.5,0.0,Rainy
+2023-03-10,Liverpool,8.1,69.9,1.8,Cloudy
+2023-03-11,Liverpool,0.5,62.9,7.5,Snowy
+2023-03-12,Liverpool,6.5,80.7,10.9,Rainy
+2023-03-13,Liverpool,6.4,66.2,0.0,Cloudy
+2023-03-14,Liverpool,6.2,73.6,0.0,Rainy
+2023-03-15,Liverpool,3.0,62.2,3.4,Rainy
+2023-03-16,Liverpool,3.9,69.6,0.0,Sunny
+2023-03-17,Liverpool,7.5,92.4,0.6,Foggy
+2023-03-18,Liverpool,1.8,84.1,0.2,Rainy
+2023-03-19,Liverpool,8.6,68.6,1.3,Overcast
+2023-03-20,Liverpool,7.8,72.9,0.0,Cloudy
+2023-03-21,Liverpool,6.6,77.9,1.8,Cloudy
+2023-03-22,Liverpool,2.7,75.2,11.2,Rainy
+2023-03-23,Liverpool,0.4,65.4,0.0,Snowy
+2023-03-24,Liverpool,3.9,74.9,2.9,Snowy
+2023-03-25,Liverpool,2.4,61.4,8.5,Rainy
+2023-03-26,Liverpool,6.0,86.4,6.0,Rainy
+2023-03-27,Liverpool,6.4,89.0,12.2,Rainy
+2023-03-28,Liverpool,5.7,90.1,7.9,Snowy
+2023-03-29,Liverpool,9.6,74.1,0.0,Sunny
+2023-03-30,Liverpool,8.2,87.9,5.5,Heavy Rain
+2023-03-31,Liverpool,1.8,87.6,0.0,Snowy
+2023-04-01,Liverpool,9.3,65.0,8.1,Rainy
+2023-04-02,Liverpool,7.4,76.3,0.0,Sunny
+2023-04-03,Liverpool,11.5,69.1,13.3,Snowy
+2023-04-04,Liverpool,14.5,68.4,5.4,Snowy
+2023-04-05,Liverpool,7.7,72.4,2.8,Overcast
+2023-04-06,Liverpool,5.0,67.0,2.9,Sunny
+2023-04-07,Liverpool,7.4,75.1,0.0,Rainy
+2023-04-08,Liverpool,12.3,87.4,2.0,Rainy
+2023-04-09,Liverpool,9.6,89.2,0.0,Cloudy
+2023-04-10,Liverpool,4.4,82.4,2.2,Cloudy
+2023-04-11,Liverpool,11.1,70.7,0.0,Rainy
+2023-04-12,Liverpool,9.3,60.9,6.0,Rainy
+2023-04-13,Liverpool,13.0,84.9,5.5,Rainy
+2023-04-14,Liverpool,8.3,84.6,4.7,Cloudy
+2023-04-15,Liverpool,11.4,93.4,0.9,Cloudy
+2023-04-16,Liverpool,13.4,60.7,3.8,Rainy
+2023-04-17,Liverpool,12.9,90.6,0.0,Cloudy
+2023-04-18,Liverpool,13.4,74.6,3.5,Snowy
+2023-04-19,Liverpool,9.6,62.6,0.0,Overcast
+2023-04-20,Liverpool,10.2,74.5,3.2,Overcast
+2023-04-21,Liverpool,4.7,64.6,0.0,Cloudy
+2023-04-22,Liverpool,11.5,76.7,10.8,Heavy Rain
+2023-04-23,Liverpool,10.7,83.6,8.0,Heavy Rain
+2023-04-24,Liverpool,12.1,90.4,0.6,Cloudy
+2023-04-25,Liverpool,8.5,82.8,0.0,Rainy
+2023-04-26,Liverpool,9.2,60.0,4.3,Overcast
+2023-04-27,Liverpool,16.5,74.3,1.3,Snowy
+2023-04-28,Liverpool,15.0,74.7,4.7,Sunny
+2023-04-29,Liverpool,12.9,69.9,0.0,Foggy
+2023-04-30,Liverpool,6.4,65.2,6.7,Snowy
+2023-05-01,Liverpool,16.2,82.3,0.0,Partly Cloudy
+2023-05-02,Liverpool,17.1,65.0,8.0,Heavy Rain
+2023-05-03,Liverpool,13.0,75.9,8.2,Rainy
+2023-05-04,Liverpool,17.0,89.8,2.0,Rainy
+2023-05-05,Liverpool,12.3,61.7,13.2,Heavy Rain
+2023-05-06,Liverpool,13.1,61.3,6.6,Snowy
+2023-05-07,Liverpool,10.4,73.0,5.3,Snowy
+2023-05-08,Liverpool,13.3,73.4,10.5,Snowy
+2023-05-09,Liverpool,10.2,86.8,5.1,Heavy Rain
+2023-05-10,Liverpool,15.5,72.8,0.0,Partly Cloudy
+2023-05-11,Liverpool,11.4,77.8,1.5,Rainy
+2023-05-12,Liverpool,16.7,66.0,0.0,Sunny
+2023-05-13,Liverpool,9.4,89.5,0.0,Cloudy
+2023-05-14,Liverpool,7.3,66.3,0.0,Sunny
+2023-05-15,Liverpool,16.8,62.9,8.4,Snowy
+2023-05-16,Liverpool,12.0,82.5,7.0,Rainy
+2023-05-17,Liverpool,14.2,75.9,5.5,Rainy
+2023-05-18,Liverpool,16.2,85.1,4.4,Sunny
+2023-05-19,Liverpool,15.4,82.9,0.0,Sunny
+2023-05-20,Liverpool,12.7,68.0,2.2,Sunny
+2023-05-21,Liverpool,11.6,91.8,1.6,Cloudy
+2023-05-22,Liverpool,17.7,86.6,8.0,Heavy Rain
+2023-05-23,Liverpool,13.9,80.8,0.0,Snowy
+2023-05-24,Liverpool,13.8,87.5,0.0,Rainy
+2023-05-25,Liverpool,8.5,84.0,1.9,Rainy
+2023-05-26,Liverpool,16.9,80.8,4.8,Foggy
+2023-05-27,Liverpool,14.7,93.5,0.0,Overcast
+2023-05-28,Liverpool,12.8,66.2,0.0,Rainy
+2023-05-29,Liverpool,11.0,81.3,1.7,Rainy
+2023-05-30,Liverpool,14.9,87.2,10.9,Snowy
+2023-05-31,Liverpool,12.4,65.8,0.7,Sunny
+2023-06-01,Liverpool,13.5,66.5,1.3,Cloudy
+2023-06-02,Liverpool,14.7,90.0,0.0,Cloudy
+2023-06-03,Liverpool,18.3,89.6,1.6,Rainy
+2023-06-04,Liverpool,14.3,73.2,5.7,Snowy
+2023-06-05,Liverpool,19.0,63.3,0.0,Sunny
+2023-06-06,Liverpool,15.1,77.8,7.8,Snowy
+2023-06-07,Liverpool,22.0,92.3,2.9,Overcast
+2023-06-08,Liverpool,10.5,81.7,0.0,Snowy
+2023-06-09,Liverpool,15.0,84.6,0.0,Foggy
+2023-06-10,Liverpool,11.0,89.0,0.0,Rainy
+2023-06-11,Liverpool,15.7,61.2,0.6,Foggy
+2023-06-12,Liverpool,16.2,78.9,0.9,Foggy
+2023-06-13,Liverpool,14.1,91.7,7.2,Rainy
+2023-06-14,Liverpool,14.6,71.7,0.0,Overcast
+2023-06-15,Liverpool,12.4,80.0,0.4,Overcast
+2023-06-16,Liverpool,17.5,80.1,2.0,Snowy
+2023-06-17,Liverpool,15.9,72.1,9.0,Snowy
+2023-06-18,Liverpool,17.9,63.8,15.1,Rainy
+2023-06-19,Liverpool,17.9,79.6,10.4,Rainy
+2023-06-20,Liverpool,15.6,81.1,0.0,Sunny
+2023-06-21,Liverpool,7.4,64.4,5.5,Snowy
+2023-06-22,Liverpool,9.1,72.5,1.9,Snowy
+2023-06-23,Liverpool,9.4,64.3,7.5,Rainy
+2023-06-24,Liverpool,13.6,72.6,4.2,Sunny
+2023-06-25,Liverpool,14.1,62.0,5.9,Heavy Rain
+2023-06-26,Liverpool,17.9,82.3,0.0,Sunny
+2023-06-27,Liverpool,8.1,72.8,0.0,Cloudy
+2023-06-28,Liverpool,17.3,80.4,1.7,Rainy
+2023-06-29,Liverpool,14.7,84.2,10.9,Rainy
+2023-06-30,Liverpool,22.8,76.9,3.3,Cloudy
+2023-07-01,Liverpool,16.4,77.0,0.0,Partly Cloudy
+2023-07-02,Liverpool,14.2,82.9,0.0,Overcast
+2023-07-03,Liverpool,16.5,93.5,7.9,Heavy Rain
+2023-07-04,Liverpool,9.4,76.1,0.0,Foggy
+2023-07-05,Liverpool,17.7,80.7,5.5,Rainy
+2023-07-06,Liverpool,17.2,69.4,3.2,Cloudy
+2023-07-07,Liverpool,17.0,94.7,1.6,Cloudy
+2023-07-08,Liverpool,13.5,75.8,0.3,Sunny
+2023-07-09,Liverpool,8.2,92.6,6.7,Snowy
+2023-07-10,Liverpool,11.4,82.3,0.0,Sunny
+2023-07-11,Liverpool,19.1,70.1,10.2,Heavy Rain
+2023-07-12,Liverpool,16.0,83.8,0.0,Partly Cloudy
+2023-07-13,Liverpool,14.4,90.5,3.5,Cloudy
+2023-07-14,Liverpool,8.7,83.5,12.8,Snowy
+2023-07-15,Liverpool,13.5,79.8,0.0,Overcast
+2023-07-16,Liverpool,13.0,62.5,0.4,Sunny
+2023-07-17,Liverpool,13.7,70.1,7.4,Snowy
+2023-07-18,Liverpool,13.8,62.8,0.0,Rainy
+2023-07-19,Liverpool,14.9,90.6,0.0,Overcast
+2023-07-20,Liverpool,12.0,76.5,3.8,Cloudy
+2023-07-21,Liverpool,12.8,60.5,4.5,Sunny
+2023-07-22,Liverpool,11.6,83.8,0.0,Sunny
+2023-07-23,Liverpool,14.6,79.1,0.0,Foggy
+2023-07-24,Liverpool,19.4,68.7,0.0,Sunny
+2023-07-25,Liverpool,17.0,71.9,4.8,Snowy
+2023-07-26,Liverpool,12.3,88.1,0.0,Overcast
+2023-07-27,Liverpool,11.3,73.3,2.8,Snowy
+2023-07-28,Liverpool,15.4,73.7,4.1,Overcast
+2023-07-29,Liverpool,14.9,70.2,0.0,Snowy
+2023-07-30,Liverpool,17.8,84.8,2.0,Overcast
+2023-07-31,Liverpool,15.9,64.0,8.8,Heavy Rain
+2023-08-01,Liverpool,12.1,84.3,2.9,Rainy
+2023-08-02,Liverpool,11.7,84.6,2.3,Snowy
+2023-08-03,Liverpool,6.4,89.5,4.1,Overcast
+2023-08-04,Liverpool,9.2,63.3,0.9,Cloudy
+2023-08-05,Liverpool,11.6,76.0,7.0,Snowy
+2023-08-06,Liverpool,11.5,92.3,0.0,Overcast
+2023-08-07,Liverpool,12.0,93.3,0.0,Cloudy
+2023-08-08,Liverpool,11.2,90.7,6.2,Heavy Rain
+2023-08-09,Liverpool,9.5,71.4,3.6,Sunny
+2023-08-10,Liverpool,9.1,81.1,0.0,Snowy
+2023-08-11,Liverpool,12.3,85.7,12.2,Snowy
+2023-08-12,Liverpool,6.6,81.2,6.8,Rainy
+2023-08-13,Liverpool,10.0,77.8,2.3,Cloudy
+2023-08-14,Liverpool,11.1,79.3,0.0,Cloudy
+2023-08-15,Liverpool,11.8,91.0,0.0,Overcast
+2023-08-16,Liverpool,10.3,63.4,0.0,Foggy
+2023-08-17,Liverpool,7.5,83.7,0.0,Rainy
+2023-08-18,Liverpool,13.4,90.8,0.0,Foggy
+2023-08-19,Liverpool,16.4,70.3,0.0,Partly Cloudy
+2023-08-20,Liverpool,13.6,83.0,0.0,Sunny
+2023-08-21,Liverpool,9.7,70.6,4.1,Snowy
+2023-08-22,Liverpool,9.3,62.1,0.0,Snowy
+2023-08-23,Liverpool,6.3,94.0,4.3,Overcast
+2023-08-24,Liverpool,9.1,91.4,9.6,Heavy Rain
+2023-08-25,Liverpool,11.1,75.7,3.1,Foggy
+2023-08-26,Liverpool,7.3,89.3,1.3,Overcast
+2023-08-27,Liverpool,11.3,68.8,8.8,Rainy
+2023-08-28,Liverpool,11.0,64.4,8.3,Heavy Rain
+2023-08-29,Liverpool,15.5,70.0,2.1,Overcast
+2023-08-30,Liverpool,10.1,64.3,0.0,Cloudy
+2023-08-31,Liverpool,12.9,92.3,2.3,Foggy
+2023-09-01,Liverpool,1.4,71.0,13.9,Heavy Rain
+2023-09-02,Liverpool,4.6,69.3,0.0,Cloudy
+2023-09-03,Liverpool,2.6,92.0,0.0,Foggy
+2023-09-04,Liverpool,3.0,78.0,0.0,Sunny
+2023-09-05,Liverpool,4.6,67.6,0.4,Snowy
+2023-09-06,Liverpool,10.9,77.1,2.6,Overcast
+2023-09-07,Liverpool,0.9,82.7,2.9,Rainy
+2023-09-08,Liverpool,4.2,69.3,7.8,Rainy
+2023-09-09,Liverpool,7.9,83.7,0.0,Sunny
+2023-09-10,Liverpool,6.5,67.0,5.1,Snowy
+2023-09-11,Liverpool,4.3,77.1,3.4,Sunny
+2023-09-12,Liverpool,3.6,73.3,0.0,Sunny
+2023-09-13,Liverpool,1.4,74.5,0.0,Cloudy
+2023-09-14,Liverpool,2.8,87.7,14.7,Snowy
+2023-09-15,Liverpool,0.0,84.5,0.2,Sunny
+2023-09-16,Liverpool,5.4,81.6,0.1,Snowy
+2023-09-17,Liverpool,6.9,65.2,4.0,Foggy
+2023-09-18,Liverpool,11.1,94.4,0.0,Overcast
+2023-09-19,Liverpool,3.0,74.4,2.3,Cloudy
+2023-09-20,Liverpool,6.5,81.3,10.7,Rainy
+2023-09-21,Liverpool,6.6,84.7,14.2,Heavy Rain
+2023-09-22,Liverpool,3.2,64.0,0.0,Overcast
+2023-09-23,Liverpool,7.7,91.0,14.6,Heavy Rain
+2023-09-24,Liverpool,11.1,71.7,0.0,Cloudy
+2023-09-25,Liverpool,1.0,76.2,5.0,Cloudy
+2023-09-26,Liverpool,5.3,92.0,3.9,Foggy
+2023-09-27,Liverpool,3.6,93.3,3.3,Cloudy
+2023-09-28,Liverpool,1.8,91.4,9.1,Snowy
+2023-09-29,Liverpool,1.6,63.0,8.1,Rainy
+2023-09-30,Liverpool,5.8,94.7,3.0,Overcast
+2023-10-01,Liverpool,2.1,85.1,9.1,Heavy Rain
+2023-10-02,Liverpool,1.3,88.2,0.2,Rainy
+2023-10-03,Liverpool,-5.9,67.1,6.8,Snowy
+2023-10-04,Liverpool,-6.6,85.7,2.0,Snowy
+2023-10-05,Liverpool,-0.4,75.2,2.6,Snowy
+2023-10-06,Liverpool,0.5,69.8,0.0,Sunny
+2023-10-07,Liverpool,-0.7,86.8,0.0,Rainy
+2023-10-08,Liverpool,-3.5,71.9,0.1,Overcast
+2023-10-09,Liverpool,0.8,89.3,1.7,Cloudy
+2023-10-10,Liverpool,-0.1,82.1,2.2,Cloudy
+2023-10-11,Liverpool,-1.6,87.7,0.0,Sunny
+2023-10-12,Liverpool,-1.9,60.5,7.7,Snowy
+2023-10-13,Liverpool,0.8,66.8,0.8,Snowy
+2023-10-14,Liverpool,-6.9,89.1,7.4,Snowy
+2023-10-15,Liverpool,-1.3,76.0,3.2,Overcast
+2023-10-16,Liverpool,1.8,60.5,0.0,Snowy
+2023-10-17,Liverpool,-5.4,69.4,12.9,Rainy
+2023-10-18,Liverpool,-0.4,86.5,0.1,Rainy
+2023-10-19,Liverpool,-1.5,87.5,8.0,Snowy
+2023-10-20,Liverpool,0.9,76.1,5.8,Rainy
+2023-10-21,Liverpool,1.8,63.1,0.6,Foggy
+2023-10-22,Liverpool,-3.4,82.3,0.0,Sunny
+2023-10-23,Liverpool,0.5,73.1,4.6,Foggy
+2023-10-24,Liverpool,1.6,94.7,3.9,Cloudy
+2023-10-25,Liverpool,3.7,91.9,1.3,Foggy
+2023-10-26,Liverpool,-2.5,73.9,9.3,Heavy Rain
+2023-10-27,Liverpool,4.2,87.2,2.4,Sunny
+2023-10-28,Liverpool,-0.0,66.0,1.2,Snowy
+2023-10-29,Liverpool,-3.6,62.2,0.0,Snowy
+2023-10-30,Liverpool,-2.2,92.8,0.9,Overcast
+2023-10-31,Liverpool,0.6,67.4,8.7,Heavy Rain
+2023-11-01,Liverpool,-2.8,88.1,0.0,Cloudy
+2023-11-02,Liverpool,-3.9,81.8,0.8,Snowy
+2023-11-03,Liverpool,0.0,87.7,2.4,Overcast
+2023-11-04,Liverpool,-6.7,82.3,2.9,Sunny
+2023-11-05,Liverpool,-3.5,80.3,3.3,Foggy
+2023-11-06,Liverpool,-4.7,83.0,0.0,Rainy
+2023-11-07,Liverpool,-3.9,62.3,0.0,Cloudy
+2023-11-08,Liverpool,-7.1,89.0,7.4,Snowy
+2023-11-09,Liverpool,1.9,66.7,0.0,Sunny
+2023-11-10,Liverpool,-4.3,74.8,6.9,Heavy Rain
+2023-11-11,Liverpool,-7.1,74.4,1.9,Snowy
+2023-11-12,Liverpool,-6.2,85.1,0.0,Rainy
+2023-11-13,Liverpool,-3.2,92.6,1.4,Foggy
+2023-11-14,Liverpool,-6.8,92.1,0.0,Overcast
+2023-11-15,Liverpool,-2.7,88.6,3.0,Rainy
+2023-11-16,Liverpool,-3.2,83.0,4.9,Rainy
+2023-11-17,Liverpool,-2.4,89.1,13.8,Rainy
+2023-11-18,Liverpool,-3.6,80.2,2.3,Foggy
+2023-11-19,Liverpool,-3.1,74.7,5.8,Heavy Rain
+2023-11-20,Liverpool,-3.8,62.2,1.4,Sunny
+2023-11-21,Liverpool,-3.0,73.2,7.9,Heavy Rain
+2023-11-22,Liverpool,-3.9,75.5,0.0,Sunny
+2023-11-23,Liverpool,-4.0,73.0,1.6,Snowy
+2023-11-24,Liverpool,-3.4,93.1,1.6,Overcast
+2023-11-25,Liverpool,-5.2,88.6,0.0,Overcast
+2023-11-26,Liverpool,-6.5,67.1,0.6,Overcast
+2023-11-27,Liverpool,-7.0,82.0,12.2,Heavy Rain
+2023-11-28,Liverpool,-3.9,86.9,6.3,Rainy
+2023-11-29,Liverpool,-7.2,60.9,0.0,Foggy
+2023-11-30,Liverpool,-4.0,64.9,2.6,Rainy
+2023-12-01,Liverpool,-5.6,78.9,5.9,Rainy
+2023-12-02,Liverpool,-8.6,91.9,2.9,Foggy
+2023-12-03,Liverpool,-4.6,86.1,10.6,Rainy
+2023-12-04,Liverpool,-5.6,80.6,2.4,Overcast
+2023-12-05,Liverpool,0.0,80.5,2.7,Overcast
+2023-12-06,Liverpool,-6.1,67.8,0.0,Cloudy
+2023-12-07,Liverpool,-1.4,63.8,0.0,Snowy
+2023-12-08,Liverpool,-9.3,81.4,18.0,Heavy Rain
+2023-12-09,Liverpool,-0.8,69.3,0.0,Sunny
+2023-12-10,Liverpool,-3.9,82.6,0.0,Overcast
+2023-12-11,Liverpool,-8.8,69.4,3.5,Cloudy
+2023-12-12,Liverpool,-3.3,62.3,4.3,Overcast
+2023-12-13,Liverpool,-4.6,85.5,5.1,Snowy
+2023-12-14,Liverpool,-3.1,66.2,1.4,Snowy
+2023-12-15,Liverpool,-4.7,83.3,4.8,Snowy
+2023-12-16,Liverpool,-3.1,60.1,0.6,Cloudy
+2023-12-17,Liverpool,-4.6,92.4,7.8,Rainy
+2023-12-18,Liverpool,-4.7,61.8,0.0,Overcast
+2023-12-19,Liverpool,-9.7,84.3,7.6,Snowy
+2023-12-20,Liverpool,-6.0,89.2,11.0,Rainy
+2023-12-21,Liverpool,-3.9,77.6,0.0,Rainy
+2023-12-22,Liverpool,-4.6,83.4,0.0,Overcast
+2023-12-23,Liverpool,-6.5,94.5,6.9,Snowy
+2023-12-24,Liverpool,-5.1,83.2,2.4,Rainy
+2023-12-25,Liverpool,-6.1,84.7,9.5,Heavy Rain
+2023-12-26,Liverpool,-5.7,85.7,0.0,Overcast
+2023-12-27,Liverpool,-10.4,78.8,0.0,Overcast
+2023-12-28,Liverpool,-5.3,79.3,8.9,Rainy
+2023-12-29,Liverpool,-3.3,72.6,6.5,Rainy
+2023-12-30,Liverpool,-5.5,87.6,8.1,Heavy Rain
+2023-12-31,Liverpool,-1.5,72.1,3.6,Cloudy
+2023-01-01,Bristol,-4.8,87.4,0.0,Foggy
+2023-01-02,Bristol,0.4,67.5,1.9,Overcast
+2023-01-03,Bristol,-2.3,80.7,0.0,Cloudy
+2023-01-04,Bristol,-4.8,63.3,5.9,Heavy Rain
+2023-01-05,Bristol,-3.3,92.0,1.4,Foggy
+2023-01-06,Bristol,-3.8,92.9,0.0,Overcast
+2023-01-07,Bristol,3.6,90.4,0.0,Cloudy
+2023-01-08,Bristol,-0.6,84.9,0.0,Overcast
+2023-01-09,Bristol,-6.7,72.5,8.7,Snowy
+2023-01-10,Bristol,-0.2,77.1,8.2,Snowy
+2023-01-11,Bristol,-2.7,94.3,8.9,Snowy
+2023-01-12,Bristol,-3.1,63.4,1.2,Cloudy
+2023-01-13,Bristol,-2.9,75.2,5.4,Heavy Rain
+2023-01-14,Bristol,-4.4,64.9,10.7,Rainy
+2023-01-15,Bristol,-1.3,94.4,2.3,Foggy
+2023-01-16,Bristol,-2.2,86.2,0.0,Snowy
+2023-01-17,Bristol,-5.5,84.3,0.0,Snowy
+2023-01-18,Bristol,-5.2,84.0,0.0,Snowy
+2023-01-19,Bristol,-0.7,66.5,5.3,Rainy
+2023-01-20,Bristol,-5.9,73.7,0.0,Cloudy
+2023-01-21,Bristol,-5.7,71.5,0.0,Rainy
+2023-01-22,Bristol,-2.9,65.8,7.4,Rainy
+2023-01-23,Bristol,-4.5,60.2,1.5,Cloudy
+2023-01-24,Bristol,-5.6,63.3,14.7,Heavy Rain
+2023-01-25,Bristol,0.9,75.0,6.6,Snowy
+2023-01-26,Bristol,-5.5,87.8,3.5,Rainy
+2023-01-27,Bristol,-2.5,92.3,3.5,Overcast
+2023-01-28,Bristol,-4.8,77.4,7.2,Heavy Rain
+2023-01-29,Bristol,-0.1,83.3,7.7,Rainy
+2023-01-30,Bristol,-0.3,70.2,7.9,Heavy Rain
+2023-01-31,Bristol,-5.9,73.0,12.6,Rainy
+2023-02-01,Bristol,-2.1,78.2,3.8,Foggy
+2023-02-02,Bristol,-0.1,91.6,4.6,Foggy
+2023-02-03,Bristol,1.4,70.7,0.0,Foggy
+2023-02-04,Bristol,-1.1,86.7,2.1,Foggy
+2023-02-05,Bristol,-1.9,80.2,2.8,Sunny
+2023-02-06,Bristol,3.8,85.8,0.0,Snowy
+2023-02-07,Bristol,-5.4,93.3,5.6,Snowy
+2023-02-08,Bristol,-2.0,87.9,0.0,Cloudy
+2023-02-09,Bristol,-3.9,86.0,0.0,Foggy
+2023-02-10,Bristol,2.1,71.8,7.1,Rainy
+2023-02-11,Bristol,1.9,74.3,1.6,Sunny
+2023-02-12,Bristol,4.8,92.1,3.2,Cloudy
+2023-02-13,Bristol,2.1,86.6,2.5,Rainy
+2023-02-14,Bristol,0.1,82.8,9.1,Rainy
+2023-02-15,Bristol,6.2,67.6,5.4,Rainy
+2023-02-16,Bristol,-1.2,78.8,4.9,Sunny
+2023-02-17,Bristol,-3.2,67.3,10.3,Snowy
+2023-02-18,Bristol,-2.3,88.4,0.0,Foggy
+2023-02-19,Bristol,-1.4,72.2,5.7,Heavy Rain
+2023-02-20,Bristol,1.6,77.2,8.9,Heavy Rain
+2023-02-21,Bristol,3.3,65.3,0.0,Cloudy
+2023-02-22,Bristol,2.3,79.9,0.0,Snowy
+2023-02-23,Bristol,3.4,85.4,0.0,Snowy
+2023-02-24,Bristol,1.8,91.2,7.1,Snowy
+2023-02-25,Bristol,4.9,63.5,0.0,Rainy
+2023-02-26,Bristol,0.6,67.6,0.0,Snowy
+2023-02-27,Bristol,-2.0,81.6,0.0,Overcast
+2023-02-28,Bristol,4.6,85.1,4.0,Cloudy
+2023-03-01,Bristol,3.6,68.2,0.0,Cloudy
+2023-03-02,Bristol,0.9,70.2,11.0,Snowy
+2023-03-03,Bristol,-0.9,80.1,12.4,Heavy Rain
+2023-03-04,Bristol,5.0,85.3,0.0,Rainy
+2023-03-05,Bristol,3.6,61.4,0.0,Sunny
+2023-03-06,Bristol,5.5,67.8,5.8,Snowy
+2023-03-07,Bristol,2.5,83.1,3.1,Sunny
+2023-03-08,Bristol,-1.8,73.2,9.7,Snowy
+2023-03-09,Bristol,4.8,63.7,2.9,Rainy
+2023-03-10,Bristol,7.3,62.3,6.1,Rainy
+2023-03-11,Bristol,-0.7,78.9,0.2,Overcast
+2023-03-12,Bristol,4.9,64.8,0.0,Sunny
+2023-03-13,Bristol,3.5,81.0,0.0,Cloudy
+2023-03-14,Bristol,7.3,62.0,2.2,Cloudy
+2023-03-15,Bristol,8.9,70.5,5.6,Heavy Rain
+2023-03-16,Bristol,8.4,85.9,0.0,Cloudy
+2023-03-17,Bristol,5.8,76.6,1.1,Snowy
+2023-03-18,Bristol,8.9,66.4,5.2,Rainy
+2023-03-19,Bristol,5.1,79.8,5.4,Heavy Rain
+2023-03-20,Bristol,6.5,72.6,4.8,Sunny
+2023-03-21,Bristol,2.9,93.4,0.0,Foggy
+2023-03-22,Bristol,6.3,70.0,0.0,Foggy
+2023-03-23,Bristol,4.5,61.6,4.5,Cloudy
+2023-03-24,Bristol,2.2,86.7,8.1,Rainy
+2023-03-25,Bristol,6.2,74.7,1.4,Sunny
+2023-03-26,Bristol,10.0,78.6,4.6,Foggy
+2023-03-27,Bristol,-1.0,78.7,4.4,Overcast
+2023-03-28,Bristol,10.4,71.1,0.0,Snowy
+2023-03-29,Bristol,3.0,81.1,1.6,Foggy
+2023-03-30,Bristol,5.0,88.6,0.3,Sunny
+2023-03-31,Bristol,4.8,63.6,5.5,Heavy Rain
+2023-04-01,Bristol,4.8,70.6,6.6,Rainy
+2023-04-02,Bristol,12.3,62.1,0.0,Snowy
+2023-04-03,Bristol,15.3,71.1,1.8,Sunny
+2023-04-04,Bristol,9.2,66.8,6.7,Heavy Rain
+2023-04-05,Bristol,11.3,66.9,6.5,Rainy
+2023-04-06,Bristol,5.8,82.4,3.1,Snowy
+2023-04-07,Bristol,12.5,66.7,0.0,Foggy
+2023-04-08,Bristol,11.5,64.5,8.0,Heavy Rain
+2023-04-09,Bristol,11.7,86.3,4.7,Sunny
+2023-04-10,Bristol,4.5,69.0,7.0,Heavy Rain
+2023-04-11,Bristol,6.9,76.3,0.0,Cloudy
+2023-04-12,Bristol,10.5,80.6,7.9,Rainy
+2023-04-13,Bristol,13.3,69.9,0.0,Snowy
+2023-04-14,Bristol,10.3,74.8,0.2,Foggy
+2023-04-15,Bristol,7.7,89.5,0.0,Cloudy
+2023-04-16,Bristol,8.5,65.7,4.2,Cloudy
+2023-04-17,Bristol,13.9,79.6,7.6,Rainy
+2023-04-18,Bristol,9.9,71.5,2.8,Rainy
+2023-04-19,Bristol,12.5,84.6,0.0,Overcast
+2023-04-20,Bristol,5.1,82.9,6.6,Rainy
+2023-04-21,Bristol,11.7,72.2,4.1,Cloudy
+2023-04-22,Bristol,6.8,65.2,0.0,Cloudy
+2023-04-23,Bristol,9.9,91.1,0.0,Cloudy
+2023-04-24,Bristol,7.6,79.1,1.9,Snowy
+2023-04-25,Bristol,7.2,70.6,0.4,Foggy
+2023-04-26,Bristol,15.5,85.2,4.2,Overcast
+2023-04-27,Bristol,12.0,63.9,0.0,Sunny
+2023-04-28,Bristol,6.9,72.2,0.8,Rainy
+2023-04-29,Bristol,8.8,74.3,5.1,Snowy
+2023-04-30,Bristol,6.5,77.7,10.2,Snowy
+2023-05-01,Bristol,13.6,82.2,5.8,Rainy
+2023-05-02,Bristol,14.9,76.3,0.3,Rainy
+2023-05-03,Bristol,19.6,88.5,0.0,Sunny
+2023-05-04,Bristol,12.6,82.3,0.0,Cloudy
+2023-05-05,Bristol,14.7,80.0,6.2,Rainy
+2023-05-06,Bristol,18.0,85.9,0.0,Partly Cloudy
+2023-05-07,Bristol,15.4,90.4,9.7,Rainy
+2023-05-08,Bristol,21.6,90.4,0.0,Overcast
+2023-05-09,Bristol,17.7,78.5,0.0,Partly Cloudy
+2023-05-10,Bristol,11.6,79.7,3.3,Snowy
+2023-05-11,Bristol,11.7,84.3,0.0,Overcast
+2023-05-12,Bristol,9.1,73.5,8.6,Rainy
+2023-05-13,Bristol,16.5,68.1,2.6,Rainy
+2023-05-14,Bristol,16.1,68.9,0.0,Partly Cloudy
+2023-05-15,Bristol,13.8,79.1,1.0,Overcast
+2023-05-16,Bristol,7.5,89.4,7.4,Snowy
+2023-05-17,Bristol,12.6,89.8,0.0,Rainy
+2023-05-18,Bristol,15.5,61.4,6.3,Rainy
+2023-05-19,Bristol,7.2,94.0,5.1,Heavy Rain
+2023-05-20,Bristol,10.6,80.4,4.1,Overcast
+2023-05-21,Bristol,7.1,62.5,12.8,Rainy
+2023-05-22,Bristol,7.8,85.8,5.5,Snowy
+2023-05-23,Bristol,16.1,79.1,1.7,Rainy
+2023-05-24,Bristol,14.0,89.6,0.0,Rainy
+2023-05-25,Bristol,11.2,62.8,0.8,Snowy
+2023-05-26,Bristol,14.9,79.7,0.0,Rainy
+2023-05-27,Bristol,19.4,88.0,0.0,Sunny
+2023-05-28,Bristol,14.0,63.8,0.1,Snowy
+2023-05-29,Bristol,15.3,78.1,0.5,Sunny
+2023-05-30,Bristol,17.0,78.5,8.7,Heavy Rain
+2023-05-31,Bristol,14.8,61.1,3.4,Sunny
+2023-06-01,Bristol,13.4,69.9,1.6,Cloudy
+2023-06-02,Bristol,11.3,89.5,3.9,Sunny
+2023-06-03,Bristol,13.0,78.0,0.0,Snowy
+2023-06-04,Bristol,15.2,79.9,5.6,Rainy
+2023-06-05,Bristol,14.3,84.4,0.0,Foggy
+2023-06-06,Bristol,19.1,90.5,0.3,Foggy
+2023-06-07,Bristol,17.7,77.5,0.0,Sunny
+2023-06-08,Bristol,16.4,77.4,0.0,Sunny
+2023-06-09,Bristol,18.5,86.1,13.5,Heavy Rain
+2023-06-10,Bristol,7.4,76.1,10.6,Snowy
+2023-06-11,Bristol,12.2,70.5,1.4,Rainy
+2023-06-12,Bristol,16.5,78.2,0.0,Partly Cloudy
+2023-06-13,Bristol,10.3,66.0,4.3,Cloudy
+2023-06-14,Bristol,15.1,74.5,8.1,Snowy
+2023-06-15,Bristol,13.0,88.8,0.0,Sunny
+2023-06-16,Bristol,12.9,70.9,0.6,Sunny
+2023-06-17,Bristol,11.8,93.4,5.4,Rainy
+2023-06-18,Bristol,16.1,91.9,6.8,Snowy
+2023-06-19,Bristol,12.3,68.1,4.0,Snowy
+2023-06-20,Bristol,15.4,68.6,18.1,Heavy Rain
+2023-06-21,Bristol,12.0,77.0,5.9,Heavy Rain
+2023-06-22,Bristol,17.7,70.1,1.5,Rainy
+2023-06-23,Bristol,20.3,71.9,2.3,Rainy
+2023-06-24,Bristol,20.5,66.2,9.1,Rainy
+2023-06-25,Bristol,13.7,91.6,0.7,Cloudy
+2023-06-26,Bristol,15.5,81.4,6.9,Snowy
+2023-06-27,Bristol,15.4,79.2,5.5,Rainy
+2023-06-28,Bristol,19.4,83.9,1.7,Overcast
+2023-06-29,Bristol,16.5,78.5,6.2,Rainy
+2023-06-30,Bristol,11.3,73.9,4.8,Foggy
+2023-07-01,Bristol,16.3,71.6,0.0,Partly Cloudy
+2023-07-02,Bristol,16.1,67.2,0.0,Partly Cloudy
+2023-07-03,Bristol,10.5,73.4,7.0,Snowy
+2023-07-04,Bristol,13.2,75.9,0.0,Cloudy
+2023-07-05,Bristol,13.5,85.0,3.1,Sunny
+2023-07-06,Bristol,12.6,71.1,0.0,Snowy
+2023-07-07,Bristol,12.7,88.4,2.3,Sunny
+2023-07-08,Bristol,12.0,78.0,2.9,Rainy
+2023-07-09,Bristol,10.8,70.6,6.6,Heavy Rain
+2023-07-10,Bristol,13.5,69.1,4.0,Snowy
+2023-07-11,Bristol,20.9,85.2,0.0,Sunny
+2023-07-12,Bristol,14.1,69.3,3.4,Overcast
+2023-07-13,Bristol,15.4,85.7,0.1,Foggy
+2023-07-14,Bristol,11.3,83.4,2.5,Snowy
+2023-07-15,Bristol,10.7,84.4,3.8,Overcast
+2023-07-16,Bristol,14.6,91.5,6.8,Rainy
+2023-07-17,Bristol,11.5,63.3,0.0,Cloudy
+2023-07-18,Bristol,18.2,75.8,0.0,Partly Cloudy
+2023-07-19,Bristol,12.8,78.3,1.0,Snowy
+2023-07-20,Bristol,10.0,79.8,0.0,Overcast
+2023-07-21,Bristol,11.3,60.1,2.7,Snowy
+2023-07-22,Bristol,15.2,71.6,6.3,Heavy Rain
+2023-07-23,Bristol,9.2,87.7,0.0,Rainy
+2023-07-24,Bristol,5.6,87.9,9.4,Heavy Rain
+2023-07-25,Bristol,15.0,63.4,0.7,Cloudy
+2023-07-26,Bristol,9.9,92.1,5.6,Heavy Rain
+2023-07-27,Bristol,14.7,94.8,6.7,Heavy Rain
+2023-07-28,Bristol,13.1,92.1,11.0,Heavy Rain
+2023-07-29,Bristol,13.1,90.1,0.2,Cloudy
+2023-07-30,Bristol,18.9,89.6,0.0,Sunny
+2023-07-31,Bristol,14.9,90.6,11.7,Heavy Rain
+2023-08-01,Bristol,8.7,87.3,0.0,Snowy
+2023-08-02,Bristol,9.2,66.2,0.0,Rainy
+2023-08-03,Bristol,10.8,81.7,1.4,Foggy
+2023-08-04,Bristol,14.9,90.1,3.2,Cloudy
+2023-08-05,Bristol,13.4,69.3,9.7,Heavy Rain
+2023-08-06,Bristol,9.2,87.4,0.0,Snowy
+2023-08-07,Bristol,9.0,74.0,0.6,Cloudy
+2023-08-08,Bristol,14.4,61.2,0.0,Foggy
+2023-08-09,Bristol,10.0,60.2,0.0,Cloudy
+2023-08-10,Bristol,8.1,85.6,0.4,Foggy
+2023-08-11,Bristol,10.4,74.1,0.0,Cloudy
+2023-08-12,Bristol,9.0,89.8,5.6,Snowy
+2023-08-13,Bristol,7.2,75.0,3.5,Overcast
+2023-08-14,Bristol,10.4,66.1,0.0,Rainy
+2023-08-15,Bristol,13.7,86.3,6.0,Snowy
+2023-08-16,Bristol,9.1,60.2,0.0,Rainy
+2023-08-17,Bristol,9.7,80.2,0.0,Sunny
+2023-08-18,Bristol,9.3,60.9,9.2,Heavy Rain
+2023-08-19,Bristol,6.3,64.2,0.0,Cloudy
+2023-08-20,Bristol,12.4,80.1,3.1,Foggy
+2023-08-21,Bristol,12.1,65.0,2.5,Overcast
+2023-08-22,Bristol,18.5,84.2,8.4,Rainy
+2023-08-23,Bristol,6.4,80.7,0.0,Foggy
+2023-08-24,Bristol,8.1,90.8,5.8,Snowy
+2023-08-25,Bristol,10.2,91.6,0.0,Overcast
+2023-08-26,Bristol,10.1,91.1,9.3,Rainy
+2023-08-27,Bristol,9.7,63.3,0.0,Cloudy
+2023-08-28,Bristol,10.9,86.1,4.1,Overcast
+2023-08-29,Bristol,9.8,94.5,4.4,Overcast
+2023-08-30,Bristol,8.3,82.7,0.0,Snowy
+2023-08-31,Bristol,7.0,75.8,1.7,Foggy
+2023-09-01,Bristol,2.3,62.5,0.0,Rainy
+2023-09-02,Bristol,6.4,77.7,0.0,Snowy
+2023-09-03,Bristol,9.4,74.0,0.4,Sunny
+2023-09-04,Bristol,12.5,75.5,0.0,Overcast
+2023-09-05,Bristol,2.5,62.5,1.6,Foggy
+2023-09-06,Bristol,4.6,71.1,0.0,Cloudy
+2023-09-07,Bristol,8.8,72.4,2.6,Snowy
+2023-09-08,Bristol,5.7,75.5,7.7,Rainy
+2023-09-09,Bristol,-3.6,85.6,0.0,Foggy
+2023-09-10,Bristol,7.3,72.3,1.1,Cloudy
+2023-09-11,Bristol,6.3,69.1,1.8,Foggy
+2023-09-12,Bristol,4.3,71.0,8.4,Snowy
+2023-09-13,Bristol,2.2,61.4,3.9,Cloudy
+2023-09-14,Bristol,1.5,87.7,8.3,Snowy
+2023-09-15,Bristol,7.5,79.8,5.6,Snowy
+2023-09-16,Bristol,9.3,77.2,0.0,Foggy
+2023-09-17,Bristol,4.1,75.2,1.9,Overcast
+2023-09-18,Bristol,3.6,93.1,1.2,Foggy
+2023-09-19,Bristol,1.1,68.4,6.6,Snowy
+2023-09-20,Bristol,6.1,64.9,0.6,Overcast
+2023-09-21,Bristol,8.6,93.8,0.0,Cloudy
+2023-09-22,Bristol,3.0,79.4,10.7,Heavy Rain
+2023-09-23,Bristol,4.4,92.4,5.9,Snowy
+2023-09-24,Bristol,4.8,86.6,0.0,Foggy
+2023-09-25,Bristol,-0.1,88.9,0.0,Snowy
+2023-09-26,Bristol,6.2,70.6,0.0,Rainy
+2023-09-27,Bristol,9.3,65.3,0.0,Foggy
+2023-09-28,Bristol,3.3,89.4,0.0,Sunny
+2023-09-29,Bristol,5.4,87.8,3.3,Rainy
+2023-09-30,Bristol,6.0,74.0,0.0,Snowy
+2023-10-01,Bristol,-2.3,75.2,3.5,Sunny
+2023-10-02,Bristol,3.0,83.6,0.0,Snowy
+2023-10-03,Bristol,0.7,74.3,0.0,Overcast
+2023-10-04,Bristol,3.1,83.1,0.0,Sunny
+2023-10-05,Bristol,-4.7,71.1,3.9,Foggy
+2023-10-06,Bristol,-3.7,77.8,5.2,Heavy Rain
+2023-10-07,Bristol,2.8,61.3,0.0,Rainy
+2023-10-08,Bristol,3.2,89.6,2.0,Cloudy
+2023-10-09,Bristol,-5.3,72.6,2.9,Sunny
+2023-10-10,Bristol,-5.0,69.8,0.7,Rainy
+2023-10-11,Bristol,-4.7,66.6,8.2,Heavy Rain
+2023-10-12,Bristol,2.8,66.2,5.4,Rainy
+2023-10-13,Bristol,2.3,81.7,6.5,Snowy
+2023-10-14,Bristol,-5.3,85.5,12.0,Heavy Rain
+2023-10-15,Bristol,-3.1,73.4,1.4,Sunny
+2023-10-16,Bristol,-2.3,86.2,1.3,Foggy
+2023-10-17,Bristol,-1.7,70.1,8.9,Snowy
+2023-10-18,Bristol,-2.0,88.6,0.0,Sunny
+2023-10-19,Bristol,-1.3,70.4,0.0,Snowy
+2023-10-20,Bristol,-1.9,76.5,0.2,Sunny
+2023-10-21,Bristol,-1.6,63.4,7.4,Snowy
+2023-10-22,Bristol,1.4,70.3,0.0,Sunny
+2023-10-23,Bristol,-1.8,71.0,8.5,Snowy
+2023-10-24,Bristol,1.5,69.8,5.9,Snowy
+2023-10-25,Bristol,-0.8,70.7,2.9,Sunny
+2023-10-26,Bristol,-0.3,83.0,5.7,Heavy Rain
+2023-10-27,Bristol,-1.3,94.5,0.3,Cloudy
+2023-10-28,Bristol,2.3,87.6,0.0,Rainy
+2023-10-29,Bristol,-0.2,74.9,1.8,Sunny
+2023-10-30,Bristol,0.3,60.1,0.0,Snowy
+2023-10-31,Bristol,0.1,92.6,1.0,Foggy
+2023-11-01,Bristol,-4.3,90.0,7.3,Snowy
+2023-11-02,Bristol,-1.6,89.0,0.0,Foggy
+2023-11-03,Bristol,-2.9,68.5,9.0,Heavy Rain
+2023-11-04,Bristol,-0.3,83.5,0.0,Sunny
+2023-11-05,Bristol,-10.6,72.1,1.9,Foggy
+2023-11-06,Bristol,-5.0,93.5,13.0,Snowy
+2023-11-07,Bristol,-0.9,83.0,0.4,Foggy
+2023-11-08,Bristol,-0.6,64.9,3.7,Snowy
+2023-11-09,Bristol,-1.6,73.6,1.4,Sunny
+2023-11-10,Bristol,3.0,91.8,2.1,Cloudy
+2023-11-11,Bristol,-6.4,86.9,1.4,Snowy
+2023-11-12,Bristol,-3.4,75.3,2.1,Rainy
+2023-11-13,Bristol,-2.8,87.4,1.7,Overcast
+2023-11-14,Bristol,-0.0,83.9,0.0,Sunny
+2023-11-15,Bristol,-3.3,81.5,0.6,Sunny
+2023-11-16,Bristol,-7.0,87.6,0.0,Overcast
+2023-11-17,Bristol,-8.9,63.5,0.0,Overcast
+2023-11-18,Bristol,-7.1,90.0,10.3,Rainy
+2023-11-19,Bristol,-9.8,74.8,0.7,Rainy
+2023-11-20,Bristol,1.7,71.5,4.1,Foggy
+2023-11-21,Bristol,-4.6,90.4,0.0,Cloudy
+2023-11-22,Bristol,-2.8,75.2,2.2,Sunny
+2023-11-23,Bristol,-7.0,93.3,12.8,Snowy
+2023-11-24,Bristol,-1.7,84.2,0.2,Rainy
+2023-11-25,Bristol,-10.1,71.3,0.6,Sunny
+2023-11-26,Bristol,-4.7,60.8,4.7,Overcast
+2023-11-27,Bristol,-4.8,84.8,5.2,Snowy
+2023-11-28,Bristol,-5.2,77.9,0.0,Cloudy
+2023-11-29,Bristol,-4.7,72.0,1.8,Snowy
+2023-11-30,Bristol,-3.1,88.0,0.0,Sunny
+2023-12-01,Bristol,-4.0,72.1,7.1,Snowy
+2023-12-02,Bristol,-0.5,74.0,5.6,Snowy
+2023-12-03,Bristol,-4.5,64.7,0.0,Overcast
+2023-12-04,Bristol,-7.9,77.0,4.3,Sunny
+2023-12-05,Bristol,-9.3,86.9,5.1,Rainy
+2023-12-06,Bristol,-8.3,81.1,0.0,Snowy
+2023-12-07,Bristol,-0.9,70.2,3.4,Overcast
+2023-12-08,Bristol,-3.3,68.5,0.0,Foggy
+2023-12-09,Bristol,-7.8,88.0,3.8,Cloudy
+2023-12-10,Bristol,-8.6,79.4,9.4,Rainy
+2023-12-11,Bristol,-4.9,62.4,4.3,Foggy
+2023-12-12,Bristol,-6.5,83.1,5.8,Rainy
+2023-12-13,Bristol,-6.8,89.7,6.2,Snowy
+2023-12-14,Bristol,-3.7,82.2,0.0,Foggy
+2023-12-15,Bristol,-2.4,90.6,0.0,Overcast
+2023-12-16,Bristol,-6.2,90.0,3.4,Foggy
+2023-12-17,Bristol,-5.9,83.0,2.7,Cloudy
+2023-12-18,Bristol,-3.3,75.4,6.8,Snowy
+2023-12-19,Bristol,-1.1,71.4,3.0,Sunny
+2023-12-20,Bristol,-0.7,85.7,0.0,Foggy
+2023-12-21,Bristol,-5.3,83.6,5.8,Snowy
+2023-12-22,Bristol,-5.9,80.5,1.5,Foggy
+2023-12-23,Bristol,-9.7,74.2,4.7,Sunny
+2023-12-24,Bristol,-7.4,60.7,8.7,Rainy
+2023-12-25,Bristol,-8.7,87.9,2.7,Snowy
+2023-12-26,Bristol,-8.2,61.9,7.0,Snowy
+2023-12-27,Bristol,-1.2,90.1,0.0,Cloudy
+2023-12-28,Bristol,-8.3,67.4,4.8,Overcast
+2023-12-29,Bristol,-10.6,83.3,0.9,Overcast
+2023-12-30,Bristol,-4.4,88.9,3.5,Foggy
+2023-12-31,Bristol,-2.1,89.1,1.8,Snowy
