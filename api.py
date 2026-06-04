@@ -1,35 +1,38 @@
 import os
 import pickle
 from datetime import datetime
-from flask import Flask, send_file, jsonify, request
+from flask import Flask, send_file, jsonify, request, render_template
 
 app = Flask(__name__)
 
-BASE_DIR = os.path.dirname(__file__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 IMAGE_PATH = os.path.join(BASE_DIR, "decision_tree.png")
 MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")
+TEMP_MODEL_PATH = os.path.join(BASE_DIR, "temp_model.pkl")
 
 
-def load_model():
+def load_weather_model():
     if not os.path.exists(MODEL_PATH):
         return None
     with open(MODEL_PATH, "rb") as f:
         return pickle.load(f)
 
 
+def load_temp_model():
+    if not os.path.exists(TEMP_MODEL_PATH):
+        return None
+    with open(TEMP_MODEL_PATH, "rb") as f:
+        return pickle.load(f)
+
+
+# ── Web UI ────────────────────────────────────────────────────────────────────
+
 @app.route("/")
 def index():
-    data = load_model()
-    cities = data["cities"] if data else []
-    return jsonify({
-        "service": "UK Weather Decision Tree API",
-        "endpoints": {
-            "GET /decision-tree/image": "Download the decision tree graph as PNG",
-            "GET /predict?city=London&month=6&temperature=18&humidity=75&precipitation=2": "Predict weather condition"
-        },
-        "available_cities": cities
-    })
+    return render_template("index.html")
 
+
+# ── Decision tree image ───────────────────────────────────────────────────────
 
 @app.route("/decision-tree/image", methods=["GET"])
 def download_decision_tree():
@@ -43,54 +46,49 @@ def download_decision_tree():
     )
 
 
+# ── Weather condition prediction ──────────────────────────────────────────────
+
 @app.route("/predict", methods=["GET"])
-def predict():
-    data = load_model()
+def predict_weather():
+    data = load_weather_model()
     if not data:
         return jsonify({"error": "Model not found. Run decision_tree_model.py first."}), 404
 
-    model = data["model"]
-    city_encoder = data["city_encoder"]
+    model         = data["model"]
+    city_encoder  = data["city_encoder"]
     label_encoder = data["label_encoder"]
     available_cities = data["cities"]
 
-    # Get params
-    city = request.args.get("city", "").strip().title()
-    month = request.args.get("month", datetime.now().month)
-    temperature = request.args.get("temperature")
-    humidity = request.args.get("humidity")
+    city          = request.args.get("city", "").strip().title()
+    month         = request.args.get("month", datetime.now().month)
+    temperature   = request.args.get("temperature")
+    humidity      = request.args.get("humidity")
     precipitation = request.args.get("precipitation", 0)
 
-    # Validate city
     if not city:
-        return jsonify({"error": "Missing required param: city", "available_cities": available_cities}), 400
+        return jsonify({"error": "Missing param: city", "available_cities": available_cities}), 400
     if city not in available_cities:
         return jsonify({"error": f"Unknown city '{city}'", "available_cities": available_cities}), 400
-
-    # Validate numeric params
     if temperature is None or humidity is None:
-        return jsonify({"error": "Missing required params: temperature, humidity"}), 400
+        return jsonify({"error": "Missing params: temperature, humidity"}), 400
 
     try:
-        month = int(month)
-        temperature = float(temperature)
-        humidity = float(humidity)
+        month         = int(month)
+        temperature   = float(temperature)
+        humidity      = float(humidity)
         precipitation = float(precipitation)
     except ValueError:
-        return jsonify({"error": "month, temperature, humidity, precipitation must be numbers"}), 400
+        return jsonify({"error": "Numeric params must be numbers"}), 400
 
-    # Encode and predict
-    city_enc = city_encoder.transform([city])[0]
-    features = [[city_enc, month, temperature, humidity, precipitation]]
-    prediction_enc = model.predict(features)[0]
+    city_enc      = city_encoder.transform([city])[0]
+    features      = [[city_enc, month, temperature, humidity, precipitation]]
+    pred_enc      = model.predict(features)[0]
     probabilities = model.predict_proba(features)[0]
-    predicted_class = label_encoder.inverse_transform([prediction_enc])[0]
+    predicted     = label_encoder.inverse_transform([pred_enc])[0]
 
-    # Build probability breakdown
     class_probs = {
         label_encoder.classes_[i]: round(float(p) * 100, 1)
-        for i, p in enumerate(probabilities)
-        if p > 0
+        for i, p in enumerate(probabilities) if p > 0
     }
     class_probs = dict(sorted(class_probs.items(), key=lambda x: x[1], reverse=True))
 
@@ -100,11 +98,55 @@ def predict():
             "month": month,
             "temperature_celsius": temperature,
             "humidity_percent": humidity,
-            "precipitation_mm": precipitation
+            "precipitation_mm": precipitation,
         },
-        "predicted_weather": predicted_class,
+        "predicted_weather": predicted,
         "confidence_percent": round(float(max(probabilities)) * 100, 1),
-        "all_probabilities": class_probs
+        "all_probabilities": class_probs,
+    })
+
+
+# ── Temperature prediction ────────────────────────────────────────────────────
+
+@app.route("/predict-temperature", methods=["GET"])
+def predict_temperature():
+    data = load_temp_model()
+    if not data:
+        return jsonify({"error": "Temperature model not found. Run train_temperature_model.py first."}), 404
+
+    model        = data["model"]
+    city_encoder = data["city_encoder"]
+    available_cities = data["cities"]
+
+    city  = request.args.get("city", "").strip().title()
+    month = request.args.get("month")
+
+    if not city:
+        return jsonify({"error": "Missing param: city", "available_cities": available_cities}), 400
+    if city not in available_cities:
+        return jsonify({"error": f"Unknown city '{city}'", "available_cities": available_cities}), 400
+    if not month:
+        return jsonify({"error": "Missing param: month (1-12)"}), 400
+
+    try:
+        month = int(month)
+        if not 1 <= month <= 12:
+            raise ValueError
+    except ValueError:
+        return jsonify({"error": "month must be an integer between 1 and 12"}), 400
+
+    city_enc    = city_encoder.transform([city])[0]
+    prediction  = model.predict([[city_enc, month]])[0]
+
+    month_names = ["","January","February","March","April","May","June",
+                   "July","August","September","October","November","December"]
+
+    return jsonify({
+        "input": {"city": city, "month": month_names[month]},
+        "predicted_temperature_celsius": round(float(prediction), 2),
+        "model": "Decision Tree Regressor",
+        "model_r2_score": 0.849,
+        "model_mae_celsius": 2.35,
     })
 
 

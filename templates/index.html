@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UK Weather Temperature Predictor</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+      padding: 40px;
+      width: 100%;
+      max-width: 500px;
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .header .icon { font-size: 48px; margin-bottom: 12px; }
+
+    .header h1 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .header p {
+      color: rgba(255,255,255,0.5);
+      font-size: 14px;
+    }
+
+    label {
+      display: block;
+      color: rgba(255,255,255,0.7);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    select, input[type="number"] {
+      width: 100%;
+      padding: 14px 16px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 12px;
+      color: #fff;
+      font-size: 15px;
+      outline: none;
+      transition: border-color 0.2s, background 0.2s;
+      appearance: none;
+      -webkit-appearance: none;
+      margin-bottom: 20px;
+    }
+
+    select:focus, input[type="number"]:focus {
+      border-color: #4f8ef7;
+      background: rgba(79,142,247,0.1);
+    }
+
+    select option { background: #1a1a2e; color: #fff; }
+
+    button {
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(135deg, #4f8ef7, #7c3aed);
+      border: none;
+      border-radius: 12px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s;
+      letter-spacing: 0.5px;
+    }
+
+    button:hover { opacity: 0.9; }
+    button:active { transform: scale(0.98); }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    /* Result card */
+    .result {
+      display: none;
+      margin-top: 28px;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+      animation: fadeIn 0.4s ease;
+    }
+
+    @keyframes fadeIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+
+    .result.show { display: block; }
+
+    .result .city-month {
+      color: rgba(255,255,255,0.5);
+      font-size: 13px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .result .temp {
+      font-size: 64px;
+      font-weight: 800;
+      line-height: 1;
+      margin: 8px 0;
+    }
+
+    .result .unit {
+      font-size: 28px;
+      font-weight: 400;
+      vertical-align: super;
+      color: rgba(255,255,255,0.7);
+    }
+
+    .result .label {
+      color: rgba(255,255,255,0.55);
+      font-size: 14px;
+      margin-top: 4px;
+    }
+
+    .result .badge {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+
+    .badge.cold   { background: rgba(96,165,250,0.2); color: #93c5fd; border: 1px solid rgba(96,165,250,0.3); }
+    .badge.mild   { background: rgba(52,211,153,0.2); color: #6ee7b7; border: 1px solid rgba(52,211,153,0.3); }
+    .badge.warm   { background: rgba(251,191,36,0.2); color: #fde68a; border: 1px solid rgba(251,191,36,0.3); }
+    .badge.hot    { background: rgba(248,113,113,0.2); color: #fca5a5; border: 1px solid rgba(248,113,113,0.3); }
+
+    .error-msg {
+      display: none;
+      margin-top: 16px;
+      padding: 12px 16px;
+      background: rgba(239,68,68,0.15);
+      border: 1px solid rgba(239,68,68,0.3);
+      border-radius: 10px;
+      color: #fca5a5;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .error-msg.show { display: block; }
+
+    .model-info {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .model-info .stat { text-align: center; }
+    .model-info .stat .val { color: #fff; font-size: 16px; font-weight: 700; }
+    .model-info .stat .lbl { color: rgba(255,255,255,0.4); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="icon">🌦️</div>
+      <h1>UK Weather Predictor</h1>
+      <p>Predict average temperature by city &amp; month</p>
+    </div>
+
+    <label for="city">City</label>
+    <select id="city">
+      <option value="">— Select a city —</option>
+      <option>Belfast</option>
+      <option>Birmingham</option>
+      <option>Bristol</option>
+      <option>Cardiff</option>
+      <option>Edinburgh</option>
+      <option>Glasgow</option>
+      <option>Liverpool</option>
+      <option>London</option>
+      <option>Manchester</option>
+    </select>
+
+    <label for="month">Month</label>
+    <select id="month">
+      <option value="">— Select a month —</option>
+      <option value="1">January</option>
+      <option value="2">February</option>
+      <option value="3">March</option>
+      <option value="4">April</option>
+      <option value="5">May</option>
+      <option value="6">June</option>
+      <option value="7">July</option>
+      <option value="8">August</option>
+      <option value="9">September</option>
+      <option value="10">October</option>
+      <option value="11">November</option>
+      <option value="12">December</option>
+    </select>
+
+    <button id="predictBtn" onclick="predict()">Predict Temperature</button>
+
+    <div class="error-msg" id="errorMsg"></div>
+
+    <div class="result" id="result">
+      <div class="city-month" id="resultLabel"></div>
+      <div class="temp" id="tempValue">—<span class="unit">°C</span></div>
+      <div class="label">Predicted Average Temperature</div>
+      <div class="badge" id="tempBadge"></div>
+
+      <div class="model-info">
+        <div class="stat"><div class="val">Decision Tree</div><div class="lbl">Model</div></div>
+        <div class="stat"><div class="val">84.9%</div><div class="lbl">R² Score</div></div>
+        <div class="stat"><div class="val">±2.35°C</div><div class="lbl">Avg Error</div></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const MONTHS = ["","January","February","March","April","May","June","July","August","September","October","November","December"];
+
+    async function predict() {
+      const city  = document.getElementById("city").value;
+      const month = document.getElementById("month").value;
+      const btn   = document.getElementById("predictBtn");
+      const errEl = document.getElementById("errorMsg");
+      const resEl = document.getElementById("result");
+
+      errEl.classList.remove("show");
+      resEl.classList.remove("show");
+
+      if (!city || !month) {
+        errEl.textContent = "Please select both a city and a month.";
+        errEl.classList.add("show");
+        return;
+      }
+
+      btn.disabled = true;
+      btn.textContent = "Predicting…";
+
+      try {
+        const resp = await fetch(`/predict-temperature?city=${encodeURIComponent(city)}&month=${month}`);
+        const data = await resp.json();
+
+        if (!resp.ok) {
+          errEl.textContent = data.error || "Prediction failed.";
+          errEl.classList.add("show");
+          return;
+        }
+
+        const temp = data.predicted_temperature_celsius;
+        document.getElementById("resultLabel").textContent = `${city} · ${MONTHS[parseInt(month)]}`;
+        document.getElementById("tempValue").innerHTML = `${temp.toFixed(1)}<span class="unit">°C</span>`;
+
+        const badge = document.getElementById("tempBadge");
+        if (temp < 0)       { badge.textContent = "❄️ Freezing";  badge.className = "badge cold"; }
+        else if (temp < 8)  { badge.textContent = "🧥 Cold";      badge.className = "badge cold"; }
+        else if (temp < 15) { badge.textContent = "🌤️ Mild";      badge.className = "badge mild"; }
+        else if (temp < 20) { badge.textContent = "☀️ Warm";      badge.className = "badge warm"; }
+        else                { badge.textContent = "🔥 Hot";       badge.className = "badge hot";  }
+
+        resEl.classList.add("show");
+      } catch (e) {
+        errEl.textContent = "Could not reach the server. Is the API running?";
+        errEl.classList.add("show");
+      } finally {
+        btn.disabled = false;
+        btn.textContent = "Predict Temperature";
+      }
+    }
+  </script>
+</body>
+</html>
